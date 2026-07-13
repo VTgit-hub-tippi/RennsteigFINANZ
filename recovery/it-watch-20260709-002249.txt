@@ -1,0 +1,48 @@
+IT-WATCH REPORT
+timestamp: 2026-07-09 00:22:28
+host: mac-tippi-2.fritz.box
+data_path: /System/Volumes/Data
+status: CRITICAL
+free_gib: 4
+used_gib: 442
+
+KEY_SIZES
+/Users/volkertippmann/Music	75 GiB
+/Users/volkertippmann/Pictures	0 GiB
+/Users/volkertippmann/Library/Application Support/DEVONthink 3	76 GiB
+/Users/volkertippmann/Library/Group Containers/6N38VWS5BX.ru.keepcoder.Telegram	1 GiB
+
+RUNNING_CANDIDATES
+112 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+179 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+310 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+324 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+348 /usr/libexec/colorsync.displayservices
+349 /usr/libexec/colorsyncd
+486 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+505 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+524 /System/Applications/Music.app/Contents/MacOS/Music
+526 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+670 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+1621 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+1802 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+1966 /System/Applications/Music.app/Contents/PlugIns/MusicCacheExtension.appex/Contents/MacOS/MusicCacheExtension -AppleLanguages ("de-DE")
+1978 /System/Library/Frameworks/ColorSync.framework/Support/colorsync.useragent
+2118 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+2232 cloudphotod
+2234 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+13002 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdsync -s mdworker-scan -c MDSSyncScanWorker -m com.apple.metadata.mds.scan
+28421 /usr/bin/hiutil --create --index-format corespotlight --anchors --generate-summaries --file /Users/volkertippmann/Library/Caches/com.apple.helpd/Generated/com.devontechnologies.devonthink.help*3.9.14/en_US.cshelpindex --min-term-length 3 -1 /Applications/DEVONthink 3.app/Contents/Resources/DEVONthink.help/Contents/Resources
+
+APP_HEALTH
+Music aktiv; Bibliotheksdateien geoeffnet: 1; Helper-Prozesse: 3.
+DEVONthink aktiv; geoeffnete DB-Dateien: 0.
+Fotos/iCloud-nahe Prozesse aktiv (7) -> nur bei echtem Druck manuell priorisieren/pausieren.
+
+PLAN
+1) Projektlast reduzieren und keine grossen Dateioperationen starten.
+2) Nur app-sichere Bereinigung durchfuehren (Caches/partielle Downloads).
+3) Vor jedem Eingriff Vorher/Nachher-Messung dokumentieren.
+4) Bei Mehrfachstart extra App-Instanzen schliessen, nicht Bibliotheksdateien direkt anfassen.
+5) Nicht prioritaere Medien-/Cloud-Apps nur manuell und reversibel beruhigen.
+6) Freigabe fuer mittel-invasive App-Retention einholen (z. B. DEVONthink Backups).

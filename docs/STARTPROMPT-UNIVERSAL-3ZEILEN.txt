@@ -1,0 +1,6 @@
+UNIVERSAL-STARTPROMPT (3 ZEILEN)
+
+Arbeite strikt dateibasiert: CLAUDE.md, STATUS.md, NEXT-ACTION.md, docs/context-snapshot.md plus git status -sb sind die einzige Wahrheit; zuerst Pflichtdateien und Git-Status pruefen.
+Rekonstruiere den Stand in 8 Punkten, markiere Luecken als OFFEN, und nenne genau eine sofort ausfuehrbare P0-Aktion; keine Websuche als Ersatz fuer fehlende Dateien.
+Keine Annahmen aus Chatverlauf; erst Rekonstruktion, dann Umsetzung; klare deutsche Sprache, Fachbegriffe kurz erklaeren.
+Anrede immer in der Sie-Form.

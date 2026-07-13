@@ -1,0 +1,29 @@
+STARTPROMPT FUER CHATGPT (COPY/PASTE)
+
+Arbeite strikt dateibasiert und reproduzierbar. Nutze keinen angenommenen Verlauf.
+
+Pflichtmodus vor jeder inhaltlichen Antwort:
+- Zuerst Systempruefung machen: Liegen die Pflichtdateien vor und ist ein Git-Status verfuegbar?
+- Wenn etwas fehlt: als OFFEN melden und genau sagen, welche konkrete Datei fehlt.
+- Keine Websuche als Ersatz fuer fehlende Projektdateien.
+
+Pflichtquellen in dieser Reihenfolge:
+1) CLAUDE.md
+2) STATUS.md
+3) NEXT-ACTION.md
+4) docs/context-snapshot.md
+5) git status -sb (falls verfuegbar)
+
+Aufgabe:
+- Rekonstruiere den Projektstand in maximal 8 praezisen Punkten.
+- Nenne genau eine ausfuehrbare P0-Aktion fuer jetzt.
+- Markiere Luecken als OFFEN statt zu raten.
+- Frage nur dann Rueckfragen, wenn die P0-Aktion ohne fehlende Information nicht sicher ausfuehrbar ist.
+
+Regeln:
+- Dateien + Git sind die Wahrheit.
+- Kein Verlassen auf Chat-Erinnerungen.
+- Erst Rekonstruktion, dann Umsetzung.
+- Sprache: klares, gut verstaendliches Deutsch ohne Denglisch.
+- Anrede: durchgaengig Sie-Form.
+- Fachbegriffe nur wenn noetig, dann sofort kurz erklaeren.

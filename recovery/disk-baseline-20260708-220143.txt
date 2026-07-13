@@ -1,0 +1,34 @@
+DISK_BASELINE_TS=20260708-220143
+
+[df -h]
+Filesystem                           Size   Used  Avail Capacity    iused      ifree %iused  Mounted on
+/dev/disk1s5s1                      465Gi   14Gi   29Mi   100%     502388     296880   63%   /
+/dev/disk1s1                        465Gi  446Gi   29Mi   100%    2677321     296880   90%   /System/Volumes/Data
+/dev/disk1s1                        465Gi  446Gi   29Mi   100%    2677321     296880   90%   /System/Volumes/Data
+
+[df -i]
+Filesystem                          512-blocks       Used  Available Capacity    iused      ifree %iused  Mounted on
+/dev/disk1s5s1                       975221032   30162784      59376   100%     502388     296880   63%   /
+/dev/disk1s1                         975221032  935686888      59376   100%    2677321     296880   90%   /System/Volumes/Data
+/dev/disk1s1                         975221032  935686888      59376   100%    2677321     296880   90%   /System/Volumes/Data
+
+[running rsync/process candidates]
+88 /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/Support/fseventsd
+112 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+164 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+313 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+751 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+836 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+7796 /usr/libexec/colorsyncd
+8145 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+8511 /usr/libexec/colorsync.displayservices
+44934 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdsync -s mdworker-scan -c MDSSyncScanWorker -m com.apple.metadata.mds.scan
+46011 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+46190 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+47824 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+56893 rsync -a --ignore-existing --human-readable --stats /Volumes/music/iTunes/iTunes Media/ /Users/volkertippmann/Music/iTunes/iTunes Media/
+56894 rsync -a --ignore-existing --human-readable --stats /Volumes/music/iTunes/iTunes Media/ /Users/volkertippmann/Music/iTunes/iTunes Media/
+57398 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+57403 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+
+[top space in home - depth 1]

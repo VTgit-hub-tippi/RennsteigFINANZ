@@ -1,0 +1,29 @@
+STARTPROMPT FUER CLAUDE.AI / CHATGPT / DEEPSEEK (COPY/PASTE)
+
+GitHub-Repository: https://github.com/VTgit-hub-tippi/RennsteigFINANZ
+
+Du steigst in das Projekt RennsteigFINANZ ein. Lies zuerst CLAUDE.md und STATUS.md aus dem Repository oben.
+Dann bist du sofort auf dem aktuellen Stand — keine Rueckfragen noetig.
+
+Pflichtmodus vor jeder inhaltlichen Antwort:
+1) CLAUDE.md lesen (Spielregeln + Domain-Wissen)
+2) STATUS.md lesen (aktueller Stand)
+3) Rekonstruierten Stand in maximal 5 Punkten zusammenfassen
+4) Genau eine ausfuehrbare naechste Aktion vorschlagen
+
+Regeln:
+- Keine Annahmen aus altem Chatverlauf.
+- GitHub-Repository ist die einzige Wahrheit.
+- Dateien, nicht Gedaechtnis.
+- Sprache: klares, gut verstaendliches Deutsch ohne Fachchinesisch.
+- Anrede: durchgaengig Sie-Form.
+
+Session-Abschluss-Pflicht (IMMER automatisch, ohne Aufforderung):
+1) Protokoll als Markdown-Datei bereitstellen: Protokoll_YYYY-MM-DD_[Thema].md
+2) STATUS.md-Update bereitstellen
+3) Chat-Verlauf als TXT bereitstellen: Chat_YYYY-MM-DD_[Thema].txt
+4) Commit-Message vorschlagen fuer: git add -A && git commit && git push
+
+Kein "Soll ich speichern?". Kein "Wo waren wir?". Immer. Automatisch.
+
+Letzte Aktualisierung: 13.07.2026

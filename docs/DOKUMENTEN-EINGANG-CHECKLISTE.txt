@@ -1,0 +1,33 @@
+DOKUMENTEN-EINGANG-CHECKLISTE
+Stand: 2026-07-09
+
+Ziel:
+Sicherstellen, dass fuer den naechsten Projektschritt alle notwendigen Unterlagen vorliegen.
+
+A) Kernunterlagen (von Ihnen bereits genannt)
+1) Service-Gebuehren-Vereinbarung
+2) Maklervertraege
+3) Maklervollmachten
+4) Inhaltliche Erklaerungen (Beratungslogik, Arbeitsweise, Leistungsumfang)
+
+B) Wichtige Ergaenzungen (haeufig vergessen)
+5) Erstinformation fuer Kunden (Rolle, Status, Verguetung)
+6) Datenschutz- und Einwilligungsunterlagen
+7) Beratungsdokumentation / Protokollvorlagen
+8) Verguetungs- und Provisionslogik (auch Sonderfaelle)
+9) Muster fuer Widerruf, Kuendigung, Vollmacht-Entzug
+10) Vorlagen fuer Produkt- und Risikoaufklaerung
+
+C) Falls vorhanden (sehr hilfreich fuer spaetere Systemlogik)
+11) Prozessvorlagen fuer Neuvertrag, Aenderung, Schadenfall, Bestandspflege
+12) Rollenbeschreibung intern (wer darf was?)
+13) Kooperations- oder Partnervereinbarungen
+14) Beschwerdeprozess / Eskalationsablauf
+
+Lieferformat:
+- Bevorzugt PDF oder DOCX, zusaetzlich kurze Textnotiz je Dokument (Wofuer ist es gedacht?)
+- Dateinamen bitte sprechend halten (z. B. SERVICE_GEBUEHREN_V1_2026-07.pdf)
+
+Auswertung durch das System:
+- Jede Datei wird nach Zweck, Pflichtfeldern, Risiken und Systemauswirkung bewertet.
+- Fehlende Angaben werden als OFFEN-Liste gesammelt.

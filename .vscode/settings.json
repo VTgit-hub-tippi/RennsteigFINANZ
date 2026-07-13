@@ -1,0 +1,15 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.activityBar.location": "left",
+  "workbench.editor.enablePreview": false,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1200,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}

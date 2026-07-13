@@ -1,0 +1,75 @@
+IT-WATCH REPORT
+timestamp: 2026-07-09 21:45:33
+host: mac-tippi-2.fritz.box
+data_path: /System/Volumes/Data
+status: CRITICAL
+free_gib: 4
+used_gib: 442
+delta: unveraendert seit letztem Report
+
+KEY_SIZES
+/Users/volkertippmann/Music	75 GiB
+/Users/volkertippmann/Pictures	0 GiB
+/Users/volkertippmann/Library/Application Support/DEVONthink 3	76 GiB
+/Users/volkertippmann/Library/Group Containers/6N38VWS5BX.ru.keepcoder.Telegram	1 GiB
+
+CACHE_SIZES
+  Homebrew:       57 MB
+  MediathekView:  nicht vorhanden
+  pip:            nicht vorhanden
+  IINA:           nicht vorhanden
+  Music-Cache:    48 MB
+  Cleanup@Start:  nicht vorhanden
+
+INFRASTRUCTURE
+  NAS DiskStation: ONLINE (4.663ms)
+  adb-Daemon:      AKTIV PID 55063 (gestartet: Do9Jul20:47:222026) — Herkunft pruefen
+
+RUNNING_CANDIDATES
+112 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+179 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd-helper -launchd
+310 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mds_stores
+348 /usr/libexec/colorsync.displayservices
+349 /usr/libexec/colorsyncd
+670 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+1621 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdbulkimport -s mdworker-bundle -c MDSImporterBundleFinder -m com.apple.metadata.mdbulkimport
+2118 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd --system
+31390 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+35832 /System/Library/CoreServices/backupd.bundle/Contents/Resources/backupd
+35982 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker -s mdworker-sizing -c MDSSizingWorker -m com.apple.mdworker.sizing
+54794 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdsync -s mdworker-scan -c MDSSyncScanWorker -m com.apple.metadata.mds.scan
+54896 /System/Library/PrivateFrameworks/iTunesCloud.framework/Support/itunescloudd
+54923 /System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd
+54927 /System/Library/PrivateFrameworks/CloudDocsDaemon.framework/Versions/A/Support/bird
+55021 /System/Applications/Music.app/Contents/PlugIns/MusicCacheExtension.appex/Contents/MacOS/MusicCacheExtension -AppleLanguages ("de-DE")
+55192 /System/Library/PrivateFrameworks/PhotoLibraryServices.framework/Versions/A/Support/photolibraryd
+55265 /System/Library/PrivateFrameworks/PhotoAnalysis.framework/Versions/A/Support/photoanalysisd
+55268 cloudphotod
+66262 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker-mail -c MDSImporterWorker -m com.apple.mdworker.mail
+66425 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66434 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66439 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66441 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker-mail -c MDSImporterWorker -m com.apple.mdworker.mail
+66443 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66444 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66447 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66448 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66451 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66452 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66453 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66454 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66455 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+66456 /System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker_shared -s mdworker -c MDSImporterWorker -m com.apple.mdworker.shared
+
+APP_HEALTH
+Music unauffaellig.
+DEVONthink nicht aktiv.
+Fotos/iCloud-nahe Prozesse aktiv (7) -> nur bei echtem Druck manuell priorisieren/pausieren.
+
+PLAN
+1) Projektlast reduzieren und keine grossen Dateioperationen starten.
+2) Nur app-sichere Bereinigung durchfuehren (Caches/partielle Downloads).
+3) Vor jedem Eingriff Vorher/Nachher-Messung dokumentieren.
+4) Bei Mehrfachstart extra App-Instanzen schliessen, nicht Bibliotheksdateien direkt anfassen.
+5) Nicht prioritaere Medien-/Cloud-Apps nur manuell und reversibel beruhigen.
+6) Freigabe fuer mittel-invasive App-Retention einholen (z. B. DEVONthink Backups).

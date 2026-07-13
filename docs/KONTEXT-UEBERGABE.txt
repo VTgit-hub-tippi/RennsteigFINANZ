@@ -1,0 +1,27 @@
+KONTEXT-UEBERGABE VS CODE <-> CLAUDE.AI
+Stand: 2026-07-09
+
+Warum:
+Claude.ai und VS Code teilen keinen garantierten Session-Speicher.
+Nahtlose Fortsetzung klappt nur ueber explizite Projektartefakte.
+
+Pflichtpaket fuer jeden Toolwechsel:
+1) STATUS.md
+2) NEXT-ACTION.md
+3) docs/context-snapshot.md
+4) Aktueller Git-Kurzstatus (git status -sb)
+
+Ablauf vor Verlassen der aktuellen Session:
+1) STATUS.md aktualisieren.
+2) NEXT-ACTION.md auf genau einen naechsten Schritt setzen.
+3) docs/context-snapshot.md aktualisieren.
+4) git status -sb pruefen und Ergebnis notieren.
+
+Ablauf beim Start in einem anderen Tool:
+1) Diese vier Quellen zuerst lesen/einbinden.
+2) Kontext in 5-8 Punkten zusammenfassen lassen.
+3) Eine konkrete P0-Aktion benennen lassen.
+4) Erst dann Umsetzung starten.
+
+Empfohlener Startprompt fuer Claude.ai:
+"Arbeite streng nach CLAUDE.md. Nutze STATUS.md, NEXT-ACTION.md und docs/context-snapshot.md als Wahrheit. Rekonstruiere den Stand in 8 Punkten und beginne mit genau einer P0-Aktion. Bei Luecken als OFFEN markieren, nicht raten."

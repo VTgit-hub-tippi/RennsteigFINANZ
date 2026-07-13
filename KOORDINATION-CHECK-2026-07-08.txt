@@ -1,0 +1,56 @@
+KOORDINATION-CHECK 2026-07-08
+Ziel: Einheitliche Arbeitsbasis fuer VS Code, Claude, GitHub, Homebrew, ChatGPT und weitere Teilnehmer.
+
+A) Ist-Stand verifiziert
+1. Git/Repo
+- Branch: main
+- Remote: origin -> git@github.com:VTgit-hub-tippi/RennsteigFINANZ.git
+- Arbeitsbaum: lokale Aenderungen an STATUS.md, neue backup/ und recovery/ Artefakte vorhanden.
+
+2. Tooling
+- Homebrew vorhanden: Homebrew 6.0.8
+- GitHub CLI vorhanden: gh version 2.96.0
+
+3. Projektquellen der Wahrheit
+- CLAUDE.md: Betriebsregeln
+- STATUS.md: Laufender Stand und Blocker
+- CHAT-PROTOKOLL-2026-07-08.txt: bereinigte Vollchronik dieser Session
+- recovery/disk-baseline-20260708-220143.txt: Vor-Neustart-Speicherbaseline
+
+B) Einheitliche Synchronisationsregeln (ab sofort)
+1. Session-Start fuer alle Instanzen
+- STATUS.md lesen
+- git status pruefen
+- git pull --ff-only
+- Offene Blocker in STATUS.md pruefen
+
+2. Session-Ende fuer alle Instanzen
+- Protokoll als TXT aktualisieren
+- STATUS.md aktualisieren
+- Offene Fragen/Blocker notieren
+- Optional commit/push, wenn von Nutzer freigegeben
+
+3. Prioritaetsregel
+- Projektphase und Betriebsaufbau haben Vorrang.
+- Nebenbaustellen (z.B. Musik-Recovery) nur im Hintergrund und stoerungsarm.
+
+C) Reboot-Fortsetzungsplan (Storage-Problem)
+1. Sofort nach Neustart
+- df -h / /System/Volumes/Data
+- pgrep -fl "backupd|mds|mdworker|cloudd|bird|photoanalysisd|rsync"
+- Vergleich gegen recovery/disk-baseline-20260708-220143.txt
+
+2. Wenn Speicher wieder schnell sinkt
+- Verursacherprozess mit Zeitpunkt und Wachstum korrelieren
+- Nur notwendige Daemons aktiv lassen
+- I/O-lastige Hintergrundjobs takten oder pausieren
+
+D) Rollenbild IT-Bereich im polytechnischen Betrieb
+- Betriebsstabilitaet: Storage, Prozesse, Monitoring
+- Sicherheit: Backup/Restore-Disziplin, Integritaetspruefungen
+- Entwickler-Support: reproduzierbare Umgebung, stoerungsfreier Workflow
+- Governance: dokumentierte Standards, saubere Uebergaben
+
+Ergebnisbewertung
+- Ja, diese Vorbereitungen sind sinnvoll und notwendig.
+- Ohne diese Basis drohen wiederkehrende Stoerungen in Entwicklung und Betrieb.

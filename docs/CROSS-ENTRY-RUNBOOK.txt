@@ -1,0 +1,57 @@
+CROSS-ENTRY-RUNBOOK (APP- UND PROZEDUR-UNABHAENGIG)
+Stand: 2026-07-09
+
+Ziel:
+Jeder Einstieg soll von jedem Tool aus moeglich sein (VS Code, Claude.ai, Browser, andere Assistenten), ohne Kontextverlust.
+
+PRINZIP:
+Nicht der Chat ist Wahrheit, sondern die Projektdateien + Git.
+
+BETRIEBSVERHALTEN DER ASSISTENTEN (verbindlich):
+1) Erst Systempruefung, dann Inhalt.
+2) Bei fehlenden Quellen: OFFEN markieren, keine Ersatzannahmen.
+3) Keine Websuche als Ersatz fuer lokale Projektquellen.
+4) Sprache in klarem, gut verstaendlichem Deutsch; Fachbegriffe kurz erklaeren.
+5) Anrede immer in der Sie-Form.
+
+MINIMALPAKET (immer gleich):
+1) CLAUDE.md
+2) STATUS.md
+3) NEXT-ACTION.md
+4) docs/context-snapshot.md
+5) git status -sb
+
+AUTO-PROOF (ohne manuelle Checkliste):
+- Ein Befehl: `bash tools/handoff-proof.sh`
+- Ergebnis: PASS/FAIL fuer Vollstaendigkeit, Referenzen, Git-Grundzustand.
+
+AUSSTIEGSPROZESS (vor Toolwechsel):
+1) STATUS.md kurz fortschreiben (was erledigt, was offen).
+2) NEXT-ACTION.md auf genau eine naechste Aktion setzen.
+3) docs/context-snapshot.md aktualisieren.
+4) git status -sb pruefen und als Zustand merken.
+
+EINSTIEGSPROZESS (in neuem Tool):
+1) Minimalpaket einlesen.
+2) Rekonstruktion in 5-8 Punkten erzeugen.
+3) Genau eine P0-Aktion festlegen.
+4) Erst dann weiterarbeiten.
+
+NOTFALLREGEL:
+Wenn Informationen fehlen: OFFEN markieren, keine Halluzination, keine stillen Annahmen.
+
+KURZPROMPTS
+
+Dateireferenzen:
+- Claude.ai: docs/STARTPROMPT-CLAUDE-AI.txt
+- ChatGPT: docs/STARTPROMPT-CHATGPT.txt
+- Universal kurz (3 Zeilen): docs/STARTPROMPT-UNIVERSAL-3ZEILEN.txt
+
+A) Fuer Claude.ai:
+"Arbeite dateibasiert. Pruefe zuerst Pflichtdateien und Git-Status. Lies CLAUDE.md, STATUS.md, NEXT-ACTION.md und docs/context-snapshot.md. Rekonstruiere den Stand in 8 Punkten und nenne genau eine P0-Aktion. Fehlendes als OFFEN markieren. Keine Websuche als Ersatz. Antworte in klarem Deutsch, in der Sie-Form, und erklaere Fachbegriffe kurz."
+
+B) Fuer VS-Code-Agenten:
+"Nutze nur den Projektstand aus CLAUDE.md, STATUS.md, NEXT-ACTION.md und docs/context-snapshot.md. Verifiziere zuerst mit git status -sb. Dann starte mit der einen priorisierten P0-Aktion. Antworte in klarem Deutsch, in der Sie-Form, und erklaere Fachbegriffe kurz."
+
+C) Fuer beliebige externe Assistenten:
+"Ich arbeite in einem lokalen Git-Projekt. Pruefe zuerst, ob diese Quellen vorliegen. Nutze ausschließlich diese Inhalte als Wahrheit: CLAUDE.md, STATUS.md, NEXT-ACTION.md, docs/context-snapshot.md und git status -sb. Bitte rekonstruiere den Stand in 8 Punkten und gib mir den naechsten P0-Schritt. Wenn etwas fehlt: OFFEN markieren. Keine Websuche als Ersatz. Antwort in klarem Deutsch, in der Sie-Form; Fachbegriffe kurz erklaeren."

@@ -1,0 +1,91 @@
+CHAT-PROTOKOLL 2026-07-08 (bereinigt, inhaltlich vollstaendig)
+Projekt: RennsteigFINANZ / polytechnischer Betrieb
+Ort: VS Code Workspace
+
+1) Anlass und Start
+- Nutzer meldet: gesuchte Laufwerke sind verfuegbar.
+- Assistenz startet Session-Check (Workspace, Git, Statusdatei).
+- Ergebnis:
+  - Repo sauber auf main, kein lokaler Konflikt.
+  - git pull --ff-only: bereits aktuell.
+  - STATUS zeigt naechsten fachlichen Schritt: Geschaeftsanalyse.
+
+2) Musik-Wiederbeschaffung (im Hintergrund angefordert)
+- Nutzerwuensch: Musik-Wiederbeschaffung im Hintergrund.
+- Assistenz fuehrt rechtssicheren lokalen Bestandsscan aus (nur vorhandene Dateien auf Volumes, keine externen Quellen/Downloads).
+- Erzeugte Artefakte:
+  - recovery/music-manifest-20260708-211058.txt
+  - recovery/music-scan-20260708-211058.log
+- Zwischenbefund:
+  - Manifest nach Abschluss: 6671 Eintraege.
+  - Quelle laut Manifest: /Volumes/music (100% der Treffer).
+
+3) Datensicherung
+- Nutzerwuensch: Datensicherung.
+- Assistenz erstellt Workspace-Backup mit Pruefsumme.
+- Erzeugte Artefakte:
+  - backup/workspace-backup-20260708-211257.tar.gz
+  - backup/workspace-backup-20260708-211257.tar.gz.sha256
+- Inhalt stichprobenartig geprueft: OK.
+
+4) Rueckfuehrung nur fehlender Musikdateien
+- Nutzerwuensch praezisiert: nur Fehlendes zurueck an Ort und Stelle, ohne Nebenschauplaetze.
+- Assistenz ermittelt Zielstruktur lokal:
+  - /Users/volkertippmann/Music/iTunes/iTunes Media
+  - /Users/volkertippmann/Music/Music/Media
+- Quelle wurde zeitweise wechselhaft gemountet; spaeter wieder vorhanden.
+- Assistenz startet rsync mit --ignore-existing (nur fehlende Dateien, kein Ueberschreiben).
+
+5) Stoerung: Datentraeger voll
+- Beim Restore tritt auf: No space left on device.
+- Diagnose:
+  - APFS Data nahezu voll (Used ca. 446 GiB, frei nur wenige MiB).
+  - Gleichzeitig aktive Hintergrundprozesse: rsync, backupd, mds/mdworker, cloudd, bird, photoanalysisd.
+- Konsequenz:
+  - Laufender Restore wurde gestoppt, um weiteres Volllaufen zu verhindern.
+
+6) Baseline fuer spaetere Ursachenanalyse (vor Neustart)
+- Nutzerwuensch: aktuelle Belegung merken, spaeter nach Neustart analysieren.
+- Assistenz erstellt forensische Baseline-Datei mit:
+  - df -h, df -i
+  - relevante Prozessliste
+  - Groessen-Hotspots (home, Library)
+  - TimeMachine Local Snapshots
+- Artefakt:
+  - recovery/disk-baseline-20260708-220143.txt
+- Kerndaten aus Baseline:
+  - APFS Data 465 GiB gesamt, 446 GiB belegt, 29-40 MiB frei.
+
+7) Projektlog und Betriebseinordnung
+- STATUS erweitert um Blocker:
+  - Wiederkehrendes Volllaufen von Macintosh HD (Data)
+- Session 2 in STATUS eingetragen:
+  - Baseline erfasst, Kandidatenprozesse notiert, naechste Schritte nach Neustart.
+- Einordnung:
+  - Systembereinigung und Betriebsstabilisierung sind Teil der Projektvorbereitung.
+  - Ein IT-Bereich im polytechnischen Betrieb ist fachlich sinnvoll und notwendig.
+
+8) Nutzerfeedback zu Priorisierung
+- Nutzerhinweis: Musikthema sollte nur unauffaellig im Hintergrund laufen; Projektphase hat Prioritaet.
+- Assistenz uebernimmt das als verbindliche Leitlinie fuer den Ablauf.
+
+9) Aktuelle offene Punkte (zum Zeitpunkt dieses Protokolls)
+- Nach Neustart:
+  1. Delta-Vergleich gegen recovery/disk-baseline-20260708-220143.txt
+  2. Prozesskorrelation bei erneutem Speicheranstieg
+  3. Konkrete Drosselung/Abschaltung stoerender Dienste
+  4. Stabiler, kontrollierter Abschluss des Nur-Fehlendes-Restore
+
+10) Memory-Snapshot (relevant fuer Fortsetzung)
+- User Memory / Arbeitspraeferenzen:
+  - Flexible Zugangswege ueber VS Code, Browser, GitHub, Claude.ai.
+  - Protokolle standardmaessig als TXT.
+  - Laufender Stand und Probleme knapp, fortlaufend protokollieren.
+  - Erst belastbaren Status feststellen, dann fortfahren.
+  - Technologische Disziplin: erst Fundament, dann naechste Schritte.
+- Repo Memory:
+  - storage-baseline.md mit Vor-Neustart-Werten und Kandidatenprozessen vorhanden.
+
+11) Anmerkung zur Qualitaet
+- Dieses Protokoll ist sprachlich bereinigt und chronologisch konsolidiert.
+- Es bildet die gesamte heutige Arbeitslinie in inhaltlich vollstaendiger Form ab.
