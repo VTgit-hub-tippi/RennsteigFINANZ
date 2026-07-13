@@ -27,6 +27,11 @@
 - [x] CLAUDE.md mit Domain-Wissen und Kontinuitätsprinzip erweitert
 - [x] Projektpfad von Documents/ (macOS-gesperrt) nach ~/dev/projects/RennsteigFINANZ/ verlegt
 - [x] Protokolle in /logs/ abgelegt (Domain-Analyse Teil 1+2, Repo-Setup)
+- [x] Session-Startlauf `tools/it-watch.sh` ausgeführt: Speicherstatus weiterhin CRITICAL, nur 0 GiB frei; Hauptkandidaten Music, DEVONthink und Telegram bestätigt
+- [x] `tools/cleanup-safe.sh` repariert und erneut validiert; Safe-Cleanup läuft wieder ohne Numerikfehler und ohne pauschales Löschen von Benutzer-Logs
+- [x] Telegram-Cache bereinigt: nur `cached`, `logs` und `temp` entfernt; `postbox`/`db` bewusst unberührt gelassen
+- [x] adb-Fork-Server gestoppt (`PID 2243`); nach Prüfung keine Launch-Quelle im aktuellen Shell-Kontext sichtbar
+- [x] DEVONthink-Retention gekürzt: älteres Backup `Inbox.dtBase2/Backup 2026-06-23 22-38-13` entfernt, aktuelles `Backup 2026-07-11 17-21-48` belassen
 
 ---
 
@@ -92,19 +97,25 @@
 ## 📋 Nächste Schritte (priorisiert)
 
 ### FOLGE-SESSION (Business Design Fort.)
-1. Service-Gebühren-Dokumente analysieren (wenn hochgeladen)
-2. Compliance-Anforderungen pro Säule recherchieren:
-   - **VERSICHERN:** Maklerrichtlinie, BaFin-Standards
-   - **SPAREN:** MiFID II (Beratungsprotokoll, Eignungsfeststellung)
-   - **FINANZIEREN:** PSD2, Kreditwürdigkeitsprüfung
-   - **VORSORGE:** Netzwerkpartner-Verantwortung, Beratungsdokumentation
+1. Use-Cases aus der heute geklärten Fachlinie ableiten:
+  - Jahresgespräch als fester Beratungsrhythmus
+  - Bestandslisten-Abgleich per Vertragsnummer
+  - Ertragsauswertung pro Kunde aus CSV-Positionsdaten
+  - Provisionsabrechnungen/Soll-Ist-Abgleich
+  - Assistenz fuer Vorbereitung, Nachbereitung und Protokollierung
 
-3. Benutzer-Rollen & Zugriffsrechte definieren:
-   - Kundenbetreuer (Generalist)
-   - Spezialist
-   - Back-Office/Assistenz
-   - Buchhaltung
-   - Admin
+2. Finanzplanungs-Tool als zentrale Arbeitsoberflaeche weiter scharfstellen:
+  - Haushalt als aggregierende Entitaet
+  - Verbindung zu eigener Ablage und VEMA-Import
+  - Rollenwirkung fuer Generalist, Spezialist, Assistenz und Buchhaltung
+
+3. Datenmodell v0.1 aus den geklaerten Objekten ableiten:
+  - Kunde, Haushalt, Vertrag, Gesellschaft, Abrechnung, Termin, Protokoll
+  - Rueckverfolgbarkeit zwischen Bestandslisten und Provisionsdaten
+  - Offene Felder und Dublettenlogik als OFFEN markieren
+
+4. Danach erst Vertiefung der allgemeinen Compliance- und Gebuehrenpunkte,
+  sobald die fachliche Arbeitsgrundlage klar abgegrenzt ist.
 
 ### FOLGE-SESSIONEN (Systemarchitektur)
 4. Datenmodell v0.1 → Entities, Relationships, Constraints
@@ -129,7 +140,7 @@
 | **Tech-Stack & Frontend** | ⏳ Nutzer entscheidet | Nutzer | Web/Desktop/Hybrid? Single-Page-App? |
 | **Datenmenge & Performance** | ⏳ Zu klären | Nutzer | Bestimmt DB-Strategie, Skalierbarkeit |
 | **Regulatorische Anforderungen** | 🟡 Teilweise bekannt | Nutzer | Makler-Gesetze, Datenschutz GDPR, Finanzmarktrichtlinien |
-| **Speicherplatz auf Macintosh HD** | 🟡 Stabilisiert (5.4 GiB frei) | IT-Bereich | CRITICAL bleibt, langfristig MIT-01/02/03 umsetzen |
+| **Speicherplatz auf Macintosh HD** | 🟡 kurzzeitig entlastet (752 MiB frei) | IT-Bereich | CRITICAL bleibt; große Blöcke liegen weiter bei Music und Telegram-Postbox |
 
 ---
 

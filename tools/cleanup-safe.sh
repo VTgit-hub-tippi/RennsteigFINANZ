@@ -20,7 +20,7 @@ mkdir -p "$LOG_DIR"
 TS="$(date '+%Y%m%d-%H%M%S')"
 LOG_FILE="$LOG_DIR/cleanup-${TS}.log"
 
-log() { echo "$1" | tee -a "$LOG_FILE"; }
+log() { echo "$1" | tee -a "$LOG_FILE" >&2; }
 
 free_kb() {
   df -k /System/Volumes/Data | tail -n 1 | awk '{print $4}'
@@ -99,7 +99,7 @@ done < <(
 log ""
 log "--- System-Logs ---"
 logs_kb=0
-logs_kb="$(remove_if_exists "$HOME/Library/Logs" "Benutzer-Logs")"
+log "  [SKIP] System-Logs werden nicht pauschal geloescht; nur gezielte App-Logs manuell pruefen"
 
 log ""
 log "--- Pruefe: Homebrew tmp .cellar ---"

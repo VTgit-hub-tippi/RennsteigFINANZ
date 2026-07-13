@@ -1,0 +1,34 @@
+================================================================
+IT CLEANUP-SAFE — 20260713-181844
+================================================================
+
+Freier Speicher VORHER: 162 MiB
+
+--- Homebrew-Paketcache ---
+  [OK] brew cleanup: 
+
+--- App-Caches ---
+  [SKIP] nicht vorhanden: MediathekView-Cache
+  [SKIP] nicht vorhanden: IINA-Videoplayer-Cache
+  [SKIP] nicht vorhanden: pip-Paketcache
+
+--- System-Logs ---
+  [OK] geloescht: Benutzer-Logs (3 MiB)
+
+--- Pruefe: Homebrew tmp .cellar ---
+  [OK] geloescht: Homebrew tmp cellar (0 KiB)
+
+================================================================
+ERGEBNIS
+  Freier Speicher VORHER: 162 MiB
+  Freier Speicher NACHHER: 138 MiB
+  Delta: +-23752 KiB freigegeben
+  (APFS gibt weitere Bloecke beim naechsten TM-Snapshot-Ablauf frei)
+================================================================
+
+Protokoll gespeichert: /Users/volkertippmann/dev/projects/RennsteigFINANZ/recovery/cleanup-20260713-181844.log
+
+MANUELLE SCHRITTE (nicht automatisierbar):
+  - Telegram: App oeffnen → Einstellungen → Lokaler Speicher → Cache leeren + Limit 500 MB setzen
+  - DEVONthink: App → Einstellungen → Backup-Retention pruefen
+  - adb: 'pgrep -f adb' pruefen; falls aktiv: Login-Items auf Verursacher pruefen
