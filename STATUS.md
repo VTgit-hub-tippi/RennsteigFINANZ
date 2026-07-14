@@ -8,12 +8,12 @@
 
 ---
 
-## 📅 Aktueller Stand (13.07.2026)
+## 📅 Aktueller Stand (14.07.2026)
 
 ### Gegenwart
-- **Phase:** Infrastruktur-Setup / Domain-Knowledge
-- **Meilenstein:** Domain-Analyse Maklerbetrieb weitgehend abgeschlossen
-- **Status:** Use-Case-Ableitung aus dem Domain-Stand als nächster Schritt
+- **Phase:** Fachkonkretisierung nach Domain-Analyse
+- **Meilenstein:** Kern-Use-Cases v0.1 aus Domain-Stand abgeleitet
+- **Status:** Rollen- und Zugriffsrechte v0.1 als naechster Hauptschritt
 
 ---
 
@@ -34,6 +34,12 @@
 - [x] Telegram-Cache bereinigt: nur `cached`, `logs` und `temp` entfernt; `postbox`/`db` bewusst unberührt gelassen
 - [x] adb-Fork-Server gestoppt (`PID 2243`); nach Prüfung keine Launch-Quelle im aktuellen Shell-Kontext sichtbar
 - [x] DEVONthink-Retention gekürzt: älteres Backup `Inbox.dtBase2/Backup 2026-06-23 22-38-13` entfernt, aktuelles `Backup 2026-07-11 17-21-48` belassen
+
+## ✅ Neu abgeschlossen (14.07.2026)
+
+- [x] Kern-Use-Cases v0.1 dokumentiert: docs/USE-CASES-v0.1.md (5 Use-Cases inkl. Ziel, Ausloeser, Datenquellen, Rollen, Ergebnis, OFFEN)
+- [x] Session-Startlauf tools/it-watch.sh durchgefuehrt: Status weiterhin CRITICAL, aber Reserve verbessert auf 4 GiB frei (Delta +4 GiB)
+- [x] NEXT-ACTION auf neuen P0-Schritt aktualisiert (Rollen- und Zugriffsrechte v0.1)
 
 ---
 
@@ -99,12 +105,7 @@
 ## 📋 Nächste Schritte (priorisiert)
 
 ### FOLGE-SESSION (Business Design Fort.)
-1. 3 bis 5 Kern-Use-Cases aus dem bereits geklärten Domain-Stand ableiten:
-  - Jahresgespräch als fester Beratungsrhythmus
-  - Bestandslisten-Abgleich per Vertragsnummer
-  - Ertragsauswertung pro Kunde aus CSV-Positionsdaten
-  - Provisionsabrechnungen/Soll-Ist-Abgleich
-  - Assistenz fuer Vorbereitung, Nachbereitung und Protokollierung
+1. Rollen- und Zugriffsrechte v0.1 aus den vorliegenden Use-Cases ableiten.
 
 2. Finanzplanungs-Tool als zentrale Arbeitsoberflaeche weiter scharfstellen:
   - Haushalt als aggregierende Entitaet
@@ -299,6 +300,46 @@
 - **Ergebnis:** ✓ Untitled-Backups (Full + Tagesstand) auf aktuellen Projektstand aktualisiert
 - **Naechster Schritt:** Wiedereinstieg mit `git status`, danach APFS-Reserve/Quota umsetzen
 
+### 2026-07-14 — Session 18: Fokuskorrektur auf Windows-Testumgebung
+- **Ziel:** Nahtlose Fortsetzung am zuletzt priorisierten Thema (Windows-Demo/Fix), keine fachliche Seitenspur
+- **Ergebnis:** ✓ NEXT-ACTION auf Windows-Testfix (`frmFinanzen`) zurueckgestellt
+- **Ergebnis:** ✓ Operative Checkliste erstellt: `docs/WINDOWS-TESTUMGEBUNG-CHECKLISTE.md`
+- **Regel:** Erst isolierte Testkopie, dann Ende-zu-Ende-Test, danach erst Produktivuebernahme
+- **Naechster Schritt:** Windows-Testordner einrichten und Rueckkehr-Handler robust umbauen
+
+### 2026-07-14 — Session 19: Verbindlicher Zwei-Spur-Betrieb (Mac + Windows)
+- **Ziel:** Stopperhaften Wiedereinstieg beenden und geraeteunabhaengig fortsetzen
+- **Ergebnis:** ✓ P0 auf zwei parallele Pflichtspuren gesetzt:
+  - Mac-Freiraum stabil ausbauen
+  - Windows-Testumgebung live mit VBA-Fix durchlaufen
+- **Ergebnis:** ✓ Zentralmodus in Start-Checkliste verankert (kein Themenwechsel ohne explizite Umpriorisierung)
+- **Befund:** Aktuell ca. 4.2 GiB frei auf `/`; Untitled-Pfade waren im letzten Check nicht verfuegbar (Mount/Pfad pruefen)
+- **Naechster Schritt:** Untitled-Verfuegbarkeit klaeren und Mac-Freiraum Richtung 8-10 GiB stabilisieren, parallel Windows-Livetest starten
+
+### 2026-07-14 — Session 20: Mac-Track verifiziert und Cleanup-Skript stabilisiert
+- **Ziel:** Speicher-Ausbau ohne Skriptabbrueche wieder verlässlich machen
+- **Ergebnis:** ✓ Aktueller Freispeicher gemessen: 4.4 GiB auf `/` (weiterhin unter Zielkorridor)
+- **Ergebnis:** ✓ `tools/cleanup-safe.sh` repariert (Locale-/Formatfehler in Freispeicher-Ausgabe behoben)
+- **Ergebnis:** ✓ Dry-Run des Cleanup-Skripts erfolgreich durchgelaufen, Protokoll erzeugt
+- **Befund:** Externes Ziel `Untitled` aktuell nicht gemountet; sichtbares externes Volume: `trekstor`
+- **Naechster Schritt:** Relevante Backup-Pfade auf `trekstor` verifizieren und danach naechsten reversiblen Entlastungsschritt fuer 8-10 GiB frei ausfuehren; parallel Windows-Livetest nach Checkliste starten
+
+### 2026-07-14 — Session 21: Windows-Testumgebung automatisiert bereitgestellt
+- **Ziel:** Testumgebung auf MRT ohne Tipplast reproduzierbar vorbereiten
+- **Ergebnis:** ✓ Setup-Skript erstellt und ausgefuehrt: `tools/setup-testumgebung-mrt.sh`
+- **Ergebnis:** ✓ Testdatei + PreFix-Kopie in MRT abgelegt (`Programm Finanzplanung 5.0_TEST.xls`, `..._preFix.xls`)
+- **Ergebnis:** ✓ Startdatei bereitgestellt: `START-TESTUMGEBUNG.command`
+- **Ergebnis:** ✓ Windows-Sync 1-Klick-Dateien bereitgestellt unter `Windows-Sync/` (Stand holen / zurueckschreiben)
+- **Regel:** Echtdatenmodus aktiv; vor Datenzusammenfuehrung immer Rueckfrage zu Fuehrungsquelle und Konfliktregeln
+- **Naechster Schritt:** Windows-Livefix in `frmFinanzen` durchfuehren und Ende-zu-Ende testen
+
+### 2026-07-14 — Session 22: Anti-Amnesie-Guard als Dauerkontrolle eingefuehrt
+- **Ziel:** Rueckfall/Ausfall zwischen Mac/Windows/externen Sessions systemisch verhindern
+- **Ergebnis:** ✓ `tools/anti-amnesie-guard.sh` eingefuehrt und in `tools/new-session.sh` integriert
+- **Ergebnis:** ✓ Guard-Lauf validiert: `sync_state=gleich`, `handoff_state=PASS`
+- **Ergebnis:** ✓ Spiegelstatus in MRT-Testumgebung verfuegbar: `ANTI-AMNESIE-STATUS.txt`
+- **Naechster Schritt:** Session-Ende mit Commit/Push und finalem Tagesstand abschliessen
+
 ---
 
 ## 🔗 Wichtige Verweise
@@ -319,7 +360,7 @@
 
 ---
 
-**Zuletzt aktualisiert:** 2026-07-14, Session 14 (Backup + Windows-Demo)
-**Nächste automatische Review:** Nach Windows-Testfix fuer `frmFinanzen` (Phase: Stabilisierung Kernablauf)
+**Zuletzt aktualisiert:** 2026-07-14, Session 22 (Anti-Amnesie-Guard + Windows-Sync)
+**Nächste automatische Review:** Nach erfolgreichem Ende-zu-Ende-Test des `frmFinanzen`-Fixes
 
 <!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->

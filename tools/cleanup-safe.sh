@@ -29,7 +29,7 @@ free_kb() {
 kb_to_human() {
   local kb="$1"
   if (( kb >= 1048576 )); then
-    printf "%.1f GiB" "$(echo "scale=1; $kb/1048576" | bc)"
+    LC_ALL=C awk -v v="$kb" 'BEGIN { printf "%.1f GiB", v/1048576 }'
   elif (( kb >= 1024 )); then
     printf "%d MiB" "$(( kb / 1024 ))"
   else
@@ -106,18 +106,20 @@ log "--- Pruefe: Homebrew tmp .cellar ---"
 brew_tmp_kb=0
 brew_tmp_kb="$(remove_if_exists "/usr/local/var/homebrew/tmp/.cellar" "Homebrew tmp cellar")"
 
-# Kurz warten damit APFS Stats aktualisiert werden
-sleep 3
-
 AFTER_KB="$(free_kb)"
 DELTA_KB=$(( AFTER_KB - BEFORE_KB ))
+if (( DELTA_KB >= 0 )); then
+  DELTA_SIGN="+"
+else
+  DELTA_SIGN="-"
+fi
 
 log ""
 log "================================================================"
 log "ERGEBNIS"
 log "  Freier Speicher VORHER: $(kb_to_human "$BEFORE_KB")"
 log "  Freier Speicher NACHHER: $(kb_to_human "$AFTER_KB")"
-log "  Delta: +$(kb_to_human "$DELTA_KB") freigegeben"
+log "  Delta: ${DELTA_SIGN}$(kb_to_human "${DELTA_KB#-}") freigegeben"
 log "  (APFS gibt weitere Bloecke beim naechsten TM-Snapshot-Ablauf frei)"
 log "================================================================"
 log ""

@@ -1,0 +1,14 @@
+ANTI-AMNESIE STATUS
+timestamp: 2026-07-14 17:13:27
+branch: main
+local_hash: 39ad93a
+upstream_ref: origin/main
+upstream_hash: 39ad93a
+sync_state: gleich
+handoff_state: PASS
+dirty_files: 17
+
+EMPFEHLUNG
+1) Bei sync_state=abweichend: zuerst Stand holen.
+2) Bei handoff_state=FAIL: tools/handoff-proof.sh manuell ausfuehren und Fehler beheben.
+3) Vor Plattformwechsel immer STATUS.md und NEXT-ACTION.md aktualisieren.

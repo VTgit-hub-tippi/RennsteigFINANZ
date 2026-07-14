@@ -28,6 +28,15 @@ echo "${YELLOW}► Hole neuesten Stand von GitHub...${NC}"
 git pull origin main --quiet 2>&1 && echo "${GREEN}✓ Repository aktuell${NC}" || echo "  (Kein Internet oder kein Remote — lokaler Stand wird verwendet)"
 echo ""
 
+# ---- Anti-Amnesie-Guard ------------------------------------
+echo "${YELLOW}► Anti-Amnesie-Guard pruefen...${NC}"
+if bash "$REPO_DIR/tools/anti-amnesie-guard.sh" --quiet; then
+  echo "${GREEN}✓ Kontext-, Handoff- und Sync-Status aktualisiert${NC}"
+else
+  echo "  (Warnung: Anti-Amnesie-Guard meldet Probleme. Siehe recovery/anti-amnesie-latest.txt)"
+fi
+echo ""
+
 # ---- Plattform wählen --------------------------------------
 echo "Welche Plattform möchten Sie starten?"
 echo "  1) Claude.ai"
@@ -52,6 +61,7 @@ echo "${YELLOW}► Baue Kontext-Prompt aus aktuellen Projektdateien...${NC}"
 
 CLAUDE_MD="$REPO_DIR/CLAUDE.md"
 STATUS_MD="$REPO_DIR/STATUS.md"
+NEXT_ACTION_MD="$REPO_DIR/NEXT-ACTION.md"
 PROMPT_DATEI="$REPO_DIR/docs/STARTPROMPT-AKTUELL.txt"
 
 cat > "$PROMPT_DATEI" << 'PROMPT_HEADER'
@@ -78,12 +88,19 @@ echo "" >> "$PROMPT_DATEI"
 cat "$STATUS_MD" >> "$PROMPT_DATEI"
 
 echo "" >> "$PROMPT_DATEI"
+echo "=== NEXT-ACTION.md (Verbindliche P0-Aktion) ===" >> "$PROMPT_DATEI"
+echo "" >> "$PROMPT_DATEI"
+cat "$NEXT_ACTION_MD" >> "$PROMPT_DATEI"
+
+echo "" >> "$PROMPT_DATEI"
 cat << 'PROMPT_FOOTER' >> "$PROMPT_DATEI"
 
 === DEINE AUFGABE ZUM EINSTIEG ===
-1. Fasse den aktuellen Projektstand in maximal 5 Punkten zusammen.
-2. Nenne die eine sinnvollste nächste Aktion.
-3. Frage nach, womit Herr Tippmann heute arbeiten möchte.
+1. Lies STATUS.md, NEXT-ACTION.md und CLAUDE.md vollständig.
+2. Bestimme aus NEXT-ACTION.md exakt die AKTUELLE-AKTION (P0).
+3. Starte sofort mit der Umsetzung dieser P0-Aktion.
+4. Stelle nur dann genau eine Rueckfrage, wenn die P0-Aktion technisch blockiert oder mehrdeutig ist.
+5. Wechsle das Thema nicht, solange der Nutzer nicht explizit umpriorisiert.
 
 Session-Abschluss (IMMER automatisch, ohne Aufforderung):
 - Protokoll: Protokoll_YYYY-MM-DD_[Thema].md bereitstellen

@@ -1,6 +1,6 @@
 # Kontext-Snapshot (automatisch erzeugt)
 
-Stand: 2026-07-09 19:46:24 UTC
+Stand: 2026-07-14 15:15:18 UTC
 
 ## 1. Projektueberblick
 - Ziel: Reproduzierbarer, tooluebergreifender Wiedereinstieg (VS Code, Claude.ai, ChatGPT, GitHub).
@@ -38,13 +38,28 @@ Stand: 2026-07-09 19:46:24 UTC
 
 ## 8. Git-Zustand
 - Branch: main
-- Letzter Commit: f9bce57 Enforce formal Sie-form and plain German across prompts
+- Letzter Commit: 39ad93a Session 2026-07-14: Speicherentlastung, Runbook und Abschlusssicherung
 - Uncommittete Aenderungen:
  M NEXT-ACTION.md
+ M STATUS.md
+ M docs/SPEICHER-RESERVE-RUNBOOK.md
+ M docs/context-restore.md
  M docs/context-snapshot.md
  M recovery/it-watch-latest.txt
-?? docs/DOKUMENTEN-EINGANG-CHECKLISTE.txt
-?? recovery/it-watch-20260709-214544.txt
+ M start-checklist.md
+ M tools/cleanup-safe.sh
+ M tools/new-session.sh
+?? docs/USE-CASES-v0.1.md
+?? docs/WINDOWS-TESTUMGEBUNG-CHECKLISTE.md
+?? recovery/anti-amnesie-20260714-171325.txt
+?? recovery/anti-amnesie-latest.txt
+?? recovery/cleanup-20260714-140432.log
+?? recovery/cleanup-20260714-140525.log
+?? recovery/it-watch-20260714-134900.txt
+?? tools/anti-amnesie-guard.sh
+?? tools/resolve-backup-target.sh
+?? tools/setup-testumgebung-mrt.sh
+?? tools/windows-sync/
 
 ## 9. Kritische Kurz-Zusammenfassung (5 Punkte)
 - Einstieg laeuft ueber feste Dateien.

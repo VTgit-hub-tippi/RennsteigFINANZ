@@ -9,8 +9,14 @@
 4. Nur wenn `AKTUELLE-AKTION` fehlt/mehrdeutig/blockiert ist: genau eine fokussierte Rueckfrage stellen.
 5. IT-Watch verpflichtend ausfuehren: `bash tools/it-watch.sh`.
 6. Bei `CRITICAL`/`WARNING` zuerst den PLAN aus `recovery/it-watch-latest.txt` priorisiert bearbeiten.
+7. Anti-Amnesie-Guard ausfuehren: `bash tools/anti-amnesie-guard.sh`.
 
 Ziel: kein Leerlauf beim Wiedereinstieg, sondern sofortige, reproduzierbare Weiterarbeit.
+
+Zentralmodus (geraeteunabhaengig):
+1. Copilot bleibt der operative Dreh- und Angelpunkt, unabhaengig vom verwendeten Rechner.
+2. Bei Fortsetzungs-Formulierungen (weiter, nahtlos, fortsetzen) exakt an der laufenden P0-Aktion anschliessen.
+3. Kein Themenwechsel ohne explizite Umpriorisierung durch den Nutzer.
 
 ## Toolwechsel VS Code <-> Claude.ai (verbindlich)
 

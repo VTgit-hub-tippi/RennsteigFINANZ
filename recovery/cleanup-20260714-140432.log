@@ -1,0 +1,20 @@
+================================================================
+IT CLEANUP-SAFE — 20260714-140432
+================================================================
+
+Freier Speicher VORHER: 0,0 GiB
+
+--- Homebrew-Paketcache ---
+  [OK] brew cleanup: 
+
+--- App-Caches ---
+  [SKIP] nicht vorhanden: MediathekView-Cache
+  [SKIP] nicht vorhanden: IINA-Videoplayer-Cache
+  [SKIP] nicht vorhanden: pip-Paketcache
+  [SKIP] nicht vorhanden: Cleanup-At-Startup (Waisendateien)
+
+--- System-Logs ---
+  [SKIP] System-Logs werden nicht pauschal geloescht; nur gezielte App-Logs manuell pruefen
+
+--- Pruefe: Homebrew tmp .cellar ---
+  [SKIP] nicht vorhanden: Homebrew tmp cellar

@@ -1,0 +1,23 @@
+Chat-Zusammenfassung 2026-07-14
+Thema: Anti-Amnesie-Absicherung, MRT-Testumgebung, Windows-Sync
+
+1) Fokuskorrektur
+- Fortsetzung auf zwei Spuren festgelegt: Mac-Freiraum + Windows-Livetest.
+- Untitled als primaere Sicherungsebene bestaetigt.
+
+2) Umgesetzte Automatisierungen
+- setup-testumgebung-mrt.sh erstellt und ausgefuehrt.
+- Testordner auf MRT automatisiert befuellt (Testdatei + PreFix + Startdateien).
+- Windows-Sync 1-Klick-Dateien erstellt (Stand holen / Stand zurueckschreiben).
+
+3) Stabilitaet/Amnesie-Schutz
+- anti-amnesie-guard.sh erstellt, validiert und in new-session.sh integriert.
+- Ergebnis: sync_state=gleich, handoff_state=PASS.
+- Guard-Status wird in MRT-Testumgebung gespiegelt.
+
+4) Datenregel
+- Echtdatenmodus ohne Dummy-Daten.
+- Vor Zusammenfuehrung/Ersetzen von Kundendaten immer Rueckfrage.
+
+5) Offener operativer Schritt
+- Windows: frmFinanzen-Fix live durchfuehren und Ende-zu-Ende testen.
