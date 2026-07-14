@@ -1,0 +1,30 @@
+Chat-Export (bereinigt) — 2026-07-14
+Thema: Untitled-Sicherung, Backup nach Documents, Windows-Demo des Finanzplanungstools
+
+Kernanliegen Nutzer:
+- Projekt auf Untitled sichern (unter Documents).
+- Heute geaenderte Dateien in Untitled spiegeln.
+- Danach Live-Einblick in den Windows-Ablauf des Finanzplanungstools.
+- Session-Ende: alles sichern/speichern wie gehabt.
+
+Wesentliche Schritte:
+- Geaenderte Dateien im Repo eingegrenzt.
+- Untitled-Mount und Zielpfade validiert.
+- Vollbackup erstellt: /Volumes/Untitled/CloudStation/Documents/Backup/RennsteigFINANZ-full-2026-07-14
+- Tagesstand erstellt: /Volumes/Untitled/CloudStation/Documents/RennsteigFINANZ-Tagesstand-2026-07-14
+- Toolablauf per Screenshots chronologisch dokumentiert (Start bis Vertragsverwaltung).
+
+Wesentliche Ergebnisse:
+- Backups vorhanden und verifiziert.
+- Ablauf ist reproduzierbar bis in Kernmasken (Stamm-, Finanz-, Vertragsdaten).
+- Technischer Engpass identifiziert: VBA-Debugger-Stopp in frmFinanzen beim harten Workbook-Close.
+
+Offene Punkte / ToDos:
+- Robusten VBA-Fix in Windows-Testkopie umsetzen.
+- Danach End-to-End-Test und kontrollierte Uebernahme in Produktivablauf.
+
+Memory-Snapshot fuer naechste Session:
+- Sprache: Deutsch, Sie-Form, klar und praezise.
+- Reihenfolge beibehalten: erst sichern/konsistent halten, dann fachliche Weiterarbeit.
+- Bei unklarer Historie immer erst belastbaren Ist-Stand pruefen.
+- Logs und Chat-Export als TXT fortlaufend aktualisieren.

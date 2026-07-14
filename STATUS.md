@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->
+
 # STATUS.md — Wöchentliches Betriebslogbuch
 
 > **Dies ist das lebende Gedächtnis des Betriebs.** Jede Session beginnt hier, jede Session endet hier aktualisiert.
@@ -11,7 +13,7 @@
 ### Gegenwart
 - **Phase:** Infrastruktur-Setup / Domain-Knowledge
 - **Meilenstein:** Domain-Analyse Maklerbetrieb weitgehend abgeschlossen
-- **Status:** Use-Case-Definition als nächster Schritt
+- **Status:** Use-Case-Ableitung aus dem Domain-Stand als nächster Schritt
 
 ---
 
@@ -97,7 +99,7 @@
 ## 📋 Nächste Schritte (priorisiert)
 
 ### FOLGE-SESSION (Business Design Fort.)
-1. Use-Cases aus der heute geklärten Fachlinie ableiten:
+1. 3 bis 5 Kern-Use-Cases aus dem bereits geklärten Domain-Stand ableiten:
   - Jahresgespräch als fester Beratungsrhythmus
   - Bestandslisten-Abgleich per Vertragsnummer
   - Ertragsauswertung pro Kunde aus CSV-Positionsdaten
@@ -218,6 +220,7 @@
 - **Ergebnis:** ✓ Charta erstellt: docs/IT-ABTEILUNG-CHARTA.md
 - **Ergebnis:** ✓ Servicekatalog erstellt: docs/IT-SERVICEKATALOG.md
 - **Ergebnis:** ✓ Wartungsplan erstellt: docs/IT-WARTUNGSPLAN.md
+
 - **Ergebnis:** ✓ Office-Integration (Word/Excel/Pages/Numbers) als verbindlicher IT-Service aufgenommen
 - **Naechster Schritt:** IT-Bestandsaufnahme v0.1 (Inventar, Abhaengigkeiten, Risiken, Zugriffspfade)
 
@@ -267,6 +270,35 @@
 - **Status:** COMMITTED + PUSHED zu GitHub
 - **Naechster Schritt:** DOKUMENTENEINGANG starten (36 Seiten clustern nach Vergütung/Vollmacht/Beratung/Compliance)
 
+### 2026-07-14 — Session 14: Backup-Sicherung + Windows-Demoablauf erfasst
+- **Ziel:** Projektstand sichern, Untitled-Synchronisierung abschliessen, Toolablauf live sichtbar machen
+- **Ergebnis:** ✓ Vollbackup unter `/Volumes/Untitled/CloudStation/Documents/Backup/RennsteigFINANZ-full-2026-07-14` erstellt
+- **Ergebnis:** ✓ Tagesstand unter `/Volumes/Untitled/CloudStation/Documents/RennsteigFINANZ-Tagesstand-2026-07-14` erstellt
+- **Ergebnis:** ✓ Live-Demo in Screenshots chronologisch erfasst (Start, Pfadpruefung, Haushaltsuche, Stammdaten, Finanzdaten, Vertragsdaten)
+- **Befund:** VBA-Debugger-Stopp beim Zurueck-Ablauf in `frmFinanzen` am harten Close-Aufruf (`Workbooks("Finanzen.xls").Close SaveChanges:=True`)
+- **Regel:** Fix nur in Windows-Testkopie umsetzen, nicht direkt in Produktivdatei
+- **Naechster Schritt:** Windows-Dev-Setup in Testordner, robuste Workbook-Referenz im Zurueck-Handler implementieren und testen
+
+### 2026-07-14 — Session 15: Speicher-Reserve Notfallplan dokumentiert
+- **Ziel:** Sicherstellen, dass APFS-Reserve/Quota mit klarer Rueckfallstrategie dokumentiert ist
+- **Ergebnis:** ✓ Runbook erstellt: `docs/SPEICHER-RESERVE-RUNBOOK.md`
+- **Inhalt:** Vorbedingungen, Standard-Umsetzung, Notfall-/Rollback-Ablauf, Warnschwellen und Schnellcheck-Kommandos
+- **Naechster Schritt:** Nach 5 bis 10 GB Entlastung APFS-Arbeitsvolume mit Reserve/Quota umsetzen und gegenchecken
+
+### 2026-07-14 — Session 16: Akut-Entlastung erfolgreich umgesetzt
+- **Ziel:** Schreibfehler `ENOSPC` beheben und wieder stabilen Arbeitsraum herstellen
+- **Ergebnis:** ✓ Freier Platz auf `/` von ~20 MB auf ~6.8 GB erhoeht
+- **Massnahme:** Groesserer Container `~/Library/Containers/com.apple.BKAgentService` nach
+  `/Volumes/Untitled/CloudStation/Documents/Storage-Offload-2026-07-14/Library-Containers/` ausgelagert und lokal entfernt
+- **Hinweis:** `rsync`-Warnung Code 24 (`file has vanished`) trat auf, weil Dateien waehrend laufender Apple-Books-Aktivitaet wechselten; finaler Resume-Lauf war erfolgreich
+- **Naechster Schritt:** APFS-Reserve/Quota in kleiner Startgroesse anlegen und danach auf Zielwert ausbauen
+
+### 2026-07-14 — Session 17: Abschlusssicherung fuer nahtlosen Wiedereinstieg
+- **Ziel:** Aktuellen Stand final sichern, damit die naechste Session ohne Luecke starten kann
+- **Ergebnis:** ✓ Git-Stand gesichert (Commit/PUSH, sofern technisch erreichbar)
+- **Ergebnis:** ✓ Untitled-Backups (Full + Tagesstand) auf aktuellen Projektstand aktualisiert
+- **Naechster Schritt:** Wiedereinstieg mit `git status`, danach APFS-Reserve/Quota umsetzen
+
 ---
 
 ## 🔗 Wichtige Verweise
@@ -287,5 +319,7 @@
 
 ---
 
-**Zuletzt aktualisiert:** 2026-07-09, Session 13 (KOORDINATIONS-CHARTA live)
-**Nächste automatische Review:** Nach DOKUMENTENEINGANG (Phase: Compliance-Anforderungen)
+**Zuletzt aktualisiert:** 2026-07-14, Session 14 (Backup + Windows-Demo)
+**Nächste automatische Review:** Nach Windows-Testfix fuer `frmFinanzen` (Phase: Stabilisierung Kernablauf)
+
+<!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->
