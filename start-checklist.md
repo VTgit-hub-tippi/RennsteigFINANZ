@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD032 -->
+
 # Start-Checkliste
 
 ## Autopilot-Wiedereinstieg (ohne Rueckfrage)
@@ -12,6 +14,13 @@
 7. Anti-Amnesie-Guard ausfuehren: `bash tools/anti-amnesie-guard.sh`.
 
 Ziel: kein Leerlauf beim Wiedereinstieg, sondern sofortige, reproduzierbare Weiterarbeit.
+
+## Lehren verankern (Pflicht)
+
+1. Am Session-Ende mindestens 3 konkrete Lehren aus Fehlern, Umwegen oder Erfolgsfaktoren notieren.
+2. Jede Lehre mit genau einer operativen Verankerung verbinden (Checkliste, Skript, Vorlage oder Regel).
+3. Lehren und Verankerung im Session-Protokoll sowie in [STATUS.md](STATUS.md) sichtbar machen.
+4. Ohne Verankerung gilt eine Lehre als nicht abgeschlossen.
 
 Zentralmodus (geraeteunabhaengig):
 1. Copilot bleibt der operative Dreh- und Angelpunkt, unabhaengig vom verwendeten Rechner.
@@ -65,3 +74,5 @@ Automatischer Funktionsnachweis (ohne manuelle Haken):
 8. Rueckfragen aktiv einfordern; Arbeitsfolge sichtbar halten: Anforderungen -> Spezifikation -> Plan -> Umsetzung -> Tests.
 9. Bei groesseren Coding-Aufgaben Sub-Agents gezielt fuer Parallelisierung und Token-Effizienz nutzen.
 10. Bei Bedarf die Eval-Dateien in [evals/README.md](evals/README.md) verwenden.
+
+<!-- markdownlint-enable MD032 -->

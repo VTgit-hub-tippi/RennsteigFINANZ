@@ -27,6 +27,8 @@ P0-B) Windows Testumgebung live ausfuehren (parallel):
 Zusatzpflicht (ab sofort):
 6. Bei jedem Session-Start `bash tools/it-watch.sh` ausfuehren.
 7. Bei `CRITICAL` oder `WARNING` den PLAN aus recovery/it-watch-latest.txt priorisiert umsetzen.
+8. Lehren verbindlich verankern: mindestens 3 Lehren je Session erfassen und jeweils als konkrete Regel/Vorlage/Skript absichern.
+9. Verankerungsnachweis in `logs/Protokoll_YYYY-MM-DD_[Thema].md` und in `STATUS.md` dokumentieren.
 
 ## Definition of Done
 - Freispeicher auf Mac ist stabil im Zielkorridor (mindestens 8 bis 10 GiB) oder mit OFFEN klar begruendet.

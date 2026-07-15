@@ -50,6 +50,7 @@
 - [x] Windows-Testumgebungs-Checkliste um neue Betriebsmittel erweitert
 - [x] Setup-Skript `tools/setup-testumgebung-mrt.sh` erweitert: Vorlagen werden beim Aufbau der Testumgebung mitkopiert
 - [x] VS Code-Erweiterung `mechatroner.rainbow-csv` installiert
+- [x] Lehren aus der Session verbindlich verankert: `docs/LEHREN-VERANKERUNG.md` plus Pflichtschritte in Start-Checkliste und NEXT-ACTION
 
 ---
 
