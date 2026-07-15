@@ -1,0 +1,83 @@
+ABLAUF- UND FEHLERPRUEFUNG - SNAPSHOT-VORLAGE
+
+Snapshot-ID: __________________________
+Datum/Uhrzeit: ________________________
+Tester: _______________________________
+Session/Branch: _______________________
+Kundenpfad: ___________________________
+Programmdatei: ________________________
+Fix-Stand (vorher/nachher): ___________
+
+1) AUSLOESER UND ZIEL
+Ausloeser (was wurde gestartet?):
+____________________________________________________________
+
+Ziel (was sollte passieren?):
+____________________________________________________________
+
+2) FESTER BEDIENABLAUF (SCHRITTE)
+[ ] Start ueber Verknuepfung
+[ ] Laufwerk/Pfad geprueft
+[ ] Haushalt gesucht/ausgewaehlt
+[ ] Stammdaten bearbeitet
+[ ] Finanzdaten bearbeitet
+[ ] Rueckkehr aus Finanzdaten ausgeloest
+[ ] Vertragsdaten geoeffnet
+
+3) ERWARTET VS. TATSAECHLICH
+Erwartetes Verhalten:
+____________________________________________________________
+
+Tatsaechliches Verhalten:
+____________________________________________________________
+
+Abweichung erkannt? (Ja/Nein): ________
+
+4) FEHLERBILD / UNZULAENGLICHKEIT
+Symptom (sichtbar):
+____________________________________________________________
+
+Fehlermeldung/Debugger-Hinweis:
+____________________________________________________________
+
+Reproduzierbar? (Ja/Nein): ____________
+Abbruchklasse: [ ] Blocker [ ] Kritisch [ ] Laestig [ ] Kosmetik
+
+5) KONTEXT UND ZUSAMMENHAENGE
+Betroffener Kunde/Haushalt:
+____________________________________________________________
+
+Betroffene Datenobjekte (z. B. Vertrag, Haushalt, Maske):
+____________________________________________________________
+
+Vorbedingungen/Seiteneffekte:
+____________________________________________________________
+
+6) CODE-SPUR (VBA-URSACHENANALYSE)
+Form/Modul:
+____________________________________________________________
+
+Prozedur/Event:
+____________________________________________________________
+
+Vermutete Ursache:
+____________________________________________________________
+
+Bestaetigte Ursache:
+____________________________________________________________
+
+Fixbeschreibung:
+____________________________________________________________
+
+7) RETEST
+Retest ausgefuehrt? (Ja/Nein): _________
+Retest bestanden? (Ja/Nein): ___________
+Rest-Risiko/OFFEN:
+____________________________________________________________
+
+8) FREIGABESTATUS
+[ ] Nicht freigegeben
+[ ] Fuer weitere Tests freigegeben
+[ ] Fuer Uebernahme vorgeschlagen
+
+Unterschrift/Kuenzel: _________________

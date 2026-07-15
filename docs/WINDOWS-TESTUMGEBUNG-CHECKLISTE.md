@@ -83,6 +83,10 @@ Zweck: Sichere Vorbereitung und Durchfuehrung des VBA-Fixes in einer isolierten 
   - geaenderte Module/Prozeduren
   - Rest-Risiken/OFFEN
   - Entscheidung zur Uebernahme in Produktivbestand
+- Standardisierte Betriebsmittel fuer jeden Testlauf:
+  - `docs/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt`
+  - `docs/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv`
+  - `tools/windows-sync/START-Test-Rueckkehrpfad.cmd` (fester Rueckkehrpfad als Kurzroutine)
 - Danach STATUS und NEXT-ACTION aktualisieren.
 
 ## 8. Uebernahme-Regel

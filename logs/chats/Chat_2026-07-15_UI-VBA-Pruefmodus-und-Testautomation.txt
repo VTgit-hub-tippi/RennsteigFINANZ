@@ -1,0 +1,14 @@
+Chat-Protokoll (bereinigt) - 2026-07-15
+
+Kernaussagen und Entscheidungen:
+1) Fachbegriff vereinfacht: Statt unklarer Bezeichnungen wurde auf klare deutsche Arbeitsbegriffe umgestellt (Ablauf- und Fehlerpruefung, VBA-Ursachenanalyse).
+2) Operative Umsetzung beauftragt: Snapshot-Vorlage, Fehler/Ursachen-Matrix und standardisierte Rueckkehrpfad-Testroutine.
+3) Umsetzung abgeschlossen und in die vorhandene Windows-Testumgebungslogik integriert.
+4) CSV-Arbeitsunterstuetzung gewuenscht; Rainbow CSV wurde installiert.
+5) Session-Abschluss gewuenscht: Alles speichern und mit den anderen synchronisieren.
+
+Wesentliche Artefakte:
+- docs/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt
+- docs/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv
+- tools/windows-sync/test-rueckkehrpfad.ps1
+- tools/windows-sync/START-Test-Rueckkehrpfad.cmd

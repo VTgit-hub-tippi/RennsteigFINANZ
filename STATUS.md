@@ -41,6 +41,16 @@
 - [x] Session-Startlauf tools/it-watch.sh durchgefuehrt: Status weiterhin CRITICAL, aber Reserve verbessert auf 4 GiB frei (Delta +4 GiB)
 - [x] NEXT-ACTION auf neuen P0-Schritt aktualisiert (Rollen- und Zugriffsrechte v0.1)
 
+## ✅ Neu abgeschlossen (15.07.2026)
+
+- [x] Standardisierte Ablauf- und Fehlerpruefung eingefuehrt: TXT-Snapshot-Vorlage erstellt
+- [x] UI-VBA-Fehler-Ursachen-Matrix als CSV-Vorlage erstellt
+- [x] Rueckkehrpfad-Test nach jedem Fix als PowerShell-Routine eingefuehrt
+- [x] 1-Klick-Starter fuer den Rueckkehrpfad-Test in `tools/windows-sync` ergaenzt
+- [x] Windows-Testumgebungs-Checkliste um neue Betriebsmittel erweitert
+- [x] Setup-Skript `tools/setup-testumgebung-mrt.sh` erweitert: Vorlagen werden beim Aufbau der Testumgebung mitkopiert
+- [x] VS Code-Erweiterung `mechatroner.rainbow-csv` installiert
+
 ---
 
 ## 📅 Aktueller Stand (Woche vom 08.07.2026 — Archiv)

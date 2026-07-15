@@ -13,6 +13,8 @@ PREFIX_XLS="$TEST_DIR/Programm Finanzplanung 5.0_TEST_preFix.xls"
 CHECKLIST_SRC="$ROOT_DIR/docs/WINDOWS-TESTUMGEBUNG-CHECKLISTE.md"
 NEXT_ACTION_SRC="$ROOT_DIR/NEXT-ACTION.md"
 WINDOWS_SYNC_SRC_DIR="$ROOT_DIR/tools/windows-sync"
+SNAPSHOT_TEMPLATE_SRC="$ROOT_DIR/docs/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt"
+MATRIX_TEMPLATE_SRC="$ROOT_DIR/docs/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv"
 
 CHECKLIST_DST="$TEST_DIR/WINDOWS-TESTUMGEBUNG-CHECKLISTE.md"
 NEXT_ACTION_DST="$TEST_DIR/NEXT-ACTION.md"
@@ -20,6 +22,8 @@ PROMPT_DST="$TEST_DIR/COPILOT-STARTPROMPT.txt"
 STATUS_DST="$TEST_DIR/TESTUMGEBUNG-STATUS.txt"
 LAUNCHER_DST="$TEST_DIR/START-TESTUMGEBUNG.command"
 WINDOWS_SYNC_DST_DIR="$TEST_DIR/Windows-Sync"
+SNAPSHOT_TEMPLATE_DST="$TEST_DIR/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt"
+MATRIX_TEMPLATE_DST="$TEST_DIR/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv"
 
 CUSTOMER_SOURCE_BASE="/Volumes/MRT/RF intern/Firma/Organisation/Leitung/Bestandsverwaltung/Kunden"
 CUSTOMER_TARGET_BASE="$TEST_DIR/Kundendaten_AUSWAHL"
@@ -45,6 +49,8 @@ echo "[1/6] Pruefe Quellpfade ..."
 need_readable_file "$SOURCE_XLS"
 need_readable_file "$CHECKLIST_SRC"
 need_readable_file "$NEXT_ACTION_SRC"
+need_readable_file "$SNAPSHOT_TEMPLATE_SRC"
+need_readable_file "$MATRIX_TEMPLATE_SRC"
 [[ -d "$WINDOWS_SYNC_SRC_DIR" ]] || die "Windows-Sync-Ordner fehlt: $WINDOWS_SYNC_SRC_DIR"
 
 echo "[2/6] Bereite Testordner vor ..."
@@ -59,6 +65,8 @@ cp -f "$TEST_XLS" "$PREFIX_XLS"
 echo "[4/6] Kopiere Arbeitsunterlagen ..."
 cp -f "$CHECKLIST_SRC" "$CHECKLIST_DST"
 cp -f "$NEXT_ACTION_SRC" "$NEXT_ACTION_DST"
+cp -f "$SNAPSHOT_TEMPLATE_SRC" "$SNAPSHOT_TEMPLATE_DST"
+cp -f "$MATRIX_TEMPLATE_SRC" "$MATRIX_TEMPLATE_DST"
 cp -f "$WINDOWS_SYNC_SRC_DIR"/* "$WINDOWS_SYNC_DST_DIR/"
 
 WINDOWS_REPO_HINT="$TEST_DIR/RennsteigFINANZ-Windows-Repo"
@@ -105,6 +113,7 @@ Naechster Schritt:
 Windows Sync (1-Klick):
 - START-Stand-holen.cmd
 - START-Stand-zurueckschreiben.cmd
+- START-Test-Rueckkehrpfad.cmd
 
 Hinweis fuer Windows:
 - Die CMD-Dateien erwarten das Git-Repository unter:
