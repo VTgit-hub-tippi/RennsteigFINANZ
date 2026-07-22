@@ -17,6 +17,17 @@
 
 Ziel: kein Leerlauf beim Wiedereinstieg, sondern sofortige, reproduzierbare Weiterarbeit.
 
+## Entscheidraster je Thema (verbindlich)
+
+Bei neuen Themen oder Konflikten immer dieses 4-Punkte-Raster anwenden:
+1. Zielbild
+2. Minimal machbarer Schritt diese Woche
+3. Risiko/Trade-off
+4. Nachweis, dass der Schritt funktioniert hat
+
+Vorlage:
+- [docs/ENTSCHEIDRASTER-VORLAGE.md](docs/ENTSCHEIDRASTER-VORLAGE.md)
+
 ## Lehren verankern (Pflicht)
 
 1. Am Session-Ende mindestens 3 konkrete Lehren aus Fehlern, Umwegen oder Erfolgsfaktoren notieren.

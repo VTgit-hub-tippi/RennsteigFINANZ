@@ -72,6 +72,7 @@
 - [x] Aktuellen Chat als TXT im Archiv gesichert (`logs/chats/Chat_2026-07-23_Dreisystem-Portable-und-Pruefstand.txt`)
 - [x] Sitzungsprotokoll zur Agenda-Sicherung erstellt (`logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`)
 - [x] End-Session-Ein-Klick-Routine erstellt (`tools/end-session.sh`) inkl. Dry-Run/No-Push-Option
+- [x] Verbindliches 4-Punkte-Entscheidraster eingefuehrt (`docs/ENTSCHEIDRASTER-VORLAGE.md`)
 
 ---
 
@@ -438,6 +439,13 @@
 - **Ergebnis:** ✓ Syntaxcheck und Dry-Run erfolgreich ausgefuehrt
 - **Naechster Schritt:** Routine beim naechsten realen Session-Ende produktiv mit Thema ausfuehren
 
+### 2026-07-23 — Session 32: Entscheidraster als Standard verankert
+- **Ziel:** Themen ab sofort realistisch, schrittweise und nachweisbar entscheiden
+- **Ergebnis:** ✓ 4-Punkte-Vorlage erstellt: `docs/ENTSCHEIDRASTER-VORLAGE.md`
+- **Ergebnis:** ✓ Start-Checkliste um verbindlichen Raster-Abschnitt erweitert
+- **Ergebnis:** ✓ CLAUDE-Regelwerk um den Machbarkeits-/Kompromissmodus ergaenzt
+- **Naechster Schritt:** Beim naechsten Thema das Raster live anwenden und den Nachweis in STATUS/Log fuehren
+
 ---
 
 ## 🔗 Wichtige Verweise
@@ -458,7 +466,7 @@
 
 ---
 
-**Zuletzt aktualisiert:** 2026-07-23, Session 31 (End-Session-Ein-Klick-Routine eingefuehrt)
-**Nächste automatische Review:** Nach erstem produktiven Lauf von `tools/end-session.sh`
+**Zuletzt aktualisiert:** 2026-07-23, Session 32 (Entscheidraster als Standard verankert)
+**Nächste automatische Review:** Nach erstem live dokumentierten Thema mit vollem 4-Punkte-Raster
 
 <!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->

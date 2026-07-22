@@ -58,6 +58,15 @@ Bevor Code geschrieben wird: Struktur, Konventionen, Schnittstellen stehen fest.
 - Dies ist kein optionaler Schritt, sondern fester Bestandteil jedes Arbeitsabschlusses.
 - Ziel: Der Betrieb lernt systematisch und wird mit jeder Session besser.
 
+### Entscheidraster ohne Dogma (verbindlich)
+- Erwartungen werden auf Machbarkeit geprueft, nicht dogmatisch durchgedrueckt.
+- Bei neuen Themen wird immer ein 4-Punkte-Raster genutzt:
+	1) Zielbild
+	2) Minimal machbarer Schritt diese Woche
+	3) Risiko/Trade-off
+	4) Nachweis, dass der Schritt funktioniert hat
+- Vorlage: `docs/ENTSCHEIDRASTER-VORLAGE.md`
+
 ---
 
 ## 📋 Session-Ritual
