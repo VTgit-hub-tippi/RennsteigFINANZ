@@ -71,6 +71,7 @@
 - [x] Chat-Archivierung als Skript operationalisiert (`tools/archive-chat.sh`)
 - [x] Aktuellen Chat als TXT im Archiv gesichert (`logs/chats/Chat_2026-07-23_Dreisystem-Portable-und-Pruefstand.txt`)
 - [x] Sitzungsprotokoll zur Agenda-Sicherung erstellt (`logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`)
+- [x] End-Session-Ein-Klick-Routine erstellt (`tools/end-session.sh`) inkl. Dry-Run/No-Push-Option
 
 ---
 
@@ -430,6 +431,13 @@
 - **Ergebnis:** ✓ Protokoll fuer den Sicherungsschritt angelegt: `logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`
 - **Naechster Schritt:** Optional End-Session-Automation (`tools/end-session.sh`) fuer Protokoll + Chat-Archiv + Git-Schritte zusammenfuehren
 
+### 2026-07-23 — Session 31: End-Session-Ein-Klick-Routine eingefuehrt
+- **Ziel:** Session-Abschluss als einen reproduzierbaren Befehl bereitstellen
+- **Ergebnis:** ✓ `tools/end-session.sh` erstellt (Protokollanlage + Chat-Export + Git-Commit + optional Push)
+- **Ergebnis:** ✓ Sicherheitsoptionen verfuegbar: `--dry-run` und `--no-push`
+- **Ergebnis:** ✓ Syntaxcheck und Dry-Run erfolgreich ausgefuehrt
+- **Naechster Schritt:** Routine beim naechsten realen Session-Ende produktiv mit Thema ausfuehren
+
 ---
 
 ## 🔗 Wichtige Verweise
@@ -450,7 +458,7 @@
 
 ---
 
-**Zuletzt aktualisiert:** 2026-07-23, Session 30 (Chat-Archivierung operationalisiert)
-**Nächste automatische Review:** Nach erster End-Session-Routine mit integriertem Chat-Export und Git-Abschluss
+**Zuletzt aktualisiert:** 2026-07-23, Session 31 (End-Session-Ein-Klick-Routine eingefuehrt)
+**Nächste automatische Review:** Nach erstem produktiven Lauf von `tools/end-session.sh`
 
 <!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->

@@ -163,6 +163,7 @@ Verbindliches Betriebsmodell fuer Mac, Windows und Untitled:
 2. STATUS.md aktualisieren
 3. Chat-Verlauf als TXT unter `logs/chats/Chat_YYYY-MM-DD_[Thema].txt` sichern
 	- Standardbefehl: `bash tools/archive-chat.sh <TRANSCRIPT_JSONL> <THEMA>`
+   - Ein-Klick-Endroutine: `bash tools/end-session.sh --topic "<THEMA>"`
 4. `git add -A && git commit -m "Session YYYY-MM-DD: [Thema]" && git push`
 
 Kein "Soll ich speichern?". Kein "Wo waren wir?". Immer. Automatisch.
