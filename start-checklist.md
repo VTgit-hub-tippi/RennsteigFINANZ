@@ -12,6 +12,8 @@
 5. IT-Watch verpflichtend ausfuehren: `bash tools/it-watch.sh`.
 6. Bei `CRITICAL`/`WARNING` zuerst den PLAN aus `recovery/it-watch-latest.txt` priorisiert bearbeiten.
 7. Anti-Amnesie-Guard ausfuehren: `bash tools/anti-amnesie-guard.sh`.
+8. Dreisystem-Check ausfuehren: `docs/DREISYSTEM-BETRIEBSMODELL.md` lesen und Rolle der aktuellen Session festhalten (Mac, Windows oder Untitled-Recovery).
+9. Bei Untitled-Recovery den passenden Portable-Starter nutzen: `tools/portable/start-untitled.command` (Mac) oder `tools/portable/START-UNTITLED.cmd` (Windows).
 
 Ziel: kein Leerlauf beim Wiedereinstieg, sondern sofortige, reproduzierbare Weiterarbeit.
 

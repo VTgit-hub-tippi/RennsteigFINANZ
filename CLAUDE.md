@@ -154,10 +154,15 @@ Bevor Code geschrieben wird: Struktur, Konventionen, Schnittstellen stehen fest.
 
 **GitHub ist das einzige Gehirn, das alle kennen.** Claude Code, Claude.ai, ChatGPT, DeepSeek — alle lesen beim Einstieg diese Datei + STATUS.md. Dann ist der Stand sofort klar, ohne Rückfragen.
 
+Verbindliches Betriebsmodell fuer Mac, Windows und Untitled:
+- Siehe `docs/DREISYSTEM-BETRIEBSMODELL.md`.
+- Kurzregel: Mac und Windows sind jeweils voll arbeitsfaehige Hauptsysteme, Untitled ist die portable Sicherungs- und Wiederanlaufkopie, GitHub bleibt die priorisierte Wahrheitsinstanz.
+
 **Pflichtablauf am Session-Ende — automatisch, ohne Aufforderung:**
 1. Protokoll unter `logs/Protokoll_YYYY-MM-DD_[Thema].md` ablegen
 2. STATUS.md aktualisieren
 3. Chat-Verlauf als TXT unter `logs/chats/Chat_YYYY-MM-DD_[Thema].txt` sichern
+	- Standardbefehl: `bash tools/archive-chat.sh <TRANSCRIPT_JSONL> <THEMA>`
 4. `git add -A && git commit -m "Session YYYY-MM-DD: [Thema]" && git push`
 
 Kein "Soll ich speichern?". Kein "Wo waren wir?". Immer. Automatisch.

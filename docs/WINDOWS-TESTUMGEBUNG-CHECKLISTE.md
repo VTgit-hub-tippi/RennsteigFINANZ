@@ -52,6 +52,25 @@ Zweck: Sichere Vorbereitung und Durchfuehrung des VBA-Fixes in einer isolierten 
   - Beispiel: `Finanzen_TEST_preFix.xls`
 - Aenderungen nur in `Finanzen_TEST.xls`.
 - Jede geaenderte Prozedur kurz protokollieren (Modul, Prozedurname, Grund).
+- Der Standard `docs/TEST-SICHERHEIT-ROLLBACK-STANDARD.md` ist verbindlich anzuwenden.
+
+## 4a. Verbindliche 1:1-Rollback-Pflicht
+
+Vor jedem Testlauf muss klar sein:
+1. Welche Datei ist die aktive Testdatei?
+2. Wo liegt die PreFix-Kopie?
+3. Wer gibt den Rollback frei?
+
+Sofort-Rollback bei:
+- ungeplantem Seiteneffekt,
+- unklarer Datenlage,
+- Verdacht auf Produktivbeeinflussung.
+
+Rollback-Minimum:
+1. Test abbrechen.
+2. `Finanzen_TEST.xls` verwerfen.
+3. `Finanzen_TEST_preFix.xls` wieder als `Finanzen_TEST.xls` bereitstellen.
+4. Teststand neu dokumentieren.
 
 ## 5. Fix-Arbeit in VBA
 
@@ -86,6 +105,8 @@ Zweck: Sichere Vorbereitung und Durchfuehrung des VBA-Fixes in einer isolierten 
 - Standardisierte Betriebsmittel fuer jeden Testlauf:
   - `docs/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt`
   - `docs/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv`
+  - `docs/ROLLBACK-NACHWEIS-VORLAGE.txt`
+  - `docs/ROLLBACK-NACHWEIS-VORLAGE.csv`
   - `tools/windows-sync/START-Test-Rueckkehrpfad.cmd` (fester Rueckkehrpfad als Kurzroutine)
 - Danach STATUS und NEXT-ACTION aktualisieren.
 
@@ -95,3 +116,4 @@ Zweck: Sichere Vorbereitung und Durchfuehrung des VBA-Fixes in einer isolierten 
   - Testablauf mindestens einmal vollstaendig ohne Debugger-Stopp lief
   - Aenderung nachvollziehbar dokumentiert ist
   - Rueckfallkopie vorhanden ist
+  - Rollback-Faehigkeit 1:1 im Test nachweisbar war

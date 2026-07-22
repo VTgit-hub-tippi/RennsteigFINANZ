@@ -1,0 +1,34 @@
+ROLLBACK-NACHWEIS (KURZFORM)
+
+Datum/Uhrzeit: __________________________
+Tester: _________________________________
+Systemrolle: [ ] Mac  [ ] Windows  [ ] Untitled-Recovery
+Session/Branch: _________________________
+
+Testdatei: ______________________________
+PreFix-Datei: ___________________________
+Backup-Ziel geprueft: [ ] Ja  [ ] Nein
+
+Abbruchkriterium vorab festgelegt: [ ] Ja  [ ] Nein
+Abbruchkriterium (kurz): __________________________________________
+
+Rollback moeglich bestaetigt (vor Start): [ ] Ja  [ ] Nein
+Rollback ausgefuehrt: [ ] Ja  [ ] Nein
+
+Wenn Rollback ausgefuehrt:
+- Grund: __________________________________________
+- Zeitpunkt: ______________________________________
+- Rueckstellung 1:1 erfolgreich: [ ] Ja  [ ] Nein
+
+Testergebnis:
+[ ] PASS
+[ ] FAIL
+
+Rest-Risiko/OFFEN (kurz): __________________________________________
+
+Freigabe naechster Schritt:
+[ ] Weiterer Testlauf
+[ ] Fehleranalyse
+[ ] Produktivuebernahme vorbereitet
+
+Unterschrift/Kuerzel: __________________________

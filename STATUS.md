@@ -8,7 +8,7 @@
 
 ---
 
-## 📅 Aktueller Stand (14.07.2026)
+## 📅 Aktueller Stand (22.07.2026)
 
 ### Gegenwart
 - **Phase:** Fachkonkretisierung nach Domain-Analyse
@@ -51,6 +51,26 @@
 - [x] Setup-Skript `tools/setup-testumgebung-mrt.sh` erweitert: Vorlagen werden beim Aufbau der Testumgebung mitkopiert
 - [x] VS Code-Erweiterung `mechatroner.rainbow-csv` installiert
 - [x] Lehren aus der Session verbindlich verankert: `docs/LEHREN-VERANKERUNG.md` plus Pflichtschritte in Start-Checkliste und NEXT-ACTION
+
+## ✅ Neu abgeschlossen (22.07.2026)
+
+- [x] Mac-Wiedereinstieg mit aktuellem Windows-Arbeitsstand abgeglichen
+- [x] `NEXT-ACTION.md` um die Kernmethode Schnappschuss -> VB-Coding -> Prozesspruefung -> Toolverbesserung ergaenzt
+- [x] `docs/LEHREN-VERANKERUNG.md` um die aktuelle Verankerungslogik erweitert
+- [x] Betriebsprotokoll fuer die aktuelle Reentry-/Sync-Phase vorbereitet
+- [x] Verbindliches Dreisystem-Betriebsmodell fuer Mac, Windows und Untitled eingefuehrt (`docs/DREISYSTEM-BETRIEBSMODELL.md`)
+- [x] Portable Starter fuer Untitled-Recovery eingefuehrt (`tools/portable/start-untitled.command`, `tools/portable/START-UNTITLED.cmd`)
+- [x] macOS-Live-Test des Portable-Starters erfolgreich durchgefuehrt (Backup-Ziel Untitled erkannt)
+- [x] Windows-Live-Test-Checkroutine fuer den Portable-Starter dokumentiert
+- [x] Verbindlicher Test-Sicherheits- und 1:1-Rollback-Standard eingefuehrt
+- [x] Rollback-Nachweisvorlage fuer Schnellprotokoll eingefuehrt und ins Test-Setup integriert
+- [x] CSV-Rollback-Vorlage fuer serielle Auswertung eingefuehrt und ins Test-Setup integriert
+
+## ✅ Neu abgeschlossen (23.07.2026)
+
+- [x] Chat-Archivierung als Skript operationalisiert (`tools/archive-chat.sh`)
+- [x] Aktuellen Chat als TXT im Archiv gesichert (`logs/chats/Chat_2026-07-23_Dreisystem-Portable-und-Pruefstand.txt`)
+- [x] Sitzungsprotokoll zur Agenda-Sicherung erstellt (`logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`)
 
 ---
 
@@ -351,6 +371,65 @@
 - **Ergebnis:** ✓ Spiegelstatus in MRT-Testumgebung verfuegbar: `ANTI-AMNESIE-STATUS.txt`
 - **Naechster Schritt:** Session-Ende mit Commit/Push und finalem Tagesstand abschliessen
 
+### 2026-07-22 — Session 23: Mac-Reentry und Windows-Sync-Übernahme
+- **Ziel:** Den aktuellen Windows-Arbeitsstand wieder auf dem Mac sauber anschliessen und die Betriebsdokumentation auf denselben Stand bringen
+- **Ergebnis:** ✓ Mac-Stand mit den aktuellen Windows-getriebenen Dokumentationsaenderungen abgeglichen
+- **Ergebnis:** ✓ Kernmethode und Pruefmodus als verbindliche Betriebsmechanik lokal verankert
+- **Ergebnis:** ✓ Status-, Next-Action- und Lehren-Artefakte auf den neuen Stand gezogen
+- **Naechster Schritt:** Windows-Livefix nach Checkliste fortsetzen oder Mac-Freiraum weiter stabilisieren, je nach naechster Prioritaet
+
+### 2026-07-22 — Session 24: Dreisystem-Architektur verbindlich verankert
+- **Ziel:** Mac, Windows und Untitled als durchgaengiges, ausfallsicheres Betriebsmodell verbindlich definieren
+- **Ergebnis:** ✓ Neues Architektur-Runbook erstellt: `docs/DREISYSTEM-BETRIEBSMODELL.md`
+- **Ergebnis:** ✓ Kontinuitaetsregel in `CLAUDE.md` um die Dreisystem-Logik erweitert
+- **Ergebnis:** ✓ Start-Checkliste um verpflichtenden Dreisystem-Reentry-Check ergaenzt
+- **Naechster Schritt:** Portable Starter- und Restore-Ablauf auf Untitled als gefuehrten Assistenten technisch konkretisieren
+
+### 2026-07-22 — Session 25: Portable Untitled-Starter eingefuehrt
+- **Ziel:** Untitled als portable Wiederanlaufinstanz auf Mac und Windows direkt startbar machen
+- **Ergebnis:** ✓ Portable-Runbook erstellt: `docs/PORTABLE-UNTITLED-START.md`
+- **Ergebnis:** ✓ macOS-Starter erstellt: `tools/portable/start-untitled.command`
+- **Ergebnis:** ✓ Windows-Starter erstellt: `tools/portable/START-UNTITLED.cmd`
+- **Ergebnis:** ✓ Dreisystem-Modell und Start-Checkliste um Starter-Verweise erweitert
+- **Naechster Schritt:** Optional einen automatischen Reentry-Logeintrag im Starter ergänzen und auf beiden Systemen live testen
+
+### 2026-07-22 — Session 26: Portable-Starter Mac live verifiziert, Windows-Test vorbereitet
+- **Ziel:** Den ersten Live-Test abschliessen und den Windows-Gegentest reproduzierbar vorbereiten
+- **Ergebnis:** ✓ `tools/portable/start-untitled.command` live ausgefuehrt
+- **Ergebnis:** ✓ Backup-Ziel erfolgreich erkannt: `/Volumes/Untitled/CloudStation/Documents`
+- **Ergebnis:** ✓ Starter-Fix umgesetzt: Resolver-Pruefung auf Dateivorhandensein statt Executable-Bit
+- **Ergebnis:** ✓ Windows-Checkroutine als Schrittfolge dokumentiert: `docs/PORTABLE-UNTITLED-START.md` (Abschnitt 7)
+- **Naechster Schritt:** Windows-Live-Test mit `tools/portable/START-UNTITLED.cmd` auf Zielsystem ausfuehren und PASS/FAIL in STATUS eintragen
+
+### 2026-07-22 — Session 27: Reversibilitaet als Pflichtstandard verankert
+- **Ziel:** Sicherstellen, dass alle Tests auf Mac/Windows/Untitled ohne Schaeden und mit 1:1-Rueckstellung laufen
+- **Ergebnis:** ✓ Neuer Standard erstellt: `docs/TEST-SICHERHEIT-ROLLBACK-STANDARD.md`
+- **Ergebnis:** ✓ Windows-Testcheckliste um Rollback-Pflicht und Sofort-Abbruchkriterien erweitert
+- **Ergebnis:** ✓ Dreisystem-Modell um Reversibilitaetsziel erweitert
+- **Ergebnis:** ✓ NEXT-ACTION um verpflichtenden Rollback-Nachweis ergaenzt
+- **Naechster Schritt:** Windows-Live-Test ausfuehren und den Rollback-Nachweis (PreFix/Abbruchkriterium/PASS-FAIL) im Session-Log dokumentieren
+
+### 2026-07-22 — Session 28: Rollback-Kurzvorlage operationalisiert
+- **Ziel:** Rollback-Nachweis je Testlauf in unter einer Minute erfassbar machen
+- **Ergebnis:** ✓ Neue Kurzvorlage erstellt: `docs/ROLLBACK-NACHWEIS-VORLAGE.txt`
+- **Ergebnis:** ✓ Setup-Skript kopiert die Vorlage automatisch in die Windows-Testumgebung
+- **Ergebnis:** ✓ Windows-Testcheckliste um die Vorlage als Pflicht-Betriebsmittel erweitert
+- **Naechster Schritt:** Beim naechsten Windows-Testlauf die Vorlage live ausfuellen und PASS/FAIL in STATUS dokumentieren
+
+### 2026-07-22 — Session 29: Rollback-CSV fuer Auswertung integriert
+- **Ziel:** Rollback-Nachweise ueber mehrere Testlaeufe tabellarisch auswertbar machen
+- **Ergebnis:** ✓ CSV-Vorlage erstellt: `docs/ROLLBACK-NACHWEIS-VORLAGE.csv`
+- **Ergebnis:** ✓ Setup-Skript kopiert TXT- und CSV-Rollbackvorlage in die Testumgebung
+- **Ergebnis:** ✓ Windows-Testcheckliste um CSV-Vorlage erweitert
+- **Naechster Schritt:** Beim naechsten Windows-Livetest den ersten CSV-Nachweisdatensatz eintragen
+
+### 2026-07-23 — Session 30: Chat-Archivierung und Agenda-Sicherung
+- **Ziel:** Die Chat-TXT-Sicherung am Session-Ende verbindlich und reproduzierbar machen
+- **Ergebnis:** ✓ `tools/archive-chat.sh` erstellt (Export von VS Code Copilot Transcript nach `logs/chats/`)
+- **Ergebnis:** ✓ Aktueller Chat archiviert: `logs/chats/Chat_2026-07-23_Dreisystem-Portable-und-Pruefstand.txt`
+- **Ergebnis:** ✓ Protokoll fuer den Sicherungsschritt angelegt: `logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`
+- **Naechster Schritt:** Optional End-Session-Automation (`tools/end-session.sh`) fuer Protokoll + Chat-Archiv + Git-Schritte zusammenfuehren
+
 ---
 
 ## 🔗 Wichtige Verweise
@@ -371,7 +450,7 @@
 
 ---
 
-**Zuletzt aktualisiert:** 2026-07-14, Session 22 (Anti-Amnesie-Guard + Windows-Sync)
-**Nächste automatische Review:** Nach erfolgreichem Ende-zu-Ende-Test des `frmFinanzen`-Fixes
+**Zuletzt aktualisiert:** 2026-07-23, Session 30 (Chat-Archivierung operationalisiert)
+**Nächste automatische Review:** Nach erster End-Session-Routine mit integriertem Chat-Export und Git-Abschluss
 
 <!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD034 MD060 -->

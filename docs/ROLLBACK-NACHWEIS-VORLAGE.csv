@@ -1,0 +1,2 @@
+NachweisID,DatumZeit,Tester,Systemrolle,SessionBranch,Testdatei,PreFixDatei,BackupZielGeprueft,AbbruchkriteriumFestgelegt,AbbruchkriteriumKurz,RollbackMoeglichVorStart,RollbackAusgefuehrt,RollbackGrund,RollbackZeitpunkt,Rueckstellung1zu1Erfolgreich,Testergebnis,RestRisikoOffen,FreigabeNaechsterSchritt,Notiz
+R-YYYYMMDDHHMMSS,YYYY-MM-DD HH:MM:SS,,,,,,Ja/Nein,Ja/Nein,,Ja/Nein,Ja/Nein,,,Ja/Nein,PASS/FAIL,,Weiterer Testlauf|Fehleranalyse|Produktivuebernahme vorbereitet,

@@ -2,7 +2,7 @@
 
 # NEXT-ACTION — Single Source of Next Work
 
-Statusdatum: 2026-07-14
+Statusdatum: 2026-07-22
 
 ## AKTUELLE-AKTION (P0)
 Fuehre den vereinbarten Zwei-Spur-Betrieb ohne Themenwechsel aus:
@@ -29,6 +29,8 @@ Zusatzpflicht (ab sofort):
 7. Bei `CRITICAL` oder `WARNING` den PLAN aus recovery/it-watch-latest.txt priorisiert umsetzen.
 8. Lehren verbindlich verankern: mindestens 3 Lehren je Session erfassen und jeweils als konkrete Regel/Vorlage/Skript absichern.
 9. Verankerungsnachweis in `logs/Protokoll_YYYY-MM-DD_[Thema].md` und in `STATUS.md` dokumentieren.
+10. Kernmethode verbindlich anwenden: Schnappschuss -> VB-Coding -> Prozesspruefung -> Toolverbesserung.
+11. Vor jedem Testlauf PreFix-Kopie, Abbruchkriterium und 1:1-Rollback-Nachweis gemaess `docs/TEST-SICHERHEIT-ROLLBACK-STANDARD.md` sichern.
 
 ## Definition of Done
 - Freispeicher auf Mac ist stabil im Zielkorridor (mindestens 8 bis 10 GiB) oder mit OFFEN klar begruendet.

@@ -1,6 +1,6 @@
 # Kontext-Snapshot (automatisch erzeugt)
 
-Stand: 2026-07-14 15:15:18 UTC
+Stand: 2026-07-22 00:00:00 UTC
 
 ## 1. Projektueberblick
 - Ziel: Reproduzierbarer, tooluebergreifender Wiedereinstieg (VS Code, Claude.ai, ChatGPT, GitHub).
@@ -9,6 +9,8 @@ Stand: 2026-07-14 15:15:18 UTC
 ## 2. Aktueller Stand
 - Pflichtartefakte fuer den Einstieg sind vorhanden.
 - Cross-Entry-Runbook und Startprompts sind versioniert.
+- Der aktuelle Reentry-Stand ist in `STATUS.md`, `NEXT-ACTION.md` und `logs/Protokoll_2026-07-22_Mac-Reentry-und-Windows-Sync.md` festgehalten.
+- Der Backup-Pfad unter Untitled ist als Ziel dokumentiert; die externen Sicherungsartefakte selbst bleiben ausserhalb des Repos.
 
 ## 3. Naechste Schritte (priorisiert)
 - P0: Aktuelle AKTUELLE-AKTION aus NEXT-ACTION.md ausfuehren.
@@ -38,28 +40,8 @@ Stand: 2026-07-14 15:15:18 UTC
 
 ## 8. Git-Zustand
 - Branch: main
-- Letzter Commit: 39ad93a Session 2026-07-14: Speicherentlastung, Runbook und Abschlusssicherung
-- Uncommittete Aenderungen:
- M NEXT-ACTION.md
- M STATUS.md
- M docs/SPEICHER-RESERVE-RUNBOOK.md
- M docs/context-restore.md
- M docs/context-snapshot.md
- M recovery/it-watch-latest.txt
- M start-checklist.md
- M tools/cleanup-safe.sh
- M tools/new-session.sh
-?? docs/USE-CASES-v0.1.md
-?? docs/WINDOWS-TESTUMGEBUNG-CHECKLISTE.md
-?? recovery/anti-amnesie-20260714-171325.txt
-?? recovery/anti-amnesie-latest.txt
-?? recovery/cleanup-20260714-140432.log
-?? recovery/cleanup-20260714-140525.log
-?? recovery/it-watch-20260714-134900.txt
-?? tools/anti-amnesie-guard.sh
-?? tools/resolve-backup-target.sh
-?? tools/setup-testumgebung-mrt.sh
-?? tools/windows-sync/
+- Aktueller Stand: Reentry-Sync vom 2026-07-22 mit offenen Änderungen an Status-, Next-Action-, Lehren- und Protokolldateien
+- Uncommittete Aenderungen: siehe `git status` im aktuellen Arbeitsbaum
 
 ## 9. Kritische Kurz-Zusammenfassung (5 Punkte)
 - Einstieg laeuft ueber feste Dateien.
