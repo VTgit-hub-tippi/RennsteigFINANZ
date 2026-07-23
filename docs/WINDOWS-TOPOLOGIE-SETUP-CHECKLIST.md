@@ -208,6 +208,28 @@ Nach Abschluss bitte ausfüllen:
 
 ---
 
+## 🗂️ Wichtig: Vor dem Löschen — Verwertbares sichern
+
+**Verbindliche Regel (gilt auch bei zukünftigen Cleanups auf Windows):**
+
+Bevor alte Ordner, Protokolle oder Dateien gelöscht werden:
+
+1. **Durchsuchen:** Gibt es alte Protokolle, Logs, Chat-Verlauf, Fehler-Reports, Test-Ergebnisse?
+2. **Bewerten:** Ist das historisch wertvoll? (= Projekthistorie, Fehler-Nachverfolgung, Lehren)
+3. **Archivieren:** Alles Verwertbare nach `logs/archive/YYYY-MM-DD/` kopieren + Inhaltsverzeichnis aktualisieren
+4. **Erst dann löschen:** Nur wenn nichts mehr wertvoll ist
+
+**Beispiel von macOS (2026-07-07):**
+- Alte Setup-Dateien hätten gelöscht werden können
+- Stattdessen: 40+ Protokolle archiviert → `logs/archive/2026-07-07/INDEX.md`
+- Nutzen: Projekthistorie, Fehler-Referenz, Lehren dokumentiert
+
+**Auf Windows analog:**
+- Falls alte Testläufe, VBA-Fehler-Reports, oder Datenvorgänge existieren: **archivieren, nicht löschen!**
+- Alle Archive gehören nach `logs/archive/YYYY-MM-DD/` mit INDEX
+
+---
+
 ## 🆘 Troubleshooting
 
 ### Problem: `git clone` schlägt fehl (Authentifizierung)

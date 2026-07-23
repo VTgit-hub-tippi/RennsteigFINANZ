@@ -29,6 +29,7 @@ Bevor Code geschrieben wird: Struktur, Konventionen, Schnittstellen stehen fest.
 - Jede Aktion kann rückgängig gemacht werden
 - Vor jeder Änderung: Status prüfen, nicht zweimal machen
 - Git ist die Wahrheit, nicht der Chat-Verlauf
+- **Cleanup-Regel:** Vor dem Löschen → Auf Verwertbares prüfen (Protokolle, Logs, Fehler-Reports, Testdaten) → Alles Historisch-Wertvolle nach `logs/archive/YYYY-MM-DD/` archivieren + INDEX erstellen → Erst dann löschen
 
 ### Kontextbudget respektieren
 - Token sind eine Ressource wie Geld in echtem Betrieb
