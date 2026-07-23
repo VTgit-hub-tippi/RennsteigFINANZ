@@ -25,48 +25,63 @@ Statusdatum: 2026-07-23 (aktualisiert nach Zentrale-Topologie-Session)
 
 ---
 
-## DANACH (P1 — Nächste Phase)
+## 🎯 P1 — Nach Windows-Setup (ab 27.07.2026)
 
-P0-A) Mac Speicherreserve ausbauen (akut):
-1. Aktuellen Freispeicher dokumentieren und auf mindestens 8 bis 10 GiB stabilisieren.
-2. Nur reversible, app-sichere Entlastungsschritte aus dem Runbook anwenden.
-3. Backup-Ziel verifizieren: primaer Untitled als Sicherungsebene; falls temporär nicht verfuegbar, dokumentierter Fallback ohne Betriebsstopp.
-4. Vorher/Nachher-Messung in Log und STATUS festhalten.
+### Hybrid-Implementation starten: VBA/Finanzplanung ↔ Python/RennsteigFINANZ-App
 
-P0-B) Windows Testumgebung live ausfuehren (parallel):
-1. Testordner auf dem betrieblichen Windows-Desktop vorbereiten und Testkopie anlegen.
-2. Falls Daten fuer den Ablauf benoetigt werden: Kundenpfad oder Gesellschaftspfad gezielt in die Testumgebung kopieren (echte Firmendaten, kein Dummy-Modus).
-3. Vor jedem Zusammenfuehren/Ersetzen von Kundendaten verbindliche Rueckfrage stellen (Datensaetze, Fuehrungsquelle, Konfliktregeln, Ersetzungsumfang).
-4. VBA-Projekt oeffnen und Stelle im Rueckkehr-Handler lokalisieren (frmFinanzen).
-5. Harten Close-Aufruf auf robuste Workbook-Referenz umbauen (Objektbezug statt fixer Name).
-6. Live-Demo Ende-zu-Ende durchlaufen (Start -> Suche -> Stammdaten -> Finanzdaten -> Vertragsdaten -> Zurueck).
-7. Ergebnis mit Vorher/Nachher dokumentieren und erst danach Uebernahme in Produktivpfad freigeben.
-8. STATUS.md und Logdatei mit Befund, Fix und Testergebnis aktualisieren.
+**Strategie:** Parallel-Entwicklung für Enterprise LoB-System
+```
+Windows: VBA/Finanzplanung V.XXX (Produktiv, agil, schnell)
+   ↓ (analysieren, dokumentieren)
+Mac: Python/RennsteigFINANZ-App V.XXX (Moderne App, versioniert, testbar)
+   ← (Logik portieren, Tests schreiben)
+```
 
-Zusatzpflicht (ab sofort):
-6. Bei jedem Session-Start `bash tools/it-watch.sh` ausfuehren.
-7. Bei `CRITICAL` oder `WARNING` den PLAN aus recovery/it-watch-latest.txt priorisiert umsetzen.
-8. Lehren verbindlich verankern: mindestens 3 Lehren je Session erfassen und jeweils als konkrete Regel/Vorlage/Skript absichern.
-9. Verankerungsnachweis in `logs/Protokoll_YYYY-MM-DD_[Thema].md` und in `STATUS.md` dokumentieren.
-10. Kernmethode verbindlich anwenden: Schnappschuss -> VB-Coding -> Prozesspruefung -> Toolverbesserung.
-11. Vor jedem Testlauf PreFix-Kopie, Abbruchkriterium und 1:1-Rollback-Nachweis gemaess `docs/TEST-SICHERHEIT-ROLLBACK-STANDARD.md` sichern.
+**Roadmap:**
+- **Woche 1 (24-26.07):** VBA-Analyse + Python-Skeleton
+  - Windows: VBA-Code analysieren, UC-001 Datenmodell dokumentieren
+  - Mac: `src/python/rennsteigfinanz_app/` aufbauen
+  - Git: Branches `feature/uc-001-vb` und `feature/uc-001-python`
+  
+- **Woche 2-3 (29.07-09.08):** UC-001 Implementierung
+  - Windows: UC-001 (Haushaltsübersicht) VB-Skript komplett + Test-Daten
+  - Mac: Python-Core + PyQt-GUI für UC-001 + pytest Tests
+  - Git: Cross-Team Reviews
+  
+- **Woche 4 (12-16.08):** Validation & Release
+  - End-to-End: 5 Szenarien VB vs Python → gleiche Ergebnisse
+  - Merge in `main`, Tag: `v0.1-hybrid-uc-001`
 
-## Definition of Done
-- Freispeicher auf Mac ist stabil im Zielkorridor (mindestens 8 bis 10 GiB) oder mit OFFEN klar begruendet.
-- Backup-Ziel ist verifiziert (primaer Untitled) oder mit dokumentiertem Fallback abgesichert.
-- Windows-Testkopie ist eingerichtet und vom Produktivpfad getrennt.
-- Rueckkehr-Handler in frmFinanzen ist robust umgesetzt (kein harter Workbook-Name).
-- Demoablauf laeuft ohne Debugger-Stopp durch.
-- Vorher/Nachher-Befund und Rest-Risiken sind dokumentiert.
-- IT-Watch-Report liegt aktuell in recovery/it-watch-latest.txt vor.
-- STATUS.md ist um die Session und den neuen naechsten Schritt aktualisiert.
+**Details:** [HYBRID-IMPLEMENTATION.md](docs/HYBRID-IMPLEMENTATION.md)  
+**Definition of Done:** UC-001 funktioniert auf Windows & Mac, Tests grün, Dokumentation fertig
 
-## Fallback-Regel
-Wenn notwendige Fachdetails fehlen, mit konservativen Platzhaltern arbeiten und als `OFFEN` markieren; keine Blockade durch fehlende Perfektion.
+---
 
-## Danach (P1)
-1. Rollen- und Zugriffsrechte v0.1 aus den bereits notierten Use-Cases ableiten.
-2. Datenmodell v0.1 auf Basis der stabilisierten Kernablaeufe finalisieren.
-3. Compliance-Anforderungen pro Saeule vertiefen und konkretisieren.
+## 🎯 P2 — Später (Backlog)
+
+- Rollen- und Zugriffsrechte v0.1 (nach Hybrid v0.1)
+- Datenmodell v0.1 (nach Hybrid v0.1)
+- UC-002 (Finanzierung), UC-003 (Risikodeckung), UC-004 (Erben & Schenken)
+- Compliance-Anforderungen pro Säule vertiefen
+
+---
+
+## 📋 Allgemeine Spielregeln
+
+### Cleanup-Konvention (MANDATORY)
+**Vor dem Löschen von Dateien/Ordnern:**
+1. Auf Verwertbares prüfen (Protokolle, Logs, Fehler-Reports, Test-Daten)
+2. Alles nach `logs/archive/YYYY-MM-DD/` archivieren
+3. `logs/archive/YYYY-MM-DD/INDEX.md` erstellen/aktualisieren
+4. Erst dann löschen
+
+[Details: CLAUDE.md](CLAUDE.md)
+
+### Session-Ritual (immer)
+1. Vor Arbeit: `git status`, CLAUDE.md + STATUS.md lesen
+2. Während: Änderungen dokumentieren, Commits granular
+3. Nach: `git push`, STATUS.md aktualisieren
+
+---
 
 <!-- markdownlint-enable MD007 MD009 MD022 MD029 MD032 MD060 -->
