@@ -59,10 +59,20 @@ Mac: Python/RennsteigFINANZ-App V.XXX (Moderne App, versioniert, testbar)
 
 ## 🎯 P2 — Später (Backlog)
 
+### CloudStation-Migration (Zentrale Ablage auf NAS)
+**Aufgabe:** RennsteigFINANZ zu CloudStation verschieben (Backup-Automation)
+- **Mac:** `~/dev/projects/RennsteigFINANZ/` → `~/CloudStation/dev/projects/RennsteigFINANZ/`
+- **Untitled:** `/Volumes/Untitled/RennsteigFINANZ/` → `/Volumes/Untitled/CloudStation/RennsteigFINANZ/`
+- **Selective Sync konfigurieren:** `.git/` ausschließen (GitHub bleibt primär, Daten/Quellcode auf NAS)
+- **Tests:** Git-Funktionalität nach Migration prüfen
+- **Timeline:** Nach Hybrid v0.1 (mid-August+)
+
+### Weitere P2-Aufgaben
 - Rollen- und Zugriffsrechte v0.1 (nach Hybrid v0.1)
 - Datenmodell v0.1 (nach Hybrid v0.1)
 - UC-002 (Finanzierung), UC-003 (Risikodeckung), UC-004 (Erben & Schenken)
 - Compliance-Anforderungen pro Säule vertiefen
+- Tagesgeschäft-Integration: Provisionsabrechnungen, Bestandsanalyse, Hospitationen
 
 ---
 
