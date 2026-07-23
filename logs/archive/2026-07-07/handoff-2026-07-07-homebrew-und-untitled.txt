@@ -1,0 +1,202 @@
+Handoff 2026-07-07
+
+Zweck
+- Nahtloser Wiedereinstieg ohne Kontextverlust.
+
+Arbeitsstand
+- Fokus heute: Homebrew-Reparaturpfad und ausgelagerte Untitled-Ordner.
+- Homebrew-Problem von gestern wurde auf Reproduzierbarkeit geprueft.
+- Untitled-Bereinigung wurde kontrolliert durchgefuehrt.
+
+Gepruefte Fakten
+- Homebrew:
+  - `brew update` laeuft erfolgreich.
+  - `homebrew-core` ist nicht shallow.
+  - Der fruehere Fehler `fetching ref refs/remotes/origin/main failed: incorrect old value provided` ist aktuell nicht reproduzierbar.
+- Untitled:
+  - `/Volumes/Untitled/CloudStation_moved_20260707032751` war leer und wurde geloescht.
+  - `/Volumes/Untitled/Music_moved_20260707032210` wurde nicht geloescht, sondern als Sicherungsstand umbenannt zu
+    `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP`.
+- Music-Abgleich:
+  - 1:1-Annahme nicht belastbar.
+  - Dateimengen zeigten deutliche Differenz zwischen Archivstand und aktivem `~/Music`.
+  - Ein sicherer Merge-Versuch mit `rsync --ignore-existing` brachte keine regulaeren Dateiuebernahmen (nur Metadaten/Symlink-Eintraege im Log).
+
+Wichtige Dateien
+- Protokoll: /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/scherben-gerichtsprotokoll-2026-07-07.txt
+- Merge-Plan: /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-merge-plan-2026-07-07.txt
+- Merge-Log: /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-merge-applied-2026-07-07.log
+- Faden-/Disziplin-Regeln: /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/faden-sicherung-und-versionsdisziplin.txt
+
+Offene Punkte
+- Keine fachlich belastbaren Kriterien definiert, welche Inhalte aus dem Music-Archivstand tatsaechlich wiederhergestellt werden sollen.
+- Ohne solche Kriterien bleibt der sichere Zustand: Archiv behalten, nicht blind rueckkopieren.
+
+Naechster sinnvoller Schritt
+1. Falls gewuenscht: fachliche Restore-Kriterien fuer Music festlegen (z. B. nur bestimmte Unterordner, nur Dateitypen, nur Zeitfenster).
+2. Erst danach gezielten, protokollierten Teil-Restore planen.
+
+Kurzfazit
+- Homebrew ist stabil.
+- Leerer CloudStation-Rest ist bereinigt.
+- Music-Archiv ist gesichert und eindeutig markiert.
+- Der Wiedereinstieg ist ueber die Protokolldateien nachvollziehbar moeglich.
+
+Update (2026-07-07, spaeter): Symlink-Schleifen in `~/Music`
+- Exitcode-1-Ursache praezisiert:
+  - Nicht der Terminalprozess war defekt, sondern Python-Skripte zur Pfadauflosung liefen in Symlink-Schleifen (`Too many levels of symbolic links`).
+- Durchgefuehrte sichere Bereinigung:
+  - Zuerst wurden direkte Selbst-Links entfernt (`1827` Eintraege, Log in `docs/music-direct-self-links-removed-2026-07-07.log`).
+  - Danach wurden verbleibende echte Schleifen klassifiziert und entfernt (`168` Eintraege, Log in `docs/music-loop-symlinks-removed-2026-07-07.log`).
+- Verifizierter Stand nach Bereinigung:
+  - `SYMLINK_TOTAL_NOW=4073`
+  - `LOOP_COUNT_NOW=0`
+  - `BROKEN_COUNT_NOW=3930`
+  - `RESOLVED_COUNT_NOW=143`
+- Bewertung:
+  - Der Schleifenfehler als unmittelbarer Exitcode-1-Ausloeser ist beseitigt.
+  - Es verbleiben viele nicht-zirkulaere, aber defekte Symlinks; diese erfordern einen getrennten, quellenbasierten Restore-Schritt.
+
+Aktuell wichtigste Artefakte
+- `docs/music-symlink-classification-2026-07-07.txt`
+- `docs/music-loop-symlinks-full-2026-07-07.txt`
+- `docs/music-broken-symlinks-full-2026-07-07.txt`
+- `docs/music-loop-symlinks-removed-2026-07-07.log`
+
+Update (2026-07-07, noch spaeter): Reparaturbarkeit verbleibender Broken-Symlinks
+- Pruefung: Fuer alle verbleibenden `3930` defekten Symlinks wurde getestet, ob am gleichen relativen Pfad im Archiv
+  `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP` eine regulaere Datei liegt.
+- Ergebnis:
+  - `REPAIRABLE_FROM_ARCHIVE_REGULAR=0`
+  - `NOT_REPAIRABLE_BY_SAME_RELATIVE_PATH=3930`
+- Quellen:
+  - `docs/music-broken-symlink-repair-candidates-2026-07-07.txt`
+  - `docs/music-broken-symlink-repairable-from-archive-2026-07-07.txt`
+- Konsequenz:
+  - Kein einfacher pfadgleicher Dateiersatz moeglich; fuer funktionale Wiederherstellung sind andere Quellpfade/Sync-Wege noetig.
+
+Update (2026-07-07, fortgesetzt): Cluster + sichere Mini-Reparatur
+- Clusterbild der defekten Symlinks:
+  - `inside_/Volumes=3899`, `inside_~/Music=31` (insgesamt damals `3930`).
+  - Dominanter Altpfad: `/Volumes/music/...`.
+  - Referenz: `docs/music-broken-symlink-target-clusters-2026-07-07.txt`.
+- Verifizierte Mini-Reparatur:
+  - Nur sichere Remaps (`/Volumes/music` -> `~/Music`) mit existierendem Ziel und ohne Selbst-Link.
+  - Umgesetzt: `APPLIED=2`.
+  - Log: `docs/music-remap-volumes-music-safe-applied-2026-07-07.log`.
+- Aktueller Zustand danach:
+  - `SYMLINK_TOTAL_NOW=4073`
+  - `LOOP_COUNT_NOW=0`
+  - `BROKEN_COUNT_NOW=3928`
+- Zusatzcheck Archiv fuer `/Volumes/music`-Ziele:
+  - `archive_missing=3796` gegen `Music_moved_20260707032210_ARCHIVE_KEEP`.
+  - Referenz: `docs/music-volumes-music-targets-vs-archive-2026-07-07.txt`.
+
+Update (2026-07-07, weiter): Batch-Plan + Blocker
+- Batch-Plan fuer Restzustand erstellt:
+  - `BROKEN_TOTAL=3928`
+  - `VOLUMES_MUSIC_SELF_IF_REMAP=3710`
+  - `VOLUMES_MUSIC_MISSING_IN_HOME=84`
+  - `VOLUMES_DATENSICHERUNG=32`
+  - `INSIDE_HOME_MUSIC=31`
+  - `VOLUMES_OTHER=71`
+  - Referenz: `docs/music-broken-symlink-batch-plan-2026-07-07.txt`.
+- Harte Blocker verifiziert:
+  - `/Volumes/music` aktuell nicht vorhanden.
+  - `/Volumes/Datensicherung` aktuell nicht vorhanden.
+- Konsequenz:
+  - Weitere substanzielle Wiederherstellung ist derzeit quellenblockiert; naechster operative Trigger ist das Einbinden der fehlenden Volumes oder Bereitstellung alternativer Originalquellen.
+
+Update (2026-07-07, spaeter): Restore-Auftragsliste vorbereitet
+- Neu erzeugte Ausfuehrungsartefakte:
+  - `docs/music-restore-tasklist-2026-07-07.txt`
+  - `docs/music-restore-jobs-macintosh-hd-only-2026-07-07.tsv`
+- Zusammenfassung:
+  - `84` Auftraege fuer `/Volumes/music` (Charge A, wartend auf Quelle).
+  - `32` Auftraege fuer `/Volumes/Datensicherung` (Charge B, absichtlich gesperrt).
+  - `3710` strukturell blockierte Selbst-Link-Faelle bei einfachem Remap (Charge C).
+  - `31` inside-home Links geprueft, `SAFE_FIX_CANDIDATES=0`.
+- Nutzen:
+  - Sobald `/Volumes/music` verfuegbar ist, kann Charge A sofort ohne erneute Vollanalyse abgearbeitet werden.
+
+Update (2026-07-07, nachts): Charge A real ausgefuehrt
+- `/Volumes/music` und `/Volumes/Datensicherung` wurden als gemountet verifiziert.
+- Charge A wurde im stillen Modus ausgefuehrt (kein Terminal-Spam):
+  - Output: `docs/music-restore-charge-a-apply-background-20260707-220251.out`
+  - Log: `docs/music-restore-charge-a-apply-20260707-220251.log`
+- Kennzahlen aus Log (Fallback-Zaehlung):
+  - `applied=19`
+  - `missing_source=21`
+  - `not_symlink=15`
+- Aktueller Status der 84 Charge-A-Ziele:
+  - `NOW_REGULAR_OR_DIR=34`
+  - `LINK_STILL_SYMLINK=50`
+  - `NOW_MISSING=0`
+
+Naechster operativer Schritt
+- Weitere Charge-A-Runde in kleinen Batches fortsetzen, bis die verbleibenden `50` Symlinks abgearbeitet sind oder erneut als `missing_source` blockieren.
+
+Update (2026-07-07, zuletzt): weiterer Batch-Fortschritt
+- Zusatzausfuehrung (kleine stabile Runde) brachte `+2` erfolgreiche Ersetzungen.
+- Neuer Stand der 84 Charge-A-Ziele:
+  - `NOW_REGULAR_OR_DIR=45`
+  - `LINK_STILL_SYMLINK=39`
+  - `NOW_MISSING=0`
+
+Abschlussstatus Charge A (heute)
+- Finaler Bericht: `docs/music-restore-final-report-20260707-221854.txt`
+- Keine weiteren sicheren Ersetzungen mit aktuell verfuegbarer Quelle in dieser Runde (`TOTAL_APPLIED_THIS_RUN=0`).
+- Verbleibende 39 Symlink-Ziele sind begruendet durch:
+  - `36` fehlende Quellobjekte (`REM_MISSING_SOURCE`)
+  - `3` Quellen, die keine regulaeren Dateien sind (`REM_SOURCE_NOT_REGULAR`)
+- Damit ist Charge A fuer den aktuellen Quellenstand bis zum sicheren Endpunkt abgearbeitet.
+
+Update (2026-07-07, spaete Nacht): Zusatzrekonstruktion erfolgreich fortgesetzt
+- Fuer die offenen `39` WAIT_SOURCE_ORIGINAL-Faelle wurde eine Spotlight-basierte Kandidatensuche gefahren:
+  - `docs/music-missing39-mdfind-candidates-2026-07-07.txt`
+  - `docs/music-missing39-mdfind-strong-unique-2026-07-07.tsv`
+- Suchergebnis:
+  - `STRONG_UNIQUE=1`, `AMBIGUOUS=0`, `NONE=38`.
+- Der eindeutige Treffer wurde sicher (copy-temp, unlink, rename) angewendet:
+  - Script: `docs/apply_candidate_tsv.py`
+  - Log: `docs/music-missing39-mdfind-apply-2026-07-07.log`
+  - Ergebnis: `applied=1`, keine Fehler.
+- Neuer quantifizierter Reststand (`WAIT_SOURCE_ORIGINAL`):
+  - `NOW_REGULAR_OR_DIR=46`
+  - `LINK_STILL_SYMLINK=38`
+  - `REM_MISSING_SOURCE=35`
+  - `REM_SOURCE_NOT_REGULAR=3`
+
+Update (2026-07-07, sehr spaet): grosser Fortschritt durch Fuzzy-Varianten
+- Weiterfuehrende Suche fuer die verbliebenen `38` Faelle:
+  - Script: `docs/search_remaining38_fuzzy_variants.py`
+  - Ergebnisbericht: `docs/music-remaining38-fuzzy-candidates-2026-07-07.txt`
+  - Kandidatenliste: `docs/music-remaining38-fuzzy-strong-unique-2026-07-07.tsv`
+- Ergebnis der Suche:
+  - `STRONG_UNIQUE=30`, `AMBIGUOUS=0`, `NONE=8`.
+- Sicheres Apply:
+  - `docs/apply_candidate_tsv.py --cand ... --log ...`
+  - Log: `docs/music-remaining38-fuzzy-apply-2026-07-07.log`
+  - Ergebnis: `applied=30`, keine Fehler.
+- Neuer aktueller Reststand (`WAIT_SOURCE_ORIGINAL`):
+  - `NOW_REGULAR_OR_DIR=76`
+  - `LINK_STILL_SYMLINK=8`
+  - `REM_MISSING_SOURCE=5`
+  - `REM_SOURCE_NOT_REGULAR=3`
+
+Finaler Abschlussstand (Sitzungsende)
+- Letzte 8 Faelle nochmals einzeln geprueft und mit engem Varianten-/Spotlight-Lauf ohne weiteren Treffer verifiziert:
+  - `docs/music-remaining8-status-2026-07-07.txt`
+  - `docs/music-remaining8-last-search-2026-07-07.txt`
+- Ergebnis: `STRONG=0` fuer die restlichen 8.
+- Finale Einzelfallentscheidungen:
+  - `docs/music-remaining8-resolution-decision-2026-07-07.txt`
+- Technischer Endpunkt im aktuellen Quellenzustand:
+  - Automatisch sicher wiederherstellbar: nichts mehr.
+  - Offen bleiben `5` Missing-Source-Dateien und `3` nicht-dateibasierte Verzeichnis-/Containerfaelle.
+
+Nachtraegliche Nutzerfreigabe umgesetzt: Untitled-Bereinigung final
+- Geloescht und verifiziert (`CONFIRMED_MISSING`):
+  - `/Volumes/Untitled/Music_moved_20260707032210.archive.tar.gz`
+  - `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP`
+  - `/Volumes/Untitled/_archives`

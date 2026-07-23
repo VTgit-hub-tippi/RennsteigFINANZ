@@ -1,0 +1,40 @@
+INPUT=8
+STRONG=0
+UNRESOLVED=5
+NOT_FILE_SOURCE=3
+
+STRONG
+UNRESOLVED
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/gerhard gundermann/Einsame Spitze/Dickes Ende.mp3
+SRC=/Volumes/music/iTunes/iTunes Media/Music/Gerhard Gundermann/Einsame Spitze/Dickes Ende.mp3
+BASENAME=Dickes Ende.mp3
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+SRC=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+BASENAME=2-01 Sleep Like a Baby Tonight 1.m4a
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+SRC=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+BASENAME=2-01 Sleep Like a Baby Tonight.m4a
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+SRC=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+BASENAME=1-04 Katzen bei Nacht 1.m4p
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+SRC=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+BASENAME=12 Über sieben Brücken musst du geh_n 1.m4p
+
+NOT_FILE_SOURCE
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/With Thoughts But Not Regrets
+SRC=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets
+REASON=symlink_source_exists_not_file
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Grönemeyer
+SRC=/Volumes/music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Groenemeyer
+REASON=symlink_source_exists_not_file
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Walk the Moon/TALKING IS HARD
+SRC=/Volumes/music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD
+REASON=symlink_source_exists_not_file
+

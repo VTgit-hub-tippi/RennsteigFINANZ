@@ -1,0 +1,164 @@
+MISSING_INPUT=39
+MAPPED_FILE_HITS=0
+MAPPED_EXISTS_NOT_FILE=2
+MAPPED_MISSING=37
+
+HITS
+EXISTS_NOT_FILE
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/With Thoughts But Not Regrets
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets
+PATH=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Walk the Moon/TALKING IS HARD
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD
+PATH=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD
+
+MISSING
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/1-04 What Can I Do 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Corrs/Talk on Corners/1-04 What Can I Do 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/02 So Young 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Corrs/Talk on Corners/02 So Young 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/03 Dreams [Official Video] 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Corrs/Talk on Corners/03 Dreams [Official Video] 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/So laut ich kann/10 Leb Deine Träume 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Luxuslärm/So Laut Ich Kann/10 Leb Deine Träume 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/The Icicle Melts 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/The Icicle Melts 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/1-04 Zombie 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/1-04 Zombie 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Twenty One 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Twenty One 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Ridiculous Thoughts 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Ridiculous Thoughts 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/1-01 Ode To my Family 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/1-01 Ode To my Family 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/I Can't Be With You 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/I Can't Be With You 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Disappointment 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Disappointment 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Daffodil Lament 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Daffodil Lament 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Dreaming My Dreams 2.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Dreaming My Dreams 2.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Everything I Said 2.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Everything I Said 2.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Disappointment 2.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Disappointment 2.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Dreaming My Dreams 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Dreaming My Dreams 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Empty 2.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Empty 2.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Empty 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/The Cranberries/No Need to Argue/Empty 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Nie wieder Kunst/Zwirch & Zwabel 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/EAV/nie wieder kunst/Zwirch & Zwabel 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Nie wieder Kunst/08 Edi 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/EAV/nie wieder kunst/08 Edi 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/gerhard gundermann/Einsame Spitze/Dickes Ende.mp3
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Gerhard Gundermann/Einsame Spitze/Dickes Ende.mp3
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame Monster/01 Bad Romance 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame Monster/01 Bad Romance 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame Monster/1-06 Telephone 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame Monster/1-06 Telephone 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame Monster/02 Alejandro 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame Monster/02 Alejandro 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame/1-05 Eh, Eh (Nothing Else I Can Say) 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame/1-05 Eh, Eh (Nothing Else I Can Say) 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame/1-03 Paparazzi 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame/1-03 Paparazzi 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/The Fame/1-06 Poker Face 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/The Fame/1-06 Poker Face 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Compilations/Karat - Die große Jubiläums-Edition/1-11 He, Manuela 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Compilations/Karat - Die große Jubiläums-Edition/1-11 He, Manuela 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Empire Of The Sun/Unknown Album/Alive 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/EMPIRE OF THE SUN/Unknown Album/Alive 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Empire Of The Sun/Walking on a Dream/05 We Are the People 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/EMPIRE OF THE SUN/Walking on a Dream/05 We Are the People 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Willy Astor/Der Schatz Im Silbensee/22 Länderspiele II.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Audiobooks/Willy Astor/22 Länderspiele II.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Take That/Rule the World - London 2012 Olympic Games/Rule the World - London 2012 Olympic Games 1.m4a
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Music/Take that/Rule the World - London 2012 Olympic Games/Rule the World - London 2012 Olympic Games 1.m4a
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Grönemeyer
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Groenemeyer
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+REASON=mapped_missing
+
+LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+SRC_OLD=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+REASON=mapped_missing
+

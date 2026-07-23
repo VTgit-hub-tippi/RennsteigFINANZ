@@ -1,0 +1,394 @@
+Scherben-Gerichtsprotokoll
+
+Stand: 2026-07-07
+Zweck: Fragmente, Indizien, gesicherte Befunde und offene Bruchstellen sammeln, damit der Arbeitsfaden nicht erneut verloren geht.
+
+Arbeitsprinzip
+- Wir behandeln unklare Erinnerungen als Hypothesen, nicht als Tatsachen.
+- Wir sichern auch unvollständige Fragmente, wenn sie für die Rekonstruktion relevant sein könnten.
+- Wir setzen die Bruchstücke später gemeinsam zusammen, statt vorschnell Lücken zu füllen.
+- Dieses Protokoll dient als Scherben-Gericht: erst sammeln, dann sortieren, dann bewerten.
+
+Gesicherte Befunde
+- Workspace: ClaudeSetup, kein Git-Repository.
+- Claude Code ist installiert, Version 2.1.201.
+- `claude plugin list` meldete keine installierten Plugins.
+- Das Projekt dient bisher vor allem der vorbereitenden Einrichtung: Claude Code, VS Code, GitHub, Homebrew, lokale Skills, Context-Commands.
+- Context-Commands und Setup-Dokumente sind im Workspace vorhanden.
+- Es gibt ein vorhandenes Wiederherstellungs-Skript für den Musik-Fall: `docs/restore-music-from-untitled.sh`.
+- Ein allgemeines Wiederherstellungs-Skript fuer `CloudStation_moved_...` wurde im Workspace bisher nicht gefunden.
+
+Gesicherte Homebrew-Fragmente
+- `brew install gh` fuehrte zur Installation von `gh` und der Abhaengigkeit `go`.
+- Die Installation von `go` und `gh` lief erfolgreich durch.
+- Danach wurde in `/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core` gearbeitet.
+- Dort lief `git fetch --unshallow origin main`.
+- Der Fetch lud etwa 1.10 GiB an Objekten.
+- Der entscheidende Fehler laut Terminalrest war:
+  `Fehler: fetching ref refs/remotes/origin/main failed: incorrect old value provided`
+- Zuvor wurde `rm .git/shallow.lock` ausgefuehrt.
+- Die Tier-3-Hinweise von Homebrew wurden angezeigt, sind aber kein eigentlicher Fehler.
+
+Gesicherte Untitled-/Speicherplatz-Fragmente
+- Der Nutzer berichtet, dass wegen Platzproblemen Daten nach `/Volumes/Untitled` verschoben wurden.
+- Ein Screenshot zeigt auf `/Volumes/Untitled` mindestens diese Ordner:
+  - `CloudStation_moved_20260707032751`
+  - `Music_moved_20260707032210`
+- Der Screenshot ist ein plausibler Anker dafuer, dass tatsaechlich Daten auf `Untitled` zwischengelagert wurden.
+- Der urspruengliche Zielort der `CloudStation_moved_...`-Daten ist derzeit noch nicht belastbar rekonstruiert.
+- Fuer `Music` existiert ein Restore-Skript; fuer `CloudStation` derzeit nicht.
+
+Gesicherte Chat-Fragmente
+- Der komplette bisherige Chat dieser Sitzung wurde als Text gesichert.
+- Dateien:
+  - `docs/chat-verlauf-2026-07-07.txt`
+  - `docs/chat-verlauf-2026-07-07-korrigiert.txt`
+- Die vom Nutzer nachgereichten Terminal-Reste wurden in diesen Verlauf aufgenommen.
+
+Offene Bruchstellen
+- Was war der exakte Ausgangsfehler der Homebrew-Reparatur vor `brew install gh`?
+- Welche Daten wurden ausser `Music` und `CloudStation` noch nach `Untitled` verschoben?
+- Wohin genau soll `CloudStation_moved_20260707032751` zurueck?
+- Wurde das Verschieben durch ein Skript, manuell oder in mehreren Schritten ausgefuehrt?
+- Gibt es weitere Screenshots, Terminal-Reste oder Finder-Ansichten von gestern und heute Morgen?
+- Gibt es ausserhalb dieses Workspaces noch Chatverlaeufe, Textreste oder Notizen, die wir uebernehmen muessen?
+
+Vorlaeufige Rekonstruktion
+- Es gab vorbereitende Installations- und Reparaturschritte rund um Homebrew und angrenzende Werkzeuge.
+- Wegen Speicher- oder Platzdruck wurden zumindest einige grosse Daten nach `/Volumes/Untitled` ausgelagert.
+- Parallel oder anschliessend wurde an einer Homebrew-Reparatur gearbeitet.
+- `gh` und `go` wurden erfolgreich installiert.
+- Im Homebrew-Tap `homebrew-core` trat anschliessend ein Git-Referenzfehler beim `--unshallow`-Fetch auf.
+- Danach blieb der Zustand unvollstaendig rekonstruiert und musste aus Resten neu zusammengesetzt werden.
+
+Naechste Sammelpunkte
+- Weitere Terminal-Reste direkt hier ergaenzen.
+- Weitere Screenshots inhaltlich beschreiben und hier protokollieren.
+- Ursprungsorte der verschobenen Ordner ermitteln.
+- Vor einer Rueckverschiebung erst den tatsaechlichen Zielpfad pro Ordner absichern.
+
+Leitlinie
+- Erst sichern, dann verstehen, dann handeln.
+- Keine Rueckverschiebung und keine Reparatur auf Verdacht.
+- Jede neue Scherbe kommt zuerst in dieses Protokoll.
+
+Neues Bruchstueck: Setup-, Plattform- und Amnesie-Text
+- Rohtext separat gesichert in `docs/bruchstueck-setup-und-amnesie-2026-07-07.txt`.
+- Das Fragment enthaelt eine ausfuehrliche Plattform- und Setup-Erzaehlung zu MacBook Pro, iPad und iPhone.
+- Es enthaelt mehrere gestufte Setup-Vorschlaege: Checkliste, Mac-Setup-Plan, automatisiertes Setup, erweitertes Setup, Ultimate-, Ultimate-Plus- und Ultimate-Enterprise-Skripte.
+- Es enthaelt ausserdem eine persoenliche Anleitung fuer den Start mit `InitialSetup.md` in einem leeren Projektordner.
+- Als neuer starker Anker erscheint darin eine explizite Amnesie-Schilderung:
+  - Verlust von Erinnerung an Ereignishorizont, Tests, Analysen, Vorhaben und Durchfuehrungen.
+  - Kein Verstaendnis mehr, warum auf `Untitled` zwei Ordner angelegt wurden, um Platz fuer die Homebrew-Reparatur zu schaffen.
+  - Es habe ein Skript gegeben, das ausgelagerte Dateien wieder an ihren urspruenglichen Platz zuruecklegt.
+- Das Fragment bestaetigt auch den bereits gesicherten Wunsch nach flexiblem Wiedereinstieg ueber andere Zugangswege.
+
+Bewertung dieses Bruchstuecks
+- Der Rohtext ist als Quelle gesichert, aber noch nicht in allen technischen Aussagen verifiziert.
+- Besonders wertvoll sind die expliziten Selbstbeschreibungen der verlorenen Ankerpunkte und der Bezug auf die zwei Ordner auf `Untitled`.
+- Die vielen Setup-Skripte sind vorerst als Kontextmaterial und nicht als belastbar ausgefuehrte Schritte zu behandeln.
+
+Neue offene Bruchstellen aus diesem Fragment
+- Welche der im Fragment beschriebenen Setup-Skripte wurden tatsaechlich nur vorgeschlagen, und welche wurden wirklich ausgefuehrt?
+- Woher stammt der persoenlich formulierte Abschnitt `Claude Setup und Start` genau?
+- Auf welche konkrete Datei oder welches Skript bezieht sich die Erinnerung, dass ausgelagerte Dateien wieder an ihre Ursprungsorte zurueckgelegt werden koennen?
+
+Neues Bruchstueck: Account-, Memory- und Homebrew-Faden
+- Rohtext separat gesichert in `docs/bruchstueck-account-memory-und-homebrew-faden-2026-07-07.txt`.
+- Das Fragment formuliert explizit die Befuerchtung, dass der Faden beim Wechsel von VS Code zu Claude verloren geht, obwohl derselbe Account genutzt wird.
+- Zentraler Erklaerungsanker des Fragments:
+  - Kein automatisches Gedaechtnis zwischen Claude im Chat/App und Claude Code in VS Code.
+  - Gleicher Account bedeutet nicht automatisch gemeinsamer Gespraechsverlauf.
+  - VS-Code-/Claude-Code-Verlaeufe sind als eigene Session- oder Projektkontexte zu verstehen.
+- Das Fragment nennt drei praktische Wege zur Wiederaufnahme:
+  - Memory fuer kuenftige Chats aktivieren.
+  - Alten Verlauf manuell in den neuen Kanal uebertragen.
+  - Den Stand kurz zusammenfassen und von dort neu aufbauen.
+
+Bewertung dieses Bruchstuecks
+- Dieses Fragment liefert keinen neuen technischen Homebrew-Schritt, aber einen wichtigen Meta-Anker fuer die Rekonstruktion des Fadenverlusts.
+- Es bestaetigt, dass der eigentliche Bruch nicht primaer ein Login- oder Accountproblem ist, sondern ein Kontext- und Sessionproblem zwischen unterschiedlichen Werkzeugen.
+- Fuer unser Scherben-Gericht ist das wichtig, weil es erklaert, warum trotz identischem Account kein automatischer Ruecksprung an den Homebrew-Stand moeglich war.
+
+Neue offene Bruchstellen aus diesem Fragment
+- Gab es in der urspruenglichen VS-Code-Session noch lokale Verlaufsdaten, die ausserhalb des aktuellen Workspaces gespeichert wurden?
+- Wurde die Memory-Funktion in einem der beteiligten Werkzeuge jemals aktiviert oder blieb sie durchgehend aus?
+- Welche Teile des verlorenen Homebrew-Fadens wurden nur deshalb rekonstruiert, weil der Nutzer Terminal-Reste und Screenshots nachgereicht hat?
+
+Neue feste Leitplanke gegen erneuten Fadenverlust
+- Zentrale Arbeitsordnung angelegt: `docs/faden-sicherung-und-versionsdisziplin.txt`.
+- Diese Datei definiert verbindliche Pflichtablaeufe fuer Sitzungsbeginn, laufende Arbeit, Sitzungsende, Werkzeugwechsel und Versionsdisziplin.
+- Ziel: Erinnerungen, Versionsschritte, Wiederherstellungswege und Handoffs duerfen nie wieder nur implizit oder nur im Chat existieren.
+
+Heute verifizierter Ist-Stand (operativer Check)
+- Homebrew-Core-Status:
+  - `refs/remotes/origin/main` ist aufloesbar und zeigt auf `50102a5ff77bc17f57c746e27afaa5f2f6c49699`.
+  - `homebrew-core` ist nicht mehr shallow (`rev-parse --is-shallow-repository` => `false`).
+  - `brew update` lief erfolgreich durch; der vorherige Referenzfehler konnte im aktuellen Stand nicht reproduziert werden.
+- Relevante Untitled-Ordner (nach Nutzerpraezisierung):
+  - Nur `CloudStation_moved_20260707032751` und `Music_moved_20260707032210` sind fuer die Rueckordnung relevant.
+  - `CloudStation_moved_20260707032751` ist leer (0 Eintraege; nur Dateisystem-Overhead sichtbar).
+  - `Music_moved_20260707032210` enthaelt strukturierte Inhalte und entspricht auf Top-Level dem aktiven `~/Music`.
+- Aktive Zielpfade:
+  - `~/Music` und `~/CloudStation` sind normale Ordner (keine Symlinks).
+
+Folgerung fuer den naechsten Schritt
+- Das akute Homebrew-Problem ist derzeit nicht mehr blockierend.
+- Die verbleibende operative Aufgabe ist Datenhygiene und Rueckordnungsentscheidung auf Basis von Inhaltsvergleich, insbesondere fuer `Music_moved_20260707032210`.
+
+Heute verifizierter Teilabgleich Music
+- Schnellvergleich der Dateimengen:
+  - `Music_moved_20260707032210`: 39129 Dateien
+  - `~/Music`: 49810 Dateien
+- Interpretation:
+  - `~/Music` enthaelt deutlich mehr Dateien als der ausgelagerte Ordner auf `Untitled`.
+  - Damit ist `Music_moved_20260707032210` sehr wahrscheinlich kein vollstaendiges Duplikat des aktuellen `~/Music`, sondern ein aelterer oder unvollstaendiger Zwischenstand.
+- Sicherheitsentscheidung:
+  - `Music_moved_20260707032210` darf derzeit nicht pauschal geloescht werden.
+  - Vor einer Bereinigung ist ein vollstaendiger, laufzeitintensiver Inhaltsvergleich oder eine archivierende Sicherung erforderlich.
+
+Heute ausgefuehrte Massnahme auf Nutzerwunsch
+- `CloudStation_moved_20260707032751` wurde vor der Loeschung auf Inhalt geprueft (0 Eintraege) und anschliessend geloescht.
+
+Bewertung der 1:1-Annahme zu `Music_moved_20260707032210`
+- Die Annahme "1:1 verschoben, ohne Ueberschneidungen direkt rueckfuegbar" ist im aktuellen Zustand nicht belastbar.
+- Beleg: Dateimenge im aktiven `~/Music` ist deutlich groesser als im ausgelagerten `Music_moved_...`.
+- Daraus folgt: `Music_moved_...` ist eher Teilmenge/aelterer Stand als exakter Komplettzustand.
+
+Archivierungsstand `Music_moved`
+- Mehrere Tar-basierte Archivlaeufe wurden mit Shell-Abbruechen (`Exit 130`) und Tar-Konflikt (`Can't add archive to itself`) beendet.
+- Robuste Sofortloesung umgesetzt: Der bestehende Ordner wurde als Sicherungsstand eindeutig markiert durch Umbenennung nach
+  ` /Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP `.
+- Dadurch bleibt der ausgelagerte Datenstand unveraendert erhalten und wird nicht versehentlich als aktiver Arbeitsordner verwendet.
+
+Safe-Merge-Versuch (nur fehlende Inhalte, ohne Ueberschreiben)
+- Geplanter Merge per `rsync -a --ignore-existing` wurde ausgefuehrt und geloggt in
+  `docs/music-merge-applied-2026-07-07.log`.
+- Log-Analyse:
+  - Keine uebertragenen regulaeren Dateien (`>f`-Eintraege: 0).
+  - Viele Verzeichnis-/Link-Metadateneintraege (`.d...` und `.L...`).
+- Schlussfolgerung:
+  - Es wurden keine klaren neuen Nutzdateien aus dem Archivstand nach `~/Music` uebernommen.
+  - Der Archivordner bleibt als Referenz erhalten; eine automatische 1:1-Rueckfuehrung ist weiterhin nicht belastbar.
+
+Abschlussstand heute
+- Homebrew ist im aktuellen Zustand entstoert:
+  - `brew update` erfolgreich.
+  - `homebrew-core` nicht shallow.
+  - Der fruehere Ref-Fehler (`incorrect old value provided`) derzeit nicht reproduzierbar.
+- Untitled-Aufraeumstatus:
+  - `CloudStation_moved_20260707032751` war leer und wurde geloescht.
+  - `Music_moved_20260707032210` wurde als unveraenderter Sicherungsstand umbenannt nach
+    `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP`.
+- Operative Entscheidung:
+  - Keine weitere automatische Rueckverschiebung fuer Music ohne zusaetzliche fachliche Kriterien.
+  - Der aktuelle Zustand ist stabil, nachvollziehbar dokumentiert und fuer den Wiedereinstieg verankert.
+
+Neuer technischer Befund: Symlink-Schleifen in `~/Music`
+- Der zuvor beobachtete Exitcode-1-Fehler wurde technisch eingegrenzt:
+  - Ursache war nicht der Terminalprozess selbst, sondern ein Laufzeitfehler bei Symlink-Aufloesung in `~/Music` (`Too many levels of symbolic links`).
+- Erstdiagnose nach vorheriger Teilbereinigung:
+  - `SYMLINK_FILES=4241`
+  - `LOOP_SYMLINKS=168`
+  - `BROKEN_SYMLINKS=3930`
+  - `RESOLVED_TO_EXISTING=143`
+- Quellen:
+  - `docs/music-symlink-classification-2026-07-07.txt`
+  - `docs/music-loop-symlinks-full-2026-07-07.txt`
+  - `docs/music-broken-symlinks-full-2026-07-07.txt`
+
+Heute ausgefuehrte sichere Teilreparatur
+- Es wurden ausschliesslich eindeutig zirkulaere Symlinks entfernt (keine regulaeren Dateien, keine Verzeichnisse, keine nicht-zirkularen defekten Links):
+  - Entfernt: `168` Loop-Symlinks
+  - Log: `docs/music-loop-symlinks-removed-2026-07-07.log`
+- Verifikation danach:
+  - `SYMLINK_TOTAL_NOW=4073`
+  - `LOOP_COUNT_NOW=0`
+  - `BROKEN_COUNT_NOW=3930`
+  - `RESOLVED_COUNT_NOW=143`
+
+Folgerung fuer den naechsten Schritt
+- Der Exitcode-1-Ausloeser durch echte Symlink-Schleifen ist beseitigt.
+- Es bleiben viele nicht-zirkulaere, aber defekte Symlinks (`BROKEN_COUNT_NOW=3930`), die separat fachlich bewertet werden muessen (z. B. gezielte Rueckkopie fehlender Quellen aus dem Archivstand).
+
+Neuer Befund: Reparierbarkeit der verbleibenden defekten Symlinks
+- Es wurde geprueft, ob die `3930` defekten Symlinks durch gleichnamige regulaere Dateien aus
+  `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP` ersetzbar sind (gleicher relativer Pfad).
+- Ergebnis:
+  - `REPAIRABLE_FROM_ARCHIVE_REGULAR=0`
+  - `NOT_REPAIRABLE_BY_SAME_RELATIVE_PATH=3930`
+- Quellen:
+  - `docs/music-broken-symlink-repair-candidates-2026-07-07.txt`
+  - `docs/music-broken-symlink-repairable-from-archive-2026-07-07.txt`
+
+Folgerung
+- Ein einfacher „ersetze defekten Link durch Datei am selben relativen Archivpfad“-Restore ist fuer die verbleibenden defekten Symlinks nicht moeglich.
+- Fuer funktionale Wiederherstellung ist nun ein zielgerichteter Import ueber fachlich valide Quellen (z. B. Apple-Music-/iTunes-Originalspeicherorte oder gezielte Neu-Synchronisation) erforderlich.
+
+Neuer Befund: Zielcluster der verbleibenden defekten Symlinks
+- Clusteranalyse der `3930` defekten Symlinks zeigt:
+  - `inside_/Volumes=3899`
+  - `inside_~/Music=31`
+  - alle Ziele sind absolute Pfade (`TARGET_KIND_ABSOLUTE=3930`).
+- Hauptmuster:
+  - Der dominante Altpfad ist `/Volumes/music/...`.
+  - Ein kleiner Rest zeigt auf iPad-Backup-Pfade unter `/Volumes/Datensicherung/...`.
+- Quelle:
+  - `docs/music-broken-symlink-target-clusters-2026-07-07.txt`
+
+Sichere Mini-Reparatur auf Basis des Cluster-Befunds
+- Regel: Nur dann remappen (`/Volumes/music` -> `~/Music`), wenn
+  - das neue Ziel bereits existiert,
+  - und kein Selbst-Link entsteht.
+- Ergebnis:
+  - `APPLIED=2`
+  - Log: `docs/music-remap-volumes-music-safe-applied-2026-07-07.log`
+- Nachkontrolle:
+  - `SYMLINK_TOTAL_NOW=4073`
+  - `LOOP_COUNT_NOW=0`
+  - `BROKEN_COUNT_NOW=3928`
+
+Zusatzbefund zur Archiv-Nutzbarkeit fuer `/Volumes/music`-Ziele
+- Gegenprobe fuer Ziele unter `/Volumes/music` gegen
+  `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP`:
+  - `archive_missing=3796`
+  - damit keine belastbare Archivquelle fuer den dominanten Broken-Link-Block.
+- Quelle:
+  - `docs/music-volumes-music-targets-vs-archive-2026-07-07.txt`
+
+Naechster sinnvoller Schritt umgesetzt: Batch-Plan der verbleibenden Broken-Symlinks
+- Aktueller Reststand: `BROKEN_TOTAL=3928`.
+
+Update (2026-07-07, spaete Nacht): mdfind-Rekonstruktion fuer offene Restfaelle
+- Ausgangslage vor diesem Schritt:
+  - `WAIT_SOURCE_ORIGINAL` offen als Symlink: `39` Faelle.
+  - Davon bisherige sichere Quelle nicht direkt verfuegbar (`/Volumes/music`-Pfadvarianten weiterhin fehlend).
+- Neue Methode:
+  - Spotlight-basierte Dateinamenssuche (`mdfind`) ueber die fehlenden Basenames.
+  - Ergebnisdateien:
+    - `docs/music-missing39-mdfind-candidates-2026-07-07.txt`
+    - `docs/music-missing39-mdfind-strong-unique-2026-07-07.tsv`
+- Ergebnis:
+  - `MISSING_INPUT=39`
+  - `STRONG_UNIQUE=1`
+  - `AMBIGUOUS=0`
+  - `NONE=38`
+- Der eine eindeutige Kandidat wurde anschliessend atomar angewendet:
+  - Script: `docs/apply_candidate_tsv.py`
+  - Log: `docs/music-missing39-mdfind-apply-2026-07-07.log`
+  - Apply-Ergebnis: `applied=1`, keine Fehler.
+- Neuer Reststand fuer `WAIT_SOURCE_ORIGINAL`:
+  - `NOW_REGULAR_OR_DIR=46`
+  - `LINK_STILL_SYMLINK=38`
+  - `REM_MISSING_SOURCE=35`
+  - `REM_SOURCE_NOT_REGULAR=3`
+
+Update (2026-07-07, sehr spaet): Fuzzy-Variantenlauf mit streng sicherem Apply
+- Fuer die verbliebenen `38` Faelle wurde ein vorsichtiger Variantenlauf ueber Dateinamen ausgefuehrt
+  (z. B. Wegfall von Suffixen wie " 1" / " 2", nur dateitypgleiche Treffer, nur eindeutige Kandidaten).
+- Artefakte:
+  - `docs/search_remaining38_fuzzy_variants.py`
+  - `docs/music-remaining38-fuzzy-candidates-2026-07-07.txt`
+  - `docs/music-remaining38-fuzzy-strong-unique-2026-07-07.tsv`
+- Suchergebnis:
+  - `PENDING_INPUT=38`
+  - `STRONG_UNIQUE=30`
+  - `AMBIGUOUS=0`
+  - `NONE=8`
+- Anwendung:
+  - `docs/apply_candidate_tsv.py` wurde parametrisiert (`--cand`, `--log`) und mit der neuen Kandidatenliste ausgefuehrt.
+  - Log: `docs/music-remaining38-fuzzy-apply-2026-07-07.log`
+  - Apply-Ergebnis: `applied=30`, keine Fehler.
+- Neuer quantifizierter Reststand (`WAIT_SOURCE_ORIGINAL`):
+  - `NOW_REGULAR_OR_DIR=76`
+  - `LINK_STILL_SYMLINK=8`
+  - `REM_MISSING_SOURCE=5`
+  - `REM_SOURCE_NOT_REGULAR=3`
+
+Finalisierung (2026-07-07, Sitzungsende): Einzelfallentscheidung fuer die letzten 8
+- Restfaelle wurden explizit einzeln klassifiziert und erneut mit engem Varianten-/Spotlight-Lauf geprueft:
+  - `docs/music-remaining8-status-2026-07-07.txt`
+  - `docs/music-remaining8-last-search-2026-07-07.txt`
+- Ergebnis des letzten Suchlaufs:
+  - `INPUT=8`, `STRONG=0`, `UNRESOLVED=5`, `NOT_FILE_SOURCE=3`.
+- Finale Einzelfallentscheidungen dokumentiert in:
+  - `docs/music-remaining8-resolution-decision-2026-07-07.txt`
+- Abschlussbewertung:
+  - Automatisch sicher loesbar im aktuellen Quellenstand: `0`.
+  - Offene Restklasse bleibt: `5` echte Missing-Source-Dateien + `3` Verzeichnis-/Containerfaelle.
+
+Nachtraegliche Bereinigung auf explizite Nutzerfreigabe
+- Folgende Pfade auf `/Volumes/Untitled` wurden final geloescht und unmittelbar verifiziert:
+  - `/Volumes/Untitled/Music_moved_20260707032210.archive.tar.gz`
+  - `/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP`
+  - `/Volumes/Untitled/_archives`
+- Verifikation jeweils: `CONFIRMED_MISSING` nach Loeschlauf.
+- Aufteilung:
+  - `VOLUMES_MUSIC_SELF_IF_REMAP=3710`
+  - `VOLUMES_MUSIC_MAPPED_EXISTS=0`
+  - `VOLUMES_MUSIC_MISSING_IN_HOME=84`
+  - `VOLUMES_DATENSICHERUNG=32`
+  - `INSIDE_HOME_MUSIC=31`
+  - `VOLUMES_OTHER=71`
+- Quelle:
+  - `docs/music-broken-symlink-batch-plan-2026-07-07.txt`
+
+Blocker-Check verifiziert
+- Fuer die dominanten Quellpfade sind die benoetigten Volumes derzeit nicht verfuegbar:
+  - `/Volumes/music` fehlt.
+  - `/Volumes/Datensicherung` fehlt.
+- Folge:
+  - Ohne diese Quellen ist keine weitere substanzielle, datengetriebene Reparatur der verbleibenden Broken-Symlinks moeglich.
+
+Macintosh-HD-only Fortsetzung: konkrete Restore-Auftragsliste erstellt
+- Neu erzeugt:
+  - `docs/music-restore-tasklist-2026-07-07.txt`
+  - `docs/music-restore-jobs-macintosh-hd-only-2026-07-07.tsv`
+- Inhaltlich:
+  - Charge A (wartend auf `/Volumes/music`): `84` konkrete Auftraege.
+  - Charge B (Datensicherung, gesperrt): `32` Auftraege nur dokumentiert, nicht auszufuehren.
+  - Charge C (strukturell blockiert): `3710` Selbst-Link-Faelle beim simplen Remap.
+  - Inside-Home-Audit bestaetigt: `31` defekte interne Links, `SAFE_FIX_CANDIDATES=0`.
+- Ziel:
+  - Bei Verfuegbarkeit der Quelle kann Charge A ohne erneute Analyse direkt in Batches ausgefuehrt werden.
+
+Charge A Ausfuehrung (mit gemountetem `/Volumes/music`) fortgesetzt
+- Stiller Apply-Lauf wurde abgeschlossen (Output-Datei):
+  - `docs/music-restore-charge-a-apply-background-20260707-220251.out`
+- Zugehoeriges Apply-Log:
+  - `docs/music-restore-charge-a-apply-20260707-220251.log`
+- Log-basierte Kennzahlen (Fallback-Zaehlung):
+  - `applied=19`
+  - `missing_source=21`
+  - `not_symlink=15`
+- Aktueller Charge-A-Zustand danach:
+  - `CHARGE_A_TOTAL=84`
+  - `LINK_STILL_SYMLINK=50`
+  - `NOW_REGULAR_OR_DIR=34`
+  - `NOW_MISSING=0`
+
+Folgerung
+- Charge A ist deutlich vorangekommen (`34` von `84` sind jetzt regulare Ziele).
+- Es verbleiben `50` Symlink-Ziele fuer die naechste Runde; ein Teil davon ist weiterhin quellenabhaengig (`missing_source`).
+
+Neuester Delta-Stand (weitere stabile Teilrunde)
+- In einer kurzen 10er-Runde wurden weitere `2` Symlink-Ziele erfolgreich in regulaere Dateien umgewandelt.
+- Aktueller Zustand der Charge-A-Ziele:
+  - `CHARGE_A_TOTAL=84`
+  - `LINK_STILL_SYMLINK=39`
+  - `NOW_REGULAR_OR_DIR=45`
+  - `NOW_MISSING=0`
+
+Abschlussstand Charge A (stabil, keine weiteren sicheren Ersetzungen in dieser Quelle)
+- Finaler Automatiklauf bis zum Stillstand ausgefuehrt; Bericht:
+  - `docs/music-restore-final-report-20260707-221854.txt`
+- Ergebnis:
+  - `CHARGE_A_TOTAL=84`
+  - `NOW_REGULAR_OR_DIR=45`
+  - `LINK_STILL_SYMLINK=39`
+  - `NOW_MISSING=0`
+  - `TOTAL_APPLIED_THIS_RUN=0`
+- Restgruende der verbleibenden `39` Symlink-Ziele:
+  - `REM_MISSING_SOURCE=36`
+  - `REM_SOURCE_NOT_REGULAR=3`
+  - `REM_OTHER=0`

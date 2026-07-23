@@ -1,0 +1,29 @@
+START=2026-07-07T23:36:47.514443
+ROOTS=/Volumes/music,/Volumes/Datensicherung
+SCANNED_DIRS=46698
+SCANNED_FILES=339566
+
+TITLE=Dickes Ende
+HITS=1
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Gerhard Gundermann/Einsame Spitze/Dickes Ende.m4a
+
+TITLE=Sleep Like a Baby Tonight
+HITS=0
+
+TITLE=Katzen bei Nacht
+HITS=2
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht.m4p
+  EXACT	/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+
+TITLE=Ueber sieben Bruecken
+HITS=9
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Karat/Das Beste der DDR_ Die Karat-Hits/Über sieben Brücken mußt du gehen.m4a
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Karat/Das Beste der DDR_ Die Karat-Hits/Über sieben Brücken mußt du gehen 1.m4a
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Karat/Das Beste der DDR_ Die Karat-Hits/Über sieben Brücken mußt du gehen 2.m4a
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Karat/Das Beste der DDR_ Die Karat-Hits/Über sieben Brücken 1.m4a
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Music/Karat/Das Beste der DDR_ Die Karat-Hits/Über sieben Brücken.m4a
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Vierzehn Karat/02 Über sieben Brücken musst du gehn.m4p
+  EXACT	/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n.m4p
+  TOKEN	/Volumes/music/iTunes/iTunes Media/Apple Music/Karat/Über sieben Brücken/11 Über sieben Brücken musst du geh'n.m4p
+

@@ -1,0 +1,249 @@
+Broken Symlink Target Cluster Report
+Stand: 2026-07-07T21:20:48.482876
+MUSIC=/Users/volkertippmann/Music
+
+BROKEN_TOTAL=3930
+TARGET_KIND_ABSOLUTE=3930
+TARGET_KIND_RELATIVE=0
+
+SCOPE_COUNTS:
+inside_/Volumes=3899
+inside_~/Music=31
+
+TOP_PREFIXES_INSIDE_MUSIC (first 50):
+27	Audio Music Apps/Databases/Tags
+4	iTunes/iTunes Media/Audiobooks
+
+TOP_EXTENSIONS (first 30):
+2195	.m4a
+1032	.mp3
+245	<no_ext>
+178	.m4v
+129	.mp4
+95	.m4p
+27	.tagset
+7	.avi
+4	. 2
+4	.jpg
+1	. 59 [disc 2]
+1	.02
+1	. napster interview]
+1	. vol 1
+1	. ii
+1	.northeast
+1	.t_
+1	. this is your house
+1	.pdf
+1	. 1
+1	. und jetzt kommen sie!
+1	. freshlyground} - single
+1	. 2 (deluxe edition)
+1	.mpg
+
+TOP_TARGET_BASENAMES (first 50):
+27	61756678-62706173-6170706c.tagset
+4	09
+4	12
+3	03
+3	01
+3	02
+3	00
+3	08
+2	Have Yourself A Merry Little Christmas 1.m4a
+2	Christmas Lights 1.m4a
+2	Unknown Album
+2	Maybe.m4v
+2	Supertramp (Live 1997)
+2	Two Way Street [Official Video].mp4
+2	Geronimo.m4v
+2	Wide Awake.mp4
+2	Last Christmas 1.m4a
+2	My Only Wish (This Year) 1.m4a
+2	05 Eve 1.m4a
+2	Winter Wonderland 1.m4a
+2	I m not in love 4.mp4
+2	Der Weg.m4v
+2	Auf Butterfahrt.mp3
+2	Auf dem Blues-Festival.mp3
+2	AlbumArt_Small.jpg
+2	AlbumArt_Large.jpg
+2	D78427145914A084
+2	04
+2	10
+2	11
+1	14445c69ff9d6cac32e5b8e4ce13bcf25201d433
+1	Tones
+1	Oonagh
+1	Paul Carrack
+1	Amy Shark
+1	Stern Combo Meißen2
+1	Tommy Finke
+1	The World & Band
+1	Band
+1	Bhushan Dua
+1	Bruce Springsteen1
+1	Fiva & Das Phantom Orchester
+1	Aurora Lacasa
+1	Psychedelic Furs
+1	Mary Hopkin
+1	Bachman-Turner Overdrive
+1	Vanessa Amorosi
+1	Broken English
+1	KenFM
+1	The Naked And Famous
+
+SAMPLES_BY_SCOPE:
+
+[inside_~/Music]
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c736866-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-67726571-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68706173-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-6d73796e-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-706d6571-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68736866-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72616163-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64656c79-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c706173-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72766232-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6166706c-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e757470-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-746d7074-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d726576-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6e726376-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64636d70-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c6d7472-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e626571-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-73616d70-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d636d70-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e736e64-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-646c7320-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64697374-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-73646c79-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-66696c74-6170706c.tagset
+  raw_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  resolved_target=/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+
+[inside_/Volumes]
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+  raw_target=/Volumes/Datensicherung/Backup iPad/Backup/87694ed55e754d4477249041d0a0dc608f551dd0/14/14445c69ff9d6cac32e5b8e4ce13bcf25201d433
+  resolved_target=/Volumes/Datensicherung/Backup iPad/Backup/87694ed55e754d4477249041d0a0dc608f551dd0/14/14445c69ff9d6cac32e5b8e4ce13bcf25201d433
+/Users/volkertippmann/Music/iTunes/iTunes Media/Tones
+  raw_target=/Volumes/music/iTunes/iTunes Media/Tones
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Tones
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Oonagh
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Oonagh
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Oonagh
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Carrack
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Paul Carrack
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Paul Carrack
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Amy Shark
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Amy Shark
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Amy Shark
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stern Combo Meißen2
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Stern Combo Meißen2
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Stern Combo Meißen2
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tommy Finke
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Tommy Finke
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Tommy Finke
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The World & Band
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/The World & Band
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/The World & Band
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Band
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Band
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Band
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bhushan Dua
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Bhushan Dua
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Bhushan Dua
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bruce Springsteen1
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Bruce Springsteen1
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Bruce Springsteen1
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Fiva & Das Phantom Orchester
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Fiva & Das Phantom Orchester
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Fiva & Das Phantom Orchester
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Aurora Lacasa
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Aurora Lacasa
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Aurora Lacasa
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Psychedelic Furs
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Psychedelic Furs
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Psychedelic Furs
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Mary Hopkin
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Mary Hopkin
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Mary Hopkin
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bachman-Turner Overdrive
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Bachman-Turner Overdrive
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Bachman-Turner Overdrive
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Vanessa Amorosi
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Vanessa Amorosi
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Vanessa Amorosi
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Broken English
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Broken English
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Broken English
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/KenFM
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/KenFM
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/KenFM
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Naked And Famous
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/The Naked And Famous
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/The Naked And Famous
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/B-52's
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/B-52's
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/B-52's
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD4/12 At The Edge.mp3
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD4/12 At The Edge.mp3
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD4/12 At The Edge.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD3/05 Nobody's Hero.mp3
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD3/05 Nobody's Hero.mp3
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD3/05 Nobody's Hero.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Moti Special/Cold Days, Hot Nights/11 Cold Days, Hot Nights 1.m4a
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/Moti Special/Cold Days, Hot Nights/11 Cold Days, Hot Nights 1.m4a
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/Moti Special/Cold Days, Hot Nights/11 Cold Days, Hot Nights 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Dreams - The Ultimate Corrs Collection (Deluxe Version)
+  raw_target=/Volumes/music/iTunes/iTunes Media/Music/The Corrs/Dreams - The Ultimate Corrs Collection (Deluxe Version)
+  resolved_target=/Volumes/music/iTunes/iTunes Media/Music/The Corrs/Dreams - The Ultimate Corrs Collection (Deluxe Version)

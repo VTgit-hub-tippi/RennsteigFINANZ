@@ -1,0 +1,411 @@
+Music Symlink Loop Report
+Stand: 2026-07-07T21:14:30.620150
+Root: /Users/volkertippmann/Music
+
+SYMLINK_FILES=6068
+LOOP_COUNT=5925
+DIRECT_SELF_LINKS=1827
+
+Beispiele LOOPS (erste 200):
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c736866-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-67726571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-6d73796e-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-706d6571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68736866-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72616163-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64656c79-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72766232-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6166706c-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e757470-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-746d7074-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d726576-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6e726376-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64636d70-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c6d7472-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e626571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-73616d70-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d636d70-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e736e64-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-646c7320-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64697374-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-73646c79-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-66696c74-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-74747370-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-726f6772-6170706c.tagset
+/Users/volkertippmann/Music/iTunes/iTunes Media/Tones
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Oonagh
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Carrack
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Amy Shark
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stern Combo Meißen2
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tommy Finke
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The World & Band
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Band
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bhushan Dua
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bruce Springsteen1
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Fiva & Das Phantom Orchester
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Aurora Lacasa
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Psychedelic Furs
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Mary Hopkin
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bachman-Turner Overdrive
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Vanessa Amorosi
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Broken English
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/KenFM
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Naked And Famous
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/B-52's
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD4/12 At The Edge.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Stiff Little Fingers/120 Original Rock-Hits - CD3/05 Nobody's Hero.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Moti Special/Cold Days, Hot Nights/11 Cold Days, Hot Nights 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Dreams - The Ultimate Corrs Collection (Deluxe Version)
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Amour [Disc 1]
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/The Corrs_Unplugged
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Highlands/03 Runaway 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Unknown Album/Old Town 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Unknown Album/I Never Loved You Anyway 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Unknown Album/Forgiven Not Forgotten 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Borrowed Heaven/01 Summer Sunshine 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/1-04 What Can I Do 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/Dreams [Official Video].mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/02 So Young 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/03 Dreams [Official Video] 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Talk On Corners/So Young.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/Unplugged/Radio 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Corrs/In Blue/01 Breathless 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Gibson Brothers/Greatest Hits/QUE SERA MI VIDA.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Gibson Brothers/Greatest Hits/16 Cuba 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Madcon/So Dark the Con Of Man/1-01 Beggin'.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Graig David ft Sting/Unknown Album/Rise and Fall (HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Graig David ft Sting/Rise and Fall (HD)/Rise and Fall (HD) 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Fehlfarben/Monarchie und Alltag/08 Ein Jahr (Es geht voran) 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Fehlfarben/Monarchie und Alltag/08 Es geht voran 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/ZUCCHERO FEAT. PAUL YOUNG/Blue's/07 SENZA UNA DONNA (WITHOUT A WOMAN 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/The Dome Vol. 59 [Disc 2]
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/1000 KM bis zum Meer
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/Carousel/Atemlos 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/So laut ich kann/Vergessen zu vergessen.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/So laut ich kann/08 Vergessen zu vergessen 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/So laut ich kann/Leb Deine Träume.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Luxuslärm/So laut ich kann/10 Leb Deine Träume 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/14 In Einem Kühlen Grunde 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/06 Liebling Mein Herz Läßt Dich Grüßen 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/12 Hallo, Was Machst Du Heut Daisy 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/09 Kannst Du Pfeifen Johanna 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/15 Irgendwo Auf Der Welt 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/13 Gitarren Spielt Auf
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/07 Puppenhochzeit 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/08 Der Onkel Bumba Aus Kalumba 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/02 Ich Hab Für Dich 'n Blumentopf Bestellt 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/16 Ein Freund Ein Guter Freund 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/01 Wochenend Und Sonnenschein 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/18 Maskenball Im Gänsestall 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/11 Menuett 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/05 Veronika Der Lenz Ist Da 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/21 In Stiller Nacht 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/04 Mein Lieber Schatz Bist Du Aus Spanien 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/10 In Der Bar Zum Krokodil 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/17 Mein Kleiner Grüner Kaktus 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/19 Schöne Isabella Von Kastilien 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/03 Ein Bißchen Leichtsinn Kann Nicht Schaden 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Meininger Comedian Harmonists/Ein Bisschen Leichtsinn Kann Nicht Schaden/20 Auf Wiedersehn Leb Wohl 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/The Icicle Melts 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Ode To my Family.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/1-04 Zombie 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Twenty One 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Ridiculous Thoughts 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Zombie.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Ode to My Family.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/1-01 Ode To my Family 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/I Can't Be With You 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Disappointment 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Daffodil Lament 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Dreaming My Dreams 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Everything I Said 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Disappointment 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Dreaming My Dreams 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Daffodil Lament 3.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Everything I Said 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Empty 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/No Need To Argue/Empty 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/Everybody Else is Doing It, So Why Can_t We_/1-02 Dreams 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/Everybody Else Is Doing It, So Why Can't We_/Put Me Down 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/The Cranberries/Everybody Else Is Doing It, So Why Can't We_/Sunday 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Harry Belafonte & Miriam Makeba/An Evening With Belafonte_Makeba/09 My Angel (Malaika) 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U96/Das Boot/01 Das Boot.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Kalkbrenner/Berlin Calling/Sky and Sand 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Kalkbrenner/Berlin Calling/Aaron 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Kalkbrenner/Berlin Calling/Square 1 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Kalkbrenner/Berlin Calling/Altes Kamuffel (Special Berlin Calling edit) 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Paul Kalkbrenner/Berlin Calling/Bengang 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Leona Lewis/Happy - EP/08 Happy 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Meredith Brooks/120 Original Rock-Hits - CD5/10 Bitch.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Madonna and Nicki Minaj/Mnda/Give Me All Your Luvin.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Chad Kroeger/Hero/01 Hero.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tic Tac Toe/Tic Tac Toe/1-04 Verpiss' Dich (single mix).m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tic Tac Toe/Tic Tac Toe/1-04 Verpiß' dich.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tic Tac Toe/Ist der Ruf erst ruiniert.._/11 Ich liebe dich 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tic Tac Toe/Klappe die 2te/1-04 Verpiß' dich 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Justin Bieber/Under The Mistletoe/All I Want For Christmas Is You Duet With Mariah Carey 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Alabama Shakers/Classic Airwaves/videoplayback-13 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Alabama Shakers/Classic Airwaves/Classic Airwaves.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Foreigner/120 Original Rock-Hits - CD2/04 Juke Box Hero.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Foreigner/4/1-06 Urgent 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tino Eisbrenner/Die kleinen Mädchen
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Tino Eisbrenner/Unknown Album/Kleine Mädchen 1987.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Spirits Having Flown/02 Too Much Heaven 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Cucumber Castle/12 Don't Forget To Remember 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Horizontal/07 Massachusetts 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Horizontal/01 World 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Main Course/01 Nights On Broadway 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/10 Run To Me 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/15 More Than A Woman 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/11 Jive Talkin' 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/14 How Deep Is Your Love 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/13 You Should Be Dancing 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/19 Tragedy 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/17 Night Fever 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/16 Stayin' Alive 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/01 Ordinary Lives 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/One/05 Words 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Bee Gees' 1st/08 New York Mining Disaster 1941 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/Bee Gees' 1st/10 To Love Somebody 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Bee Gees/E-S-P/02 You Win Again 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Buzzcocks/120 Original Rock-Hits - CD4/13 Promises.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Buzzcocks/120 Original Rock-Hits - CD3/03 What Do I Get.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Deutsche Patryhits/Pump ab das Bier.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Neppomuk_s Rache/Einer geht um die Welt.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/EAV/04 Die Ufos kommen.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/The Grätest Hitz/01 Küss die Hand, schöne Frau 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/EAV - Apres Ski - Hits 2000/03 Ballermann Hymne 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/EAV - Apres Ski - Hits 2000/03 Ballermann Hymne.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Amore XXL/Johny Porno 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Himbeerland/25 Drei schwule Gartenzwerge 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Himbeerland/22 Da-Da-Datenautobahn 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Himbeerland/05 Wirf Die Motorsäge an 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Himbeerland/21 Omama 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Spitalo Fatalo/08 Alpenrap 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Geld oder Leben/14 Es g'winnt a jeder 2.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/The very Best of Erste Allgemeine Verunsicherung/32 Klana Indiana 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/The very Best of Erste Allgemeine Verunsicherung/300 PS 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/The very Best of Erste Allgemeine Verunsicherung/Samurai 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/CD # 022 Hits '86 - Die Deutschen Superhits/HEISSE NÄCHTE IN PALERMO.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/100 jahre eav ihr habt es/Küss die Hand Herr Kerkermeist 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/100 jahre eav ihr habt es/s'Muaterl 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Nie wieder Kunst/Zwirch & Zwabel 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Nie wieder Kunst/08 Edi 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Im Himmel ist die Hölle los!/09 Konkurs 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Im Himmel ist die Hölle los!/14 Möpse 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Liebe, Tod und Teufel/Liebe, Tod und Teufel.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Liebe, Tod und Teufel/09 Auf der Nepperbahn 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/EAV/Liebe, Tod und Teufel/Der Tod 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Emma6/Wie Es Nie War/Wie es nie war.mp4
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Die Orsons/Berlin - Tag & Nacht, Vol. 2
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Hannes Wader/Unknown Album/Es ist an der Zeit.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Hannes Wader/Daß nichts bleibt wie es war/06 Es ist an der Zeit 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Killing Joke/120 Original Rock-Hits - CD4/02 Love Like Blood.mp3
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Reform/Reform_ Die größten Hits/03 Dicke Bohnen 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lucilectric/Süss und Gemein/Liebe Macht Dumm 1.m4a
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lucilectric/Mädchen/Herzlichen Dank 1.m4a
+
+Beispiele DIRECT_SELF_LINKS (erste 200):
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ellie Goulding/Halcyon Days (Deluxe Version)/03 Anything Could Happen.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ellie Goulding/Halcyon Days (Deluxe Version)/03 Anything Could Happen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ellie Goulding/Halcyon Days (Deluxe Version)/03 Anything Could Happen 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ellie Goulding/Halcyon Days (Deluxe Version)/03 Anything Could Happen 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Hardy/Wilde Zeit (Im Osten geboren, Pt. 2) - Single/01 Wilde Zeit (Im Osten geboren, Pt. 2).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Hardy/Wilde Zeit (Im Osten geboren, Pt. 2) - Single/01 Wilde Zeit (Im Osten geboren, Pt. 2).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Corrs/Borrowed Heaven/04 Long Night 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Corrs/Borrowed Heaven/04 Long Night 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Corrs/Borrowed Heaven/04 Long Night.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Corrs/Borrowed Heaven/04 Long Night.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ligabue/Start/06 Certe Donne Brillano.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ligabue/Start/06 Certe Donne Brillano.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Madcon/Don't Worry (feat. Ray Dalton) [Radio Version] - Single/01 Don't Worry (feat. Ray Dalton) [Radio Version] 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Madcon/Don't Worry (feat. Ray Dalton) [Radio Version] - Single/01 Don't Worry (feat. Ray Dalton) [Radio Version] 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Madcon/Don't Worry (feat. Ray Dalton) [Radio Version] - Single/01 Don't Worry (feat. Ray Dalton) [Radio Version].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Madcon/Don't Worry (feat. Ray Dalton) [Radio Version] - Single/01 Don't Worry (feat. Ray Dalton) [Radio Version].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Metallica/Metallica/08 Nothing Else Matters.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Metallica/Metallica/08 Nothing Else Matters.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Zombie.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Zombie.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Zombie 1.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Zombie 1.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Ode to My Family (USA Radio Version).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Cranberries/Unknown Album/Ode to My Family (USA Radio Version).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alessandra Amoroso/10/04 Forza e coraggio.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alessandra Amoroso/10/04 Forza e coraggio.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Enrico Nigiotti/Nonno Hollywood - Single/01 Nonno Hollywood.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Enrico Nigiotti/Nonno Hollywood - Single/01 Nonno Hollywood.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Leona Lewis/Spirit (The Deluxe Edition)/01 Bleeding Love.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Leona Lewis/Spirit (The Deluxe Edition)/01 Bleeding Love.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Leona Lewis/Spirit (The Deluxe Edition)/01 Bleeding Love 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Leona Lewis/Spirit (The Deluxe Edition)/01 Bleeding Love 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Irama/Giovani per sempre/01 La ragazza con il cuore di latta.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Irama/Giovani per sempre/01 La ragazza con il cuore di latta.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn/Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] - Single/01 Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn/Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] - Single/01 Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn/Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] - Single/01 Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn/Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] - Single/01 Ain't Nobody (Loves Me Better) [feat. Jasmine Thompson] 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Crowded House/Woodface/05 Weather with You.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Crowded House/Woodface/05 Weather with You.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Goldstücke_ Juliane Werding/07 Wenn du denkst du denkst dann denkst du nur du denkst.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Goldstücke_ Juliane Werding/07 Wenn du denkst du denkst dann denkst du nur du denkst.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Sehnsucht ist unheilbar/06 Das Würfelspiel 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Sehnsucht ist unheilbar/06 Das Würfelspiel 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Sehnsucht ist unheilbar/06 Das Würfelspiel.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juliane Werding/Sehnsucht ist unheilbar/06 Das Würfelspiel.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Rea Garvey/Neon (Deluxe Edition)/1-03 Kiss Me.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Rea Garvey/Neon (Deluxe Edition)/1-03 Kiss Me.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ben Zucker/Wer sagt das_! Zugabe!/1-11 Mein Berlin.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ben Zucker/Wer sagt das_! Zugabe!/1-11 Mein Berlin.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bell Book & Candle/Hurry Up/08 Rescue Me (Radio Edit).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bell Book & Candle/Hurry Up/08 Rescue Me (Radio Edit).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Neue Helden braucht das Land/06 Obama.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Neue Helden braucht das Land/06 Obama.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Neue Helden braucht das Land/06 Obama 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Neue Helden braucht das Land/06 Obama 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Geld Oder Leben/03 Ba-Ba-Bankueberfall.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/EAV/Geld Oder Leben/03 Ba-Ba-Bankueberfall.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Udo Lindenberg & Das Panikorchester/Feuerland/02 Ich Lieb' Dich Überhaupt Nicht Mehr 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Udo Lindenberg & Das Panikorchester/Feuerland/02 Ich Lieb' Dich Überhaupt Nicht Mehr 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Udo Lindenberg & Das Panikorchester/Feuerland/02 Ich Lieb' Dich Überhaupt Nicht Mehr.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Udo Lindenberg & Das Panikorchester/Feuerland/02 Ich Lieb' Dich Überhaupt Nicht Mehr.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coma_Cose/HYPE AURA/01 GRANATA.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coma_Cose/HYPE AURA/01 GRANATA.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Goldregen/Schwüm - Single/01 Schwüm.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Goldregen/Schwüm - Single/01 Schwüm.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Goldregen/Schwüm - Single/01 Schwüm 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Goldregen/Schwüm - Single/01 Schwüm 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elif/Auf halber Strecke (Akustik Version) - Single/01 Auf halber Strecke (Akustik Version).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elif/Auf halber Strecke (Akustik Version) - Single/01 Auf halber Strecke (Akustik Version).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elif/Auf halber Strecke (Akustik Version) - Single/01 Auf halber Strecke (Akustik Version) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elif/Auf halber Strecke (Akustik Version) - Single/01 Auf halber Strecke (Akustik Version) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Reim (Deluxe Edition) [Remastered]/01 Verdammt, ich lieb dich.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Reim (Deluxe Edition) [Remastered]/01 Verdammt, ich lieb dich.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/06 Asyl im Paradies 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/06 Asyl im Paradies 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/16 Alt wie ein Baum 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/16 Alt wie ein Baum 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/06 Asyl im Paradies.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/06 Asyl im Paradies.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/16 Alt wie ein Baum.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/16 Alt wie ein Baum.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/15 Der blaue Planet.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/15 Der blaue Planet.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/15 Der blaue Planet 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matthias Reim/Phoenix/15 Der blaue Planet 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Oonagh/Oonagh/01 Gäa.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Oonagh/Oonagh/01 Gäa.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Oonagh/Oonagh/01 Gäa 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Oonagh/Oonagh/01 Gäa 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Sailor/Sailor_ Greatest Hits/09 A Glass of Champagne.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Sailor/Sailor_ Greatest Hits/09 A Glass of Champagne.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Puhdys/Live im Friedrichstadtpalast/2-10 Wenn ein Mensch lebt (Live).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Puhdys/Live im Friedrichstadtpalast/2-10 Wenn ein Mensch lebt (Live).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Puhdys/Es war schön (Special Version)/04 Es war schön.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Puhdys/Es war schön (Special Version)/04 Es war schön.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Christina Aguilera/Unknown Album/Candyman.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Christina Aguilera/Unknown Album/Candyman.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Christina Aguilera/Unknown Album/Candyman (Version 3).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Christina Aguilera/Unknown Album/Candyman (Version 3).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elisa/Diari Aperti/04 Anche Fragile.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Elisa/Diari Aperti/04 Anche Fragile.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Giusy Ferreri/Le cose che canto - Single/01 Le cose che canto.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Giusy Ferreri/Le cose che canto - Single/01 Le cose che canto.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The La's/The La's (Remastered) [Bonus Track Version]/05 There She Goes 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The La's/The La's (Remastered) [Bonus Track Version]/05 There She Goes 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The La's/The La's (Remastered) [Bonus Track Version]/05 There She Goes.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The La's/The La's (Remastered) [Bonus Track Version]/05 There She Goes.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Biene & Nickerbocker/Hallo Klaus (I wü zruck zu Dir)/01 Hallo Klaus (I wü zruck zu Dir) [Original '83] [Weibliche Version].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Biene & Nickerbocker/Hallo Klaus (I wü zruck zu Dir)/01 Hallo Klaus (I wü zruck zu Dir) [Original '83] [Weibliche Version].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coez/È sempre bello/02 È sempre bello.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coez/È sempre bello/02 È sempre bello.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coez/È sempre bello/04 Domenica.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coez/È sempre bello/04 Domenica.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/09 Meilenweit.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/09 Meilenweit.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/09 Meilenweit 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/09 Meilenweit 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/05 Worauf wartest du.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/05 Worauf wartest du.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/07 1000 Tage.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/07 1000 Tage.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/07 1000 Tage 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Für alle/07 1000 Tage 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/03 Leb den Tag (Radio Mix).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/03 Leb den Tag (Radio Mix).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/09 Jedesmal.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/09 Jedesmal.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/03 Leb den Tag (Radio Mix) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/03 Leb den Tag (Radio Mix) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/07 Jetzt, hier, immer (Live).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/07 Jetzt, hier, immer (Live).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/18 Die Liebe zum Detail (Live & Akustik @SR1 2007).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/18 Die Liebe zum Detail (Live & Akustik @SR1 2007).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/17 The Invitation (Ich will nur wissen).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Laith Al-Deen/Best of Laith Al-Deen_ 2000-2008 (Audio Version)/17 The Invitation (Ich will nur wissen).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Dr Holzmichl/12 Kaan Staapilz Find Ich Net.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Dr Holzmichl/12 Kaan Staapilz Find Ich Net.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Dr Holzmichl/08 De Spackfettbemm (Live).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Dr Holzmichl/08 De Spackfettbemm (Live).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Winter im Erzgebirge/03 Mei Raachermannl.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Winter im Erzgebirge/03 Mei Raachermannl.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Heja ho, de Randfichten sei do/06 Mei schiene Laadergack.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/De Randfichten/Heja ho, de Randfichten sei do/06 Mei schiene Laadergack.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/A Sky Full of Stars (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/A Sky Full of Stars (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Magic (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Magic (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Hurts Like Heaven (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Hurts Like Heaven (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Life In Technicolor ii (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Life In Technicolor ii (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Viva La Vida.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Viva La Vida.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Paradise (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Paradise (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/A Head Full of Dreams/05 Adventure of a Lifetime 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/A Head Full of Dreams/05 Adventure of a Lifetime 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/A Head Full of Dreams/05 Adventure of a Lifetime.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/A Head Full of Dreams/05 Adventure of a Lifetime.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida (Prospekt's March Edition)/2-01 Life In Technicolor II.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida (Prospekt's March Edition)/2-01 Life In Technicolor II.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida or Death and All His Friends/07 Viva La Vida.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida or Death and All His Friends/07 Viva La Vida.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Ghost Stories/08 A Sky Full of Stars.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Ghost Stories/08 A Sky Full of Stars.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Mylo Xyloto/03 Paradise.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Mylo Xyloto/03 Paradise.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Mylo Xyloto/02 Hurts Like Heaven.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Mylo Xyloto/02 Hurts Like Heaven.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Ein neuer Tag (Deluxe Edition)/01 Dieses Leben.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Ein neuer Tag (Deluxe Edition)/01 Dieses Leben.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Ein neuer Tag (Deluxe Edition)/01 Dieses Leben 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Ein neuer Tag (Deluxe Edition)/01 Dieses Leben 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/03 Geile Zeit 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/03 Geile Zeit 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/06 Perfekte Welle.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/06 Perfekte Welle.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/06 Perfekte Welle 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/06 Perfekte Welle 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/03 Geile Zeit.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Es ist Juli/03 Geile Zeit.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/In Love/08 Du lügst so schön.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/In Love/08 Du lügst so schön.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/In Love/08 Du lügst so schön 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/In Love/08 Du lügst so schön 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Fahrrad - Single/01 Fahrrad.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juli/Fahrrad - Single/01 Fahrrad.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Karat/25 Jahre Karat - Das Konzert/04 Ich liebe jede Stunde (Live).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Karat/25 Jahre Karat - Das Konzert/04 Ich liebe jede Stunde (Live).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gnarls Barkley/St. Elsewhere/02 Crazy.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gnarls Barkley/St. Elsewhere/02 Crazy.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gnarls Barkley/St. Elsewhere/02 Crazy 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gnarls Barkley/St. Elsewhere/02 Crazy 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/30 Jahre Rock'n'Roll - Alle Singles (2007 Remaster)/04 Schickeria (Original) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/30 Jahre Rock'n'Roll - Alle Singles (2007 Remaster)/04 Schickeria (Original) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/30 Jahre Rock'n'Roll - Alle Singles (2007 Remaster)/04 Schickeria (Original).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/30 Jahre Rock'n'Roll - Alle Singles (2007 Remaster)/04 Schickeria (Original).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/Dolce vita/05 Skandal im Sperrbezirk.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Spider Murphy Gang/Dolce vita/05 Skandal im Sperrbezirk.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bronski Beat/The Age of Consent/06 Smalltown Boy.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bronski Beat/The Age of Consent/06 Smalltown Boy.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bronski Beat/The Age of Consent/06 Smalltown Boy 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Bronski Beat/The Age of Consent/06 Smalltown Boy 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Hardy und Heroes/Im Osten geboren - Single/01 Im Osten geboren.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Hardy und Heroes/Im Osten geboren - Single/01 Im Osten geboren.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Unknown Album/Love (1080p HD) (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Unknown Album/Love (1080p HD) (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/West Coast (The Remixes)/03 West Coast (Alle Farben Remix) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/West Coast (The Remixes)/03 West Coast (Alle Farben Remix) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/West Coast (The Remixes)/03 West Coast (Alle Farben Remix).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/West Coast (The Remixes)/03 West Coast (Alle Farben Remix).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Ultraviolence (Special Edition)/04 Brooklyn Baby.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Ultraviolence (Special Edition)/04 Brooklyn Baby.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Ultraviolence (Special Edition)/05 West Coast.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Ultraviolence (Special Edition)/05 West Coast.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Lust for Life/01 Love.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Lana Del Rey/Lust for Life/01 Love.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juanes/Mi Sangre/1-04 La Camisa Negra.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Juanes/Mi Sangre/1-04 La Camisa Negra.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Dirk Zöllner/Ich darf alles/03 Wasweissich.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Dirk Zöllner/Ich darf alles/03 Wasweissich.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Unknown Album/Sommer '89 (Er schnitt Löcher in den Zaun) (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Unknown Album/Sommer '89 (Er schnitt Löcher in den Zaun) (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Unknown Album/Ankunftshalle (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Unknown Album/Ankunftshalle (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Ich vs. Wir/02 Wagenburg.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kettcar/Ich vs. Wir/02 Wagenburg.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt/05 Sagte mal ein Dichter 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt/05 Sagte mal ein Dichter 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt/05 Sagte mal ein Dichter.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt/05 Sagte mal ein Dichter.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt _ Circulus/05 Sagte mal ein Dichter.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Holger Biege/Wenn der Abend kommt _ Circulus/05 Sagte mal ein Dichter.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Scheinizzl/One More - EP/03 Summer Nights (feat. David Lageder) [Radio Mix].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Scheinizzl/One More - EP/03 Summer Nights (feat. David Lageder) [Radio Mix].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LEA & Cyril/Unknown Album/Immer wenn wir uns sehn (_Das schönste Mädchen der Welt_, Soundtrack) (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LEA & Cyril/Unknown Album/Immer wenn wir uns sehn (_Das schönste Mädchen der Welt_, Soundtrack) (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LEA & Cyril/Immer wenn wir uns sehn (aus _Das schönste Mädchen der Welt_ Soundtrack) - Single/01 Immer wenn wir uns sehn (aus _Das schönste Mädchen der Welt_ Soundtrack).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LEA & Cyril/Immer wenn wir uns sehn (aus _Das schönste Mädchen der Welt_ Soundtrack) - Single/01 Immer wenn wir uns sehn (aus _Das schönste Mädchen der Welt_ Soundtrack).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Texas Lightning/Meanwhile, Back At the Golden Ranch/04 No No Never.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Texas Lightning/Meanwhile, Back At the Golden Ranch/04 No No Never.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Texas Lightning/Meanwhile, Back At the Golden Ranch/04 No No Never 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Texas Lightning/Meanwhile, Back At the Golden Ranch/04 No No Never 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexandra Stan/Mr. Saxobeat - Single/02 Mr. Saxobeat (Extended Version).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexandra Stan/Mr. Saxobeat - Single/02 Mr. Saxobeat (Extended Version).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexandra Stan/Mr. Saxobeat - Single/02 Mr. Saxobeat (Extended Version) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexandra Stan/Mr. Saxobeat - Single/02 Mr. Saxobeat (Extended Version) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/10 Islands.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/10 Islands.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/06 To France.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/06 To France.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/06 To France 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mike Oldfield/Elements/06 To France 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Unknown Album/Girls Chase Boys (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Unknown Album/Girls Chase Boys (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Girls and Boys/05 The Way I Am.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Girls and Boys/05 The Way I Am.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Girls and Boys/05 The Way I Am 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Girls and Boys/05 The Way I Am 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Mercy/Girls Chase Boys (1080p HD) (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Mercy/Girls Chase Boys (1080p HD) (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Everybody/02 Everybody.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Everybody/02 Everybody.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Lights Out/12 Afterlife.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Lights Out/12 Afterlife.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Everybody (Digital Version)/02 Everybody.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Everybody (Digital Version)/02 Everybody.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Parachute - Single/Parachute.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ingrid Michaelson/Parachute - Single/Parachute.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Barry Manilow/The Essential Barry Manilow/1-16 Copacabana (At the Copa) [Long Version].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Barry Manilow/The Essential Barry Manilow/1-16 Copacabana (At the Copa) [Long Version].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/Thees Uhlmann/01 Zum Laichen und Sterben ziehen die Lachse den Fluss hinauf.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/Thees Uhlmann/01 Zum Laichen und Sterben ziehen die Lachse den Fluss hinauf.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/Thees Uhlmann (Deluxe Edition)/01 Zum Laichen und Sterben ziehen die Lachse den Fluss hinauf.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/Thees Uhlmann (Deluxe Edition)/01 Zum Laichen und Sterben ziehen die Lachse den Fluss hinauf.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/#2/01 Zugvögel.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Thees Uhlmann/#2/01 Zugvögel.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Duffy/Unknown Album/Mercy (Live at Café de Paris, 2010).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Duffy/Unknown Album/Mercy (Live at Café de Paris, 2010).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Olly Murs/In Case You Didn't Know/01 Heart Skips a Beat (feat. Rizzle Kicks) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Olly Murs/In Case You Didn't Know/01 Heart Skips a Beat (feat. Rizzle Kicks) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Olly Murs/In Case You Didn't Know/01 Heart Skips a Beat (feat. Rizzle Kicks).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Olly Murs/In Case You Didn't Know/01 Heart Skips a Beat (feat. Rizzle Kicks).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Andrew Belle/Black Bear/02 Pieces.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Andrew Belle/Black Bear/02 Pieces.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/City/Das Blut so laut/04 Im Fliederbusch.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/City/Das Blut so laut/04 Im Fliederbusch.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/City/Das Blut so laut/04 Im Fliederbusch 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/City/Das Blut so laut/04 Im Fliederbusch 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Suzanne Vega/Suzanne Vega_ Retrospective - The Best Of/02 Tom's Diner.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Suzanne Vega/Suzanne Vega_ Retrospective - The Best Of/02 Tom's Diner.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jane Birkin & Serge Gainsbourg/Jane Birkin & Serge Gainsbourg/01 Je t'aime moi non plus.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jane Birkin & Serge Gainsbourg/Jane Birkin & Serge Gainsbourg/01 Je t'aime moi non plus.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Sheppard/Bombs Away (Deluxe Version)/01 Geronimo.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Sheppard/Bombs Away (Deluxe Version)/01 Geronimo.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mud/Let's Have a Party - The Best of Mud/09 Oh Boy.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mud/Let's Have a Party - The Best of Mud/09 Oh Boy.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Michael Giacchino/Zoomania (Original Film-Soundtrack)/01 Try Everything.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Michael Giacchino/Zoomania (Original Film-Soundtrack)/01 Try Everything.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whigfield/Unknown Album/Saturday Night.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whigfield/Unknown Album/Saturday Night.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gary Numan/The Pleasure Principle/09 Cars 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gary Numan/The Pleasure Principle/09 Cars 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gary Numan/The Pleasure Principle/09 Cars.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Gary Numan/The Pleasure Principle/09 Cars.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Milli Vanilli_ Greatest Hits/02 Baby Don't Forget My Number.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Milli Vanilli_ Greatest Hits/02 Baby Don't Forget My Number.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Milli Vanilli_ Greatest Hits/02 Baby Don't Forget My Number 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Milli Vanilli_ Greatest Hits/02 Baby Don't Forget My Number 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Girl You Know It's True/Blame It On The Rain.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Milli Vanilli/Girl You Know It's True/Blame It On The Rain.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Querfeldein/10 Pauken.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Querfeldein/10 Pauken.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Querfeldein/02 Auf beiden Beinen.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Querfeldein/02 Auf beiden Beinen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Schau mich nicht so an - Single/01 Schau mich nicht so an.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/LOTTE/Schau mich nicht so an - Single/01 Schau mich nicht so an.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Shawn Mendes/Handwritten (Deluxe)/02 Stitches.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Shawn Mendes/Handwritten (Deluxe)/02 Stitches.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Shawn Mendes/Handwritten (Deluxe)/02 Stitches 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Shawn Mendes/Handwritten (Deluxe)/02 Stitches 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kim Frank/Hellblau/01 Lara.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Kim Frank/Hellblau/01 Lara.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Better Tomorrow (Acoustic) - Single/02 Better Tomorrow.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Better Tomorrow (Acoustic) - Single/02 Better Tomorrow.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/01 Catch & Release (Deepend Remix) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/01 Catch & Release (Deepend Remix) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/02 Catch & Release (Deepend Remix) [Extended Version].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/02 Catch & Release (Deepend Remix) [Extended Version].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/01 Catch & Release (Deepend remix).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Matt Simons/Catch & Release (Deepend Remix) - Single/01 Catch & Release (Deepend remix).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Zwei von Millionen/Zwei von Millionen/03 Auf deine Freiheit.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Zwei von Millionen/Zwei von Millionen/03 Auf deine Freiheit.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Zwei von Millionen/Zwei von Millionen/03 Auf deine Freiheit 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Zwei von Millionen/Zwei von Millionen/03 Auf deine Freiheit 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Anna Loos & Johannes Oerding/Unknown Album/Das alles geht hier (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Anna Loos & Johannes Oerding/Unknown Album/Das alles geht hier (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Anna Loos & Johannes Oerding/Das alles geht hier - Single/01 Das alles geht hier.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Anna Loos & Johannes Oerding/Das alles geht hier - Single/01 Das alles geht hier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mahmood/Gioventù bruciata/01 Soldi.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Mahmood/Gioventù bruciata/01 Soldi.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/GLORIA/Geister/10 Haut.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/GLORIA/Geister/10 Haut.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Echt/Freischwimmer/12 Sag mal weinst du 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Echt/Freischwimmer/12 Sag mal weinst du 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Echt/Freischwimmer/12 Sag Mal Weinst Du.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Echt/Freischwimmer/12 Sag Mal Weinst Du.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Nathalie Cardone/Unknown Album/Hasta Siempre (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Nathalie Cardone/Unknown Album/Hasta Siempre (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Capital Cities/Unknown Album/Safe and Sound (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Capital Cities/Unknown Album/Safe and Sound (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Marco Mengoni/Atlantico/02 Hola (I Say) [feat. Tom Walker].m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Marco Mengoni/Atlantico/02 Hola (I Say) [feat. Tom Walker].m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Angelique Kidjo/Djin Djin/04 Salala (feat. Peter Gabriel).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Angelique Kidjo/Djin Djin/04 Salala (feat. Peter Gabriel).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Brooke Fraser/Flags (Deluxe Version)/01 Something In the Water.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Brooke Fraser/Flags (Deluxe Version)/01 Something In the Water.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jennifer Lopez/LOVE_ (Deluxe Edition)/01 On the Floor (feat. Pitbull).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jennifer Lopez/LOVE_ (Deluxe Edition)/01 On the Floor (feat. Pitbull).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jennifer Lopez/LOVE_ (Deluxe Edition)/01 On the Floor (feat. Pitbull) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Jennifer Lopez/LOVE_ (Deluxe Edition)/01 On the Floor (feat. Pitbull) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/Step By Step (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/Step By Step (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/I Will Always Love You (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/I Will Always Love You (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/I Have Nothing (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Whitney Houston/Unknown Album/I Have Nothing (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/DNCE/Swaay - EP/01 Cake by the Ocean.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/DNCE/Swaay - EP/01 Cake by the Ocean.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/DNCE/Swaay - EP/01 Cake by the Ocean 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/DNCE/Swaay - EP/01 Cake by the Ocean 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Temptations/The Temptations Sing Smokey/03 My Girl 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Temptations/The Temptations Sing Smokey/03 My Girl 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Temptations/The Temptations Sing Smokey/03 My Girl.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Temptations/The Temptations Sing Smokey/03 My Girl.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Savage Garden/The Singles/03 Truly Madly Deeply.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Savage Garden/The Singles/03 Truly Madly Deeply.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Buggles/The Age of Plastic/02 Video Killed the Radio Star.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/The Buggles/The Age of Plastic/02 Video Killed the Radio Star.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Velile & Safri Duo/Helele - Single/01 Helele (Safri Duo Single Mix).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Velile & Safri Duo/Helele - Single/01 Helele (Safri Duo Single Mix).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Namika/Nador/02 Lieblingsmensch 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Namika/Nador/02 Lieblingsmensch 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Namika/Nador/02 Lieblingsmensch.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Namika/Nador/02 Lieblingsmensch.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Hamsterrad (Lyric Video) (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Hamsterrad (Lyric Video) (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Bye Bye (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Bye Bye (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Werden und Vergehn (1080p HD).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Unknown Album/Werden und Vergehn (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Mont Klamott/Ich sag nicht ja.m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Mont Klamott/Ich sag nicht ja.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/3-01 Erinnert (feat. Jan Josef Liefers).m4v -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/3-01 Erinnert (feat. Jan Josef Liefers).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/1-01 Erinnert (feat. Jan Josef Liefers) 1.m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/1-01 Erinnert (feat. Jan Josef Liefers) 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/1-01 Erinnert (feat. Jan Josef Liefers).m4p -> /Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Silly/Alles Rot Erinnert Euch An Live/1-01 Erinnert (feat. Jan Josef Liefers).m4p

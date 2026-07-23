@@ -1,0 +1,41 @@
+Music Restore Tasklist (Macintosh-HD-only)
+Stand: 2026-07-07T21:49:24.349601
+
+Ziel
+- Wiederherstellungsauftraege konkret vorbereiten, ohne riskante oder quellenlose Aktionen.
+
+Gesamtstatus (bekannt)
+- VOLUMES_MUSIC_SELF_IF_REMAP=3710
+- VOLUMES_MUSIC_MISSING_IN_HOME=84
+- INSIDE_HOME_MUSIC=31
+- VOLUMES_DATENSICHERUNG=32
+
+Direkt umsetzbar jetzt
+- Keine weiteren sicheren Sofort-Fixes gefunden (inside-home audit: SAFE_FIX_CANDIDATES=0).
+
+Charge A (wartend auf Quelle /Volumes/music)
+- Auftraege: 84
+- Quelle: Liste mit konkreten Link- und Source-Pfaden in der TSV-Datei (action=WAIT_SOURCE_ORIGINAL).
+
+Charge B (nicht ausfuehren: Datensicherung)
+- Auftraege: 32
+- Nur dokumentiert (action=DEFER_DISKSTATION), keine Aktion ohne neue Freigabe.
+
+Charge C (strukturell blockiert)
+- Eintraege: 3710
+- Selbst-Link-Faelle bei einfachem Prefix-Remap; benoetigen echte Quelldateien statt Link-Umschreiben.
+
+Inside-Home Audit Snapshot
+Inside-Home Broken Symlink Audit (from prefiltered list)
+Stand: 2026-07-07T21:47:04.913248
+MUSIC=/Users/volkertippmann/Music
+
+INSIDE_HOME_BROKEN_TOTAL=31
+target_symlink_broken_or_loop=31
+SAFE_FIX_CANDIDATES=0
+
+
+Naechste Ausfuehrung (sobald Quelle verfuegbar)
+1) Fuer Charge A je Eintrag: wenn source_path existiert und link_path Symlink ist, Symlink entfernen und Datei kopieren.
+2) Nach jeder Charge: Loop/Broken-Count neu messen und protokollieren.
+3) Charge B bleibt gesperrt, bis explizite Freigabe vorliegt.

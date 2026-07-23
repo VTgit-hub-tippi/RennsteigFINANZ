@@ -1,0 +1,30 @@
+Bruchstueck: Account-, Memory- und Homebrew-Faden-Text
+Datum der Sicherung: 2026-07-07
+
+Unveraenderter Rohtext des vom Nutzer nachgereichten Fragments:
+
+Das habe ich befürchtet, daß man einfach nicht zum Thema zurück findet, wenn man statt wie bisher mit VSCode nun mit Claude weiter machen will, obwohl der Account über volker.tippmann@googlemail.com angemeldet wurde. Wo besteht das Problem den Faden „Homebrew“ wieder aufzunehmen?
+
+Das Problem liegt nicht am Account, sondern daran, wie diese Systeme funktionieren:
+
+Kein automatisches Gedächtnis zwischen Tools Claude (hier im Chat/App) und Claude Code (in VSCode) sind unterschiedliche Werkzeuge. Auch wenn beide über denselben Account (volker.tippmann@googlemail.com) laufen, teilen sie sich standardmäßig nicht automatisch den Gesprächsverlauf. Jede Konversation ist erstmal isoliert.
+
+Warum das so ist
+
+- In VSCode/Claude Code lief das Homebrew-Thema vermutlich als eigene Session/Projekt-Kontext, der lokal bei dir bzw. in diesem Tool gespeichert ist.
+- Hier im Chat gibt es eine optionale Memory-Funktion (“Speicher”/“Vergangene Chats durchsuchen”), die aber bei dir aktuell nicht aktiviert ist – deshalb kenne ich frühere Chats nicht.
+
+Wie du den Faden trotzdem wieder aufnehmen kannst
+
+1. Memory aktivieren (Einstellungen → Memory/Speicher): Dann kann Claude künftig auf frühere Chats zugreifen – aber das hilft nur für die Zukunft, nicht rückwirkend für den VSCode-Verlauf.
+2. Manuell rüberholen: Wenn du in VSCode/Claude Code noch Zugriff auf die alte Session hast, kopier mir einfach den relevanten Teil (Rezept, letzten Stand, offene Fragen) hier rein.
+3. Kurz zusammenfassen: Du sagst mir in 2–3 Sätzen, wo ihr steht, und wir bauen von da weiter.
+
+In der Claude-App findest du die Einstellungen so:
+
+- Mobile App (iOS/Android): Tippe auf dein Profilbild oder Icon (meist oben links oder rechts), dort öffnet sich ein Menü mit “Settings”/“Einstellungen”.
+- Web (claude.ai): Klicke unten links auf deinen Namen/Profilbild, dann erscheint “Settings” im Menü.
+
+Dort kannst du unter anderem Dinge wie Web-Suche, Speicher/Memory, persönliche Präferenzen und Darstellung anpassen.
+
+Falls du etwas Bestimmtes suchst (z. B. eine bestimmte Funktion), sag mir gern was — dann kann ich genauer nachsehen.

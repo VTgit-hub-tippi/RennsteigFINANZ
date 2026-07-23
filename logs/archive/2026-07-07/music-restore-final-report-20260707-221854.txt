@@ -1,0 +1,16 @@
+Music Restore Final Report
+Stand: 2026-07-07T22:18:54.262093
+
+CHARGE_A_TOTAL=84
+NOW_REGULAR_OR_DIR=45
+LINK_STILL_SYMLINK=39
+NOW_MISSING=0
+TOTAL_APPLIED_THIS_RUN=0
+
+Remaining symlink reasons:
+REM_MISSING_SOURCE=36
+REM_SOURCE_NOT_REGULAR=3
+REM_OTHER=0
+
+Round logs:
+ROUND 1: applied=0 miss_seen=36 not_symlink_seen=45 source_not_regular_seen=3

@@ -1,0 +1,112 @@
+Broken Symlink Repair Candidate Report
+Stand: 2026-07-07T21:18:20.728573
+MUSIC=/Users/volkertippmann/Music
+ARCHIVE=/Volumes/Untitled/Music_moved_20260707032210_ARCHIVE_KEEP
+
+BROKEN_SYMLINKS=3930
+REPAIRABLE_FROM_ARCHIVE_REGULAR=0
+NOT_REPAIRABLE_BY_SAME_RELATIVE_PATH=3930
+
+REPAIRABLE_SAMPLES (erste 100):
+
+NOT_REPAIRABLE_SAMPLES (erste 100):
+Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-64636d70-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-64656c79-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-64697374-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-66696c74-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-67726571-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-68706173-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-68736866-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6c6d7472-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6c706173-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6c736866-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6d636d70-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6d726576-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6e626571-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6e736e64-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-6e757470-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-706d6571-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-72616163-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-726f6772-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-72766232-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-73646c79-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756678-746d7074-6170706c.tagset
+Audio Music Apps/Databases/Tags/6175676e-6166706c-6170706c.tagset
+Audio Music Apps/Databases/Tags/6175676e-6e726376-6170706c.tagset
+Audio Music Apps/Databases/Tags/6175676e-74747370-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756d75-646c7320-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756d75-6d73796e-6170706c.tagset
+Audio Music Apps/Databases/Tags/61756d75-73616d70-6170706c.tagset
+iTunes/Album Artwork/Cloud Purchases/3A75D624052247EB
+iTunes/Album Artwork/Cloud Purchases/41ED5189E9BD656C
+iTunes/Album Artwork/Cloud Purchases/9ADC47DA38673552
+iTunes/Album Artwork/Cloud Purchases/B37CF02FC4D5D1FD
+iTunes/Album Artwork/Cloud/D78427145914A084
+iTunes/Album Artwork/Custom/D78427145914A084
+iTunes/Album Artwork/Download/1FE02F2756B8B785
+iTunes/Album Artwork/Download/FA3909AE42B00F0A
+iTunes/Album Artwork/Remote/0000000000000000/00
+iTunes/Album Artwork/Remote/0000000000000000/01/08
+iTunes/Album Artwork/Remote/0000000000000000/01/11
+iTunes/Album Artwork/Remote/0000000000000000/01/12
+iTunes/Album Artwork/Remote/0000000000000000/02
+iTunes/Album Artwork/Remote/0000000000000000/04
+iTunes/Album Artwork/Remote/0000000000000000/05/02
+iTunes/Album Artwork/Remote/0000000000000000/05/06
+iTunes/Album Artwork/Remote/0000000000000000/05/09
+iTunes/Album Artwork/Remote/0000000000000000/07/01
+iTunes/Album Artwork/Remote/0000000000000000/07/08
+iTunes/Album Artwork/Remote/0000000000000000/07/11/00
+iTunes/Album Artwork/Remote/0000000000000000/08/01
+iTunes/Album Artwork/Remote/0000000000000000/08/09
+iTunes/Album Artwork/Remote/0000000000000000/09/08/03
+iTunes/Album Artwork/Remote/0000000000000000/09/09
+iTunes/Album Artwork/Remote/0000000000000000/09/10
+iTunes/Album Artwork/Remote/0000000000000000/11/03/14
+iTunes/Album Artwork/Remote/0000000000000000/11/03/15
+iTunes/Album Artwork/Remote/0000000000000000/12
+iTunes/Album Artwork/Remote/0000000000000000/13
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/00
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/02
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/03
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/07
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/08
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/11
+iTunes/Album Artwork/Remote/109FB08BB296A7A6/12
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/01
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/03
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/04
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/09
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/10
+iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/12
+iTunes/iTunes Media/Apple Music/Adel Tawil/Weinen - EP/01 Weinen (Single Version).m4p
+iTunes/iTunes Media/Apple Music/Alexa Feser/Gold von morgen
+iTunes/iTunes Media/Apple Music/Alexa Feser/Unknown Album/Medizin (1080p HD) 1.m4v
+iTunes/iTunes Media/Apple Music/Alexa Feser/Unknown Album/Medizin (1080p HD).m4v
+iTunes/iTunes Media/Apple Music/Alexa Feser/Zwischen den Sekunden/03 Medizin.m4p
+iTunes/iTunes Media/Apple Music/Andrea Berg
+iTunes/iTunes Media/Apple Music/Annie Lennox
+iTunes/iTunes Media/Apple Music/Ariana Grande/Unknown Album/no tears left to cry (1080p HD).m4v
+iTunes/iTunes Media/Apple Music/Aura Dione/Unknown Album/Geronimo.m4v
+iTunes/iTunes Media/Apple Music/BAP/Wahnsinn - Die Hits von '79 bis '95/02 Verdamp Lang Her 1.m4p
+iTunes/iTunes Media/Apple Music/BAP/Wahnsinn - Die Hits von '79 bis '95/07 Kristallnaach 1.m4p
+iTunes/iTunes Media/Apple Music/Boney M_/Boney M - The Greatest Hits/01 Daddy Cool.m4p
+iTunes/iTunes Media/Apple Music/Capital Cities/Unknown Album/Safe and Sound (1080p HD) 1.m4v
+iTunes/iTunes Media/Apple Music/Chaka Khan
+iTunes/iTunes Media/Apple Music/Chicago
+iTunes/iTunes Media/Apple Music/Chris Avedon & Philipp Poisel/Als gäb's kein Morgen mehr (Chris Avedon meets Philipp Poisel) - EP
+iTunes/iTunes Media/Apple Music/Cliff Richard/Remember Me
+iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Adventure of a Lifetime (1080p HD).m4v
+iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Hymn for the Weekend (1080p HD).m4v
+iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida (Prospekt's March Edition)/1-07 Viva La Vida.m4p
+iTunes/iTunes Media/Apple Music/Compilations/80 Hits of the 80s
+iTunes/iTunes Media/Apple Music/Compilations/Bellissimi difetti/03 I tuoi bellissimi difetti.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/01 Der blaue Planet 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/03 Am Fenster 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/05 In der letzten Stunde des Tages 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/07 Die wilde Mathilde 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/08 Rock'n Roll im Stadtpark 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/09 Zeit, die nie vergeht 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/11 Mc Donald 1.m4p
+iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/12 Der Motor 1.m4p

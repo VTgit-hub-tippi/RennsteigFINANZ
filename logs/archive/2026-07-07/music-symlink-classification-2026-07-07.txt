@@ -1,0 +1,212 @@
+Music Symlink Classification Report
+Stand: 2026-07-07T21:16:59.350560
+Root: /Users/volkertippmann/Music
+
+SYMLINK_TOTAL=4241
+LOOP_SYMLINKS=168
+BROKEN_SYMLINKS=3930
+RESOLVED_TO_EXISTING=143
+
+LOOP_SAMPLES (erste 100):
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alizée/Gourmandises/01 Moi... Lolita.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/01 Wir lieben das fröhliche Leben.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/02 Singt das Lied der neuen Zeit _ Lied von der unruhevollen Jugend _ Im August blühn die Rosen _ Eisenbahnerlied _ Das neue Leben _ Du hast ja ein Ziel vor den Augen _ Freunde, kommt mit _ Signale der Jugend.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/03 Partisanen vom Amur (Durch's Gebirge, durch die Steppen zog).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/04 Jugend erwach (Bau auf, bau auf).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/05 Vorwärts, Freie Deutsche Jugend.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/06 Heut ist ein wunderschönber Tag.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/07 Entgegen dem kühlenden Morgen (Der Zukunft entgegen).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/08 Katjuscha (Leuchtend prangten ringsum Apfelblüten).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/09 Lied der Komsomolzen-Stoßbrigade.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/10 Maiwind bläst.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/11 Liebt mich - liebt mich nicht (Kommt dir hier im Städtchen ...).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/12 Lied von der unruhevollen Jugend.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/13 Goldne Sonne hält die Welt umspannt.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/14 Ins neue Jahrtausend _ Immer lebe die Sonne _ Na ulitza mira.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/15 Die Rosen sollen blühen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/16 Vorwärts, Studenten.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/17 Das Korn steht wie ein hoher Wald.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/18 Hell scheint die Sonne (Pioniere voran ...).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/19 Marsch der Enthusiasten (Vorwärts, und frisch gesungen ...).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chöre der Arbeiterfestspiele/Wir lieben das fröhliche Leben (DDR Jugend- und Pionierlieder)/20 Jugend aller Nationen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Amiga Hitstory_ Die Grössten Hit aud dem Osten - 1977-1987/05 Bataillon d'amour.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die DDR-Show - Die schönsten Schlager/06 Champus-Lied.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die DDR-Show - Die schönsten Schlager/14 Verdammt (Remix '97).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/01 Die Heimat hat sich schön gemacht.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/02 Unsre Heimat.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/03 Hell scheint die Sonne (Pioniere voran).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/04 Heut ist ein wunderschöner Tag.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/05 Am frühen Morgen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/06 Die Reise nach Bamsdorf (Es wollen zwei auf Reisen gehn).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/07 Wer das ABC gelernt (Lied vom Lernen).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/08 Ich weiß schon, was ich werden will.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/09 Wenn ich groß bin, gehe ich zur Volksarmee.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/10 Wir lernen Russisch.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/11 Fleißig, nur fleißig.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/12 Das Korn steht wie ein hoher Wald.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/13 Liebe Heimat, deine Weiten (Blaue Wimpel im Sommerwind).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/14 Bald bin ich ein junger Pionier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/15 Seht die bunten Fahnen wehn _ Rote Fahnen, blaue Fahnen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/16 Wer will fleißige Arbeiter sehn.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/17 Abzählreime (Klingeling, wir spielen Straßenbahn _ Flieg, mein Ball _ Wir bauen uns eine Rakete).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/18 Lied vom Drahtesel (Kling, Klingeling).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/19 Lernen macht natürlich Spaß.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/20 Zimmermannstanz.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/21 Wir lieben das fröhliche Leben.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die Heimat hat sich schön gemacht ... (DDR Pionier- und Heimatlieder)/22 Die Heimat hat sich schön gemacht.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/01 Geh voran Pionier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/02 Ich trage eine Fahne.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/03 Ein Lied geht auf die Reise.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/04 Kein schöner Land in dieser Zeit.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/05 Eine lange Singeschlange.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/06 Für das Leben lernen wir.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/07 Blaue Fahnen trägt der Wind.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/08 Auf der Erde blühen Blumen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/09 Guten Tag du neuer Morgen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/10 Bald bin ich junger Pionier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/11 Komm mit Pionier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/12 Lied der Timurhelfer.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/13 Pionier zu sein fetzt ein.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/14 Die Pionierfreundschaft.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/15 Marsch der Jungpioniere.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/16 Die Schule hat uns wieder.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/17 Liebe Sonne.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/18 Mein Land ist ein schönes Land.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/19 Gruß der Pioniere zum Geburtstag der Republik.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/20 Unser Heimatland.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/21 Unser Fernsehturm.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/22 Im Ferienlager ist ein Koch.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/23 Joschka aus Schuschenskoje.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/24 Die Sonne scheint heller.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/25 Ich darf die Fahne tragen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/26 Mein Vorbild.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/27 Gemeinsam mit guten Genossen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/28 Frieden ist schön.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/29 Lied der jungen Verkehrshelfer.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Pionierlieder, Vol. 2/30 Matrjoschka.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Rockballaden, Vol. 2/1-04 I.L.D..m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Rockballaden, Vol. 2_ Als ich fortging/09 Tränen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Rockballaden, Vol. 3_ Wie ein Fischlein unterm Eis/03 Dass ich eine Schneeflocke wär.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Die schönsten Rockballaden/1-05 Schwanenkönig.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Fröhlich Sein und Singen/05 Pioniergelöbnis.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Fröhlich Sein und Singen/30 Hör ich die Soldaten singen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Fröhlich Sein und Singen/35 Hab'n se nicht noch Altpapier.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/In Liebe ... - Veronika Fischer_ Meine schönsten Balladen/10 In jener Nacht.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Karat - Die große Jubiläums-Edition/1-17 Gewitterregen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Mein Herz Schlägt Östlich CD1/23 Damals.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Musik unserer Generation - Die grössten Hits _ Stern Meißen/02 Der Kampf um den Südpol.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/02 Halte durch.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/03 Lohntag.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/04 Verzweifeltes Kinderlied mit kleinbürgerlichem Einschlag.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/05 Scheißspiel.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/06 Meine Hände.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/07 An Vater.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/08 Wie ein Freund.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/09 Mann aus Eisen.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/10 Trauriges Lied vom sonst immer lachenden Flugzeug.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/11 Hoy Woy.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/12 Honky Tonk Woman.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Männer, Frauen und Maschinen/13 Kleine leise Traurigkeit.m4p
+
+BROKEN_SAMPLES (erste 100):
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-62706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64636d70-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64656c79-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-64697374-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-66696c74-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-67726571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-68736866-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c6d7472-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c706173-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6c736866-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d636d70-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6d726576-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e626571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e736e64-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-6e757470-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-706d6571-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72616163-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-726f6772-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-72766232-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-73646c79-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756678-746d7074-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6166706c-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-6e726376-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/6175676e-74747370-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-646c7320-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-6d73796e-6170706c.tagset
+/Users/volkertippmann/Music/Audio Music Apps/Databases/Tags/61756d75-73616d70-6170706c.tagset
+/Users/volkertippmann/Music/iTunes/Album Artwork/Cloud Purchases/3A75D624052247EB
+/Users/volkertippmann/Music/iTunes/Album Artwork/Cloud Purchases/41ED5189E9BD656C
+/Users/volkertippmann/Music/iTunes/Album Artwork/Cloud Purchases/9ADC47DA38673552
+/Users/volkertippmann/Music/iTunes/Album Artwork/Cloud Purchases/B37CF02FC4D5D1FD
+/Users/volkertippmann/Music/iTunes/Album Artwork/Cloud/D78427145914A084
+/Users/volkertippmann/Music/iTunes/Album Artwork/Custom/D78427145914A084
+/Users/volkertippmann/Music/iTunes/Album Artwork/Download/1FE02F2756B8B785
+/Users/volkertippmann/Music/iTunes/Album Artwork/Download/FA3909AE42B00F0A
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/00
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/01/08
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/01/11
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/01/12
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/02
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/04
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/05/02
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/05/06
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/05/09
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/07/01
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/07/08
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/07/11/00
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/08/01
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/08/09
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/09/08/03
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/09/09
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/09/10
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/11/03/14
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/11/03/15
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/12
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/0000000000000000/13
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/00
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/02
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/03
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/07
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/08
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/11
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/109FB08BB296A7A6/12
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/01
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/03
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/04
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/09
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/10
+/Users/volkertippmann/Music/iTunes/Album Artwork/Remote/56D16AEB1CE3C07E/12
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Adel Tawil/Weinen - EP/01 Weinen (Single Version).m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexa Feser/Gold von morgen
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexa Feser/Unknown Album/Medizin (1080p HD) 1.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexa Feser/Unknown Album/Medizin (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Alexa Feser/Zwischen den Sekunden/03 Medizin.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Andrea Berg
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Annie Lennox
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Ariana Grande/Unknown Album/no tears left to cry (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Aura Dione/Unknown Album/Geronimo.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/BAP/Wahnsinn - Die Hits von '79 bis '95/02 Verdamp Lang Her 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/BAP/Wahnsinn - Die Hits von '79 bis '95/07 Kristallnaach 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Boney M_/Boney M - The Greatest Hits/01 Daddy Cool.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Capital Cities/Unknown Album/Safe and Sound (1080p HD) 1.m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chaka Khan
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chicago
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Chris Avedon & Philipp Poisel/Als gäb's kein Morgen mehr (Chris Avedon meets Philipp Poisel) - EP
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Cliff Richard/Remember Me
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Adventure of a Lifetime (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Unknown Album/Hymn for the Weekend (1080p HD).m4v
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Coldplay/Viva La Vida (Prospekt's March Edition)/1-07 Viva La Vida.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/80 Hits of the 80s
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Bellissimi difetti/03 I tuoi bellissimi difetti.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/01 Der blaue Planet 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/03 Am Fenster 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/05 In der letzten Stunde des Tages 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/07 Die wilde Mathilde 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/08 Rock'n Roll im Stadtpark 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/09 Zeit, die nie vergeht 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/11 Mc Donald 1.m4p
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Das Beste aus der DDR, Teil 1_ Rock/12 Der Motor 1.m4p

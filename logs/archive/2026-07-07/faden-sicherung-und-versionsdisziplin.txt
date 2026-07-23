@@ -1,0 +1,106 @@
+Faden-Sicherung und Versionsdisziplin
+
+Stand: 2026-07-07
+Zweck: Verhindern, dass Kontext, Entscheidungen, Versionsschritte oder Rekonstruktionsfaehigkeit erneut verloren gehen.
+
+Verbindliche Praemissen
+- Kein Arbeiten ohne Protokoll.
+- Kein Sitzungsende ohne Handoff.
+- Kein groesserer Eingriff ohne pruefbaren Zwischenstand.
+- Keine Annahme gilt als gesichert, nur weil sie erinnert wird; gesichert ist nur, was in Dateien, Logs, Commits, Screenshots oder Terminal-Ausgaben verankert ist.
+- Chatverlauf ist hilfreich, aber niemals alleinige Quelle der Wahrheit.
+
+Zentrale Dateien
+- `CLAUDE.md`: dauerhafte Arbeits- und Kommunikationsregeln im Projekt.
+- `docs/scherben-gerichtsprotokoll-YYYY-MM-DD.txt`: Sammlung unklarer, nachgereichter oder erst teilweise verifizierter Fragmente.
+- `docs/chat-verlauf-YYYY-MM-DD-korrigiert.txt`: vollständige, lesbare Chat-Mitschrift.
+- `docs/context-snapshot.md`: verdichteter Projektzustand fuer Neustarts und Werkzeugwechsel.
+- optional spaeter: `STATUS.md` im Projekt-Root als laufendes Handoff-Dokument fuer echte Projekte.
+
+Pflichtablauf zu Beginn jeder Sitzung
+1. `CLAUDE.md` lesen.
+2. Aktuelles Scherben- oder Status-Protokoll lesen.
+3. Letzten Chat-Export oder `context-snapshot.md` pruefen.
+4. Gesichert festhalten:
+   - Wo stehen wir?
+   - Was ist belegt?
+   - Was ist offen?
+   - Was ist der naechste konkrete Schritt?
+5. Erst danach neue Arbeit beginnen.
+
+Pflichtablauf waehrend der Arbeit
+1. Wesentliche Entscheidungen sofort protokollieren.
+2. Fehler, Sackgassen und verworfene Hypothesen mitnotieren.
+3. Vor riskanten Eingriffen Ziel, Annahme und Rueckfallweg kurz festhalten.
+4. Bei Werkzeugwechsel den aktuellen Stand in Dateien sichern, nicht nur im Chat.
+5. Wenn Fragmente unklar sind, zuerst ins Scherben-Protokoll, erst spaeter in gesicherte Fakten ueberfuehren.
+
+Verbindliche Kontextbudget-Regel (Neustartdisziplin)
+1. Wenn der Kontextverbrauch in den Bereich von ca. 60-70% laeuft, ist ein geplanter Neustart Pflicht.
+2. Vor dem Schliessen der Sitzung oder des Terminals immer zuerst `/context-snapshot` ausfuehren.
+3. Danach Terminal/Sitzung sauber neu starten.
+4. Unmittelbar nach Neustart immer `/context-restore` ausfuehren, bevor neue Arbeit beginnt.
+5. Ohne Snapshot kein geplanter Neustart, ausser bei technischem Zwangsabbruch; in dem Fall sofort nach Neustart den letzten dateibasierten Stand einlesen.
+6. Groessere oder teure Laeufe (lange Scans, breite Suchen) duerfen nur gestartet werden, wenn Snapshot aktuell ist.
+
+Verbindliche Token- und Modellregel
+1. Nutzungsseite parallel offen halten und regelmaessig pruefen:
+   - `https://claude.ai/new#settings/usage`
+2. Verbrauch bewusst steuern; bei steigender Last zuerst Aufgaben schneiden (kleinere Schritte) statt grosse Sammellaeufe.
+3. Modellwahl aktiv setzen:
+   - mindestens `Sonnet` als Standard
+   - bei komplexem Coding bevorzugt `Opus` (staerker, aber teurer)
+4. Wenn Kosten-/Token-Druck hoch ist, vor jedem groesseren Schritt kurz Freigabe einholen und Modellwahl explizit benennen.
+
+Kernregel Zusammenarbeit (Prompt-Disziplin)
+1. Jeder Arbeitsauftrag startet mit klarem Ziel im Prompt (gewuenschtes Ergebnis und Scope).
+2. Wenn Datei-/Code-Pruefung gewuenscht ist, betroffene Datei(en) explizit nennen.
+3. Rueckfragenpflicht: bei Unklarheiten aktiv Rueckfragen stellen, bevor groessere Aenderungen gestartet werden.
+4. Prozessdisziplin einhalten und sichtbar machen:
+   - Anforderungen
+   - Spezifikation
+   - Umsetzungsplan
+   - Umsetzung
+   - Verifikation/Tests
+
+Kernregel Zusammenarbeit (Sub-Agent-Einsatz)
+1. Bei Coding-Aufgaben mit mehreren Teilproblemen Sub-Agents bevorzugt einsetzen, wenn Parallelisierung sinnvoll ist.
+2. Sub-Agents nur mit passender Modellstaerke ausstatten (kostenbewusst, aufgabenbezogen).
+3. Sub-Agent-Einsatz kurz begruenden (warum, erwarteter Nutzen) und Ergebnisse konsolidiert zurueckfuehren.
+
+Pflichtablauf am Ende jeder Sitzung
+1. Kurzprotokoll schreiben:
+   - Was wurde getan?
+   - Was wurde verifiziert?
+   - Was ist gescheitert?
+   - Was ist als Naechstes zu tun?
+2. Chatverlauf als TXT sichern.
+3. Falls sinnvoll `docs/context-snapshot.md` aktualisieren.
+4. Falls ein Git-Repo existiert:
+   - `git status` pruefen
+   - sinnvolle Commits oder mindestens dokumentierter Zwischenstand
+5. Offene Risiken explizit benennen.
+
+Versionsdisziplin
+- Jeder pruefbare Zwischenschritt braucht einen Anker: Datei, Commit, Log oder Skript.
+- Wiederherstellungs-Skripte duerfen nicht nur ausgefuehrt, sondern muessen auffindbar dokumentiert werden.
+- Wenn Dateien ausgelagert oder verschoben werden, muessen Quelle, Ziel, Grund und Rueckweg dokumentiert werden.
+- Wenn ein Eingriff Speicherplatz schaffen soll, muessen die verschobenen Pfade und der Rueckverschiebe-Mechanismus sofort festgehalten werden.
+
+Werkzeugwechsel-Regel
+- VS Code, Claude Code, Claude.ai, GitHub und Shell teilen sich den Faden nicht automatisch.
+- Der gemeinsame Faden muss deshalb immer dateibasiert im Projekt liegen.
+- Gleicher Account ersetzt kein gemeinsames Gedaechtnis.
+
+Minimaler Handoff-Block
+- Arbeitsstand:
+- Gepruefte Fakten:
+- Offene Punkte:
+- Naechster Schritt:
+- Relevante Dateien:
+- Relevante Befehle/Fehler:
+
+Leitlinie
+- Erst verankern, dann handeln.
+- Erst pruefen, dann aendern.
+- Erst dokumentieren, dann verlassen.

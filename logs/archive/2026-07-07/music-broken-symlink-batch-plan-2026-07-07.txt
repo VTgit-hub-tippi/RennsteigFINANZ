@@ -1,0 +1,25 @@
+Broken Symlink Batch Plan
+Stand: 2026-07-07T21:32:03.383996
+MUSIC=/Users/volkertippmann/Music
+
+BROKEN_TOTAL=3928
+VOLUMES_MUSIC_SELF_IF_REMAP=3710
+VOLUMES_MUSIC_MAPPED_EXISTS=0
+VOLUMES_MUSIC_MISSING_IN_HOME=84
+VOLUMES_DATENSICHERUNG=32
+INSIDE_HOME_MUSIC=31
+VOLUMES_OTHER=71
+OTHER_ABS=0
+OTHER_NON_ABS=0
+
+Arbeitsreihenfolge (sicher zuerst):
+1) volumes_music_mapped_exists (sofort reparierbar, ohne Datenverlust)
+2) inside_home_music (gezielte interne Pfadkorrektur/Dateiersatz nach Einzelpruefung)
+3) volumes_music_missing_in_home (nur mit zusaetzlicher Quelle)
+4) volumes_datensicherung (nur mit Verfuegbarkeit/Restore aus Backup)
+
+Artefakte:
+- /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-broken-links-volumes-music-self-if-remap-2026-07-07.txt
+- /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-broken-links-volumes-music-missing-in-home-2026-07-07.txt
+- /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-broken-links-volumes-datensicherung-2026-07-07.txt
+- /Users/volkertippmann/Downloads/Projekt Claude/ClaudeSetup/docs/music-broken-links-inside-home-music-2026-07-07.txt

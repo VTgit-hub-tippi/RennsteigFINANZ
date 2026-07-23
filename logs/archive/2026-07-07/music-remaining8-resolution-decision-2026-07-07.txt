@@ -1,0 +1,54 @@
+Music Remaining 8 - Resolution Decision
+Stand: 2026-07-07
+
+Zusammenfassung
+- Offene Faelle: 8
+- Datei-Quelle fehlt: 5
+- Quelle existiert, aber ist kein regulaerer Datei-Typ: 3
+- Automatisch sicher loesbar im aktuellen Zustand: 0
+
+Einzelfallentscheidungen
+
+1) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/gerhard gundermann/Einsame Spitze/Dickes Ende.mp3
+   STATUS=OPEN_MISSING_SOURCE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Music/Gerhard Gundermann/Einsame Spitze/Dickes Ende.mp3
+   ENTSCHEIDUNG=Manuelle Originalquelle benoetigt oder Neuimport des Titels.
+
+2) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+   STATUS=OPEN_MISSING_SOURCE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight 1.m4a
+   ENTSCHEIDUNG=Manuelle Originalquelle benoetigt oder Neuimport des Titels.
+
+3) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/U2/Songs Of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+   STATUS=OPEN_MISSING_SOURCE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Music/U2/Songs of Innocence/2-01 Sleep Like a Baby Tonight.m4a
+   ENTSCHEIDUNG=Manuelle Originalquelle benoetigt oder Neuimport des Titels.
+
+4) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+   STATUS=OPEN_MISSING_SOURCE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Glück_ Das Beste aus 30 Jahren/1-04 Katzen bei Nacht 1.m4p
+   ENTSCHEIDUNG=Apple-Music-DRM-Datei; am saubersten ueber Apple Music erneut laden/synchronisieren.
+
+5) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+   STATUS=OPEN_MISSING_SOURCE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Apple Music/Compilations/Schlager sind Männersache/12 Über sieben Brücken musst du geh_n 1.m4p
+   ENTSCHEIDUNG=Apple-Music-DRM-Datei; am saubersten ueber Apple Music erneut laden/synchronisieren.
+
+6) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/With Thoughts But Not Regrets
+   STATUS=OPEN_SOURCE_NOT_FILE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets
+   ENTSCHEIDUNG=Verzeichnis-/Containerfall; kein Datei-Ersatz moeglich. Nur manuelle Ordner-Rekonstruktion.
+
+7) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Grönemeyer
+   STATUS=OPEN_SOURCE_NOT_FILE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Groenemeyer
+   ENTSCHEIDUNG=Verzeichnis-/Containerfall; kein Datei-Ersatz moeglich. Nur manuelle Ordner-Rekonstruktion.
+
+8) LINK=/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Walk the Moon/TALKING IS HARD
+   STATUS=OPEN_SOURCE_NOT_FILE
+   SRC_EXPECTED=/Volumes/music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD
+   ENTSCHEIDUNG=Verzeichnis-/Containerfall; kein Datei-Ersatz moeglich. Nur manuelle Ordner-Rekonstruktion.
+
+Abschlussbewertung
+- Der automatische, sichere Restore-Lauf ist fuer WAIT_SOURCE_ORIGINAL im aktuellen Quellenstand technisch ausgeschoepft.
+- Weitere Schritte sind nur noch manuell/fachlich moeglich (Originaldatei beschaffen, Apple Music Re-Download, oder bewusste Bereinigung der verbleibenden Symlink-Verzeichnisfaelle).

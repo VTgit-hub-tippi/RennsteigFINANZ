@@ -1,0 +1,14 @@
+REMAINING_TOTAL=39
+REM_MISSING_SOURCE=36
+REM_SOURCE_NOT_REGULAR=3
+ARCHIVE_EXACT_HITS_FOR_MISSING=0
+ARCHIVE_FUZZY_PARENT_NAME_HITS=0
+
+SOURCE_NOT_REGULAR:
+/Users/volkertippmann/Music/iTunes/iTunes Media/Music/Lady GaGa/With Thoughts But Not Regrets	/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets	/Volumes/music/iTunes/iTunes Media/Music/Lady Gaga/With Thoughts But Not Regrets
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Grönemeyer	/Volumes/music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Groenemeyer	/Volumes/music/iTunes/iTunes Media/Apple Music/Felix Jaehn & Herbert Groenemeyer
+/Users/volkertippmann/Music/iTunes/iTunes Media/Apple Music/Walk the Moon/TALKING IS HARD	/Volumes/music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD	/Volumes/music/iTunes/iTunes Media/Apple Music/WALK THE MOON/TALKING IS HARD
+
+MISSING_WITH_ARCHIVE_EXACT_HIT:
+
+MISSING_WITH_ARCHIVE_FUZZY_HIT:
