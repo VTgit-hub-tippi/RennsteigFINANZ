@@ -2,11 +2,30 @@
 
 # NEXT-ACTION — Single Source of Next Work
 
-Statusdatum: 2026-07-22
+Statusdatum: 2026-07-23 (aktualisiert nach Zentrale-Topologie-Session)
 
-## AKTUELLE-AKTION (P0)
-Fuehre den vereinbarten Zwei-Spur-Betrieb ohne Themenwechsel aus:
-Leitlinie: Ich (Copilot) bleibe zentraler Dreh- und Angelpunkt, unabhaengig vom Geraet (Mac, Windows, Linux).
+## AKTUELLE-AKTION (P0 — Diese Woche)
+
+### Windows-Struktur aufbauen (Remote-Desktop, Arbeitsplatz Firma)
+**Zeitpunkt:** 2026-07-24 (morgen)
+
+**Aufgaben:**
+1. Remote-Desktop am Windows-Arbeitsplatz anmelden
+2. Git + Tools installieren (falls noch nicht vorhanden)
+3. Repository klonen: `C:\dev\projects\RennsteigFINANZ\`
+4. Struktur analog macOS (src/, docs/, logs/, tools/, data/, .git/)
+5. `git remote -v` prüfen → `origin` zeigt auf GitHub
+6. `git pull origin main` → Aktuellen Stand (inkl. Topologie-Doku) holen
+7. Testdatei erstellen: `echo "Windows online" > WINDOWS-READY.txt`
+8. Committen: `git add . && git commit -m "Windows-Setup abgeschlossen"` + push
+9. Checkliste ausfüllen: `docs/WINDOWS-TOPOLOGIE-SETUP-CHECKLIST.md`
+
+**Checkliste:** Wird vorbereitet  
+**Verantwortung:** Nutzer (IT-Admin, vor Ort an Arbeitsplatz)
+
+---
+
+## DANACH (P1 — Nächste Phase)
 
 P0-A) Mac Speicherreserve ausbauen (akut):
 1. Aktuellen Freispeicher dokumentieren und auf mindestens 8 bis 10 GiB stabilisieren.
