@@ -8,12 +8,12 @@
 
 ---
 
-## 📅 Aktueller Stand (22.07.2026)
+## 📅 Aktueller Stand (23.07.2026)
 
 ### Gegenwart
-- **Phase:** Fachkonkretisierung nach Domain-Analyse
-- **Meilenstein:** Kern-Use-Cases v0.1 aus Domain-Stand abgeleitet
-- **Status:** Rollen- und Zugriffsrechte v0.1 als naechster Hauptschritt
+- **Phase:** Zentrale Topologie & Infrastruktur-Konsolidierung
+- **Meilenstein:** Projekthistorie dokumentiert (9 Phasen); Mac/Windows/Untitled-Struktur zentral organisiert
+- **Status:** Archive etabliert; nächster Schritt: Windows-Struktur + Fachkonkretisierung (Rollen-/Zugriffsrechte v0.1)
 
 ---
 
@@ -66,13 +66,19 @@
 - [x] Rollback-Nachweisvorlage fuer Schnellprotokoll eingefuehrt und ins Test-Setup integriert
 - [x] CSV-Rollback-Vorlage fuer serielle Auswertung eingefuehrt und ins Test-Setup integriert
 
-## ✅ Neu abgeschlossen (23.07.2026)
+## ✅ Neu abgeschlossen (23.07.2026, Session 3)
 
 - [x] Chat-Archivierung als Skript operationalisiert (`tools/archive-chat.sh`)
 - [x] Aktuellen Chat als TXT im Archiv gesichert (`logs/chats/Chat_2026-07-23_Dreisystem-Portable-und-Pruefstand.txt`)
 - [x] Sitzungsprotokoll zur Agenda-Sicherung erstellt (`logs/Protokoll_2026-07-23_Chat-Archiv-und-Agenda-Sicherung.md`)
 - [x] End-Session-Ein-Klick-Routine erstellt (`tools/end-session.sh`) inkl. Dry-Run/No-Push-Option
 - [x] Verbindliches 4-Punkte-Entscheidraster eingefuehrt (`docs/ENTSCHEIDRASTER-VORLAGE.md`)
+- [x] Untitled-Struktur zentral reorganisiert: `/Volumes/Untitled/RennsteigFINANZ/{backups,git-bundles,storage-offload,active}/`
+- [x] Alte Protokolle von 2026-07-07 archiviert: 40+ Dateien + INDEX in `logs/archive/2026-07-07/`
+- [x] Zentrale Topologie-Dokumentation erstellt: `docs/TOPOLOGIE-ZENTRALE-ABLAGE.md` (Mac/Windows/Untitled Konsistenz)
+- [x] Entwicklungshistorie erstellt: `docs/ENTWICKLUNGSHISTORIE.md` (9 Phasen, von Infrastruktur-Debugging bis aktuell)
+- [x] Downloads/Projekt Claude aufgeräumt und gelöscht (Duplikate archiviert, 9.1 MB freigegeben)
+- [x] Alle Änderungen committed und gepusht (44 Dateien, 30.5 KB)
 
 ---
 
