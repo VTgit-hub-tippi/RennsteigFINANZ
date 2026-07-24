@@ -8,34 +8,52 @@
 
 ---
 
-## 📅 Aktueller Stand (24.07.2026, Session 4 — Mac-Vorbereitung für Windows-Teamwork)
+## 📅 Aktueller Stand (24.07.2026, Session 4 — Finanzplanung-Analyse & Sync-Automation)
 
 ### Gegenwart (Mac-Seite)
-- **Phase:** Multi-Instanz-Teamwork aufbauen (Mac ↔ Windows als echtes Team)
-- **Status:** 
-  - ✅ Mac-Backup zu Untitled synchronisiert
-  - ✅ Backup-Ritual dokumentiert (NEXT-ACTION.md)
-  - ✅ Arbeitsumgebung Health-Check bestanden (Untitled + MRT + GitHub verfügbar)
-  - ✅ HANDOFF-Dokument für Windows-Claude erstellt
-  - ⏳ Windows-Session folgt jetzt (VBA-Analyse + Git-Setup)
+- **Phase:** Kernprodukt-Analyse (Finanzplanung 5.0 VBA-System)
+- **Status:**
+  - ✅ Finanzplanung 5.0.xls von Windows abgeholt
+  - ✅ VBA-Code vollständig extrahiert (102.000 Zeilen, 778 Prozeduren)
+  - ✅ 19 Formulare katalogisiert (frmKomponenten, frmFinanzen, frmVerträge, etc.)
+  - ✅ 7 Pfadvariablen dokumentiert (varPfad, varPfad0, varPfadTab, varPfadAms, etc.)
+  - ✅ Automatische Sync-Routine implementiert (`tools/sync-finanzplanung.sh`)
+  - ✅ Sync-Automation in `new-session.sh` integriert
+  - ✅ Umgebungsinteraktionen dokumentiert
+
+### Kritische Erkenntnisse zur Finanzplanung
+| Punkt | Befund |
+|---|---|
+| **System-Typ** | Windows-exklusiv (VBA, keine Mac/Linux-Portabilität) |
+| **Primär-Umgebung** | Windows 22 (SMB-Freigabe) |
+| **Kundendaten-Pfad** | `smb://win22-fileprint/MRT/RF intern/Firma/.../Kunden/` |
+| **Abhängigkeiten** | Parameter.xls, Produkte.xls, AMS-Daten (externe) |
+| **Versionskontrolle** | Binary-Format (XLS), Git-Diff nicht möglich → nur Produktiv-Versionen sichern |
+| **Betrieblich** | Finanzplanung = zentrale Geschäftskomponente, **nicht verhandelbar** |
+
+### Sync-Automation etabliert
+```bash
+# Automatisch beim Session-Start:
+$ bash tools/sync-finanzplanung.sh
+  [✓] Windows-Quelle verfügbar (5 MB, Hash: f203411...)
+  [✓] Lokale Datei aktuell (kein Update nötig)
+  [✓] Backup zu Untitled erstellt
+```
 
 ### Infrastruktur-Teamwork
 ```
-Mac Claude               Windows Claude
-    ↓                          ↓
-    └─→ GitHub (zentrale Wahrheit) ←──┘
-    └─→ Untitled (Backup-Sync) ←──┘
+Windows-Produktiv (Finanzplanung 5.0)
+       ↓ (sync-finanzplanung.sh)
+Mac-CloudStation (/Users/.../Finanzplanung/)
+       ↓ (backup-routine)
+Untitled-Sicherung
 ```
-- **GitHub:** Code-Repository, Commits, History
-- **Untitled:** Zentrale Rückversicherung, autonome Backup-Ebene
-- **Handoff-Docs:** Gegenseitige Information über Status/Aufgaben
 
 ### Nächste Schritte
-1. ✅ Mac: Vorbereitung abgeschlossen
-2. → **Windows: Remote-Desktop Session starten**
-3. → Git-Setup + VBA-Finanzplanung-Analyse
-4. → Backup zu Untitled synchen
-5. → Mac + Windows im Sync
+1. ✅ Finanzplanung analysiert + dokumentiert
+2. → Windows-Session: VBA-Debuggen (Remote-Desktop)
+3. → Hybrid-Implementation: Python-Wrapper für Datenzugriff
+4. → Automatische VBA-Code-Extraktion (regelmäßig)
 
 ---
 

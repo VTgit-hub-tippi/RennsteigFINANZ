@@ -28,6 +28,15 @@ echo "${YELLOW}► Hole neuesten Stand von GitHub...${NC}"
 git pull origin main --quiet 2>&1 && echo "${GREEN}✓ Repository aktuell${NC}" || echo "  (Kein Internet oder kein Remote — lokaler Stand wird verwendet)"
 echo ""
 
+# ---- Finanzplanung-Sync -----------------------------------
+echo "${YELLOW}► Synchronisiere Finanzplanung (Windows → Mac)...${NC}"
+if bash "$REPO_DIR/tools/sync-finanzplanung.sh" --quiet 2>&1 | grep -q "aktuell\|abgeschlossen"; then
+  echo "${GREEN}✓ Finanzplanung synchronisiert${NC}"
+else
+  echo "  (Warnung: Finanzplanung-Sync meldet Probleme — Prüfe Netzwerk)"
+fi
+echo ""
+
 # ---- Anti-Amnesie-Guard ------------------------------------
 echo "${YELLOW}► Anti-Amnesie-Guard pruefen...${NC}"
 if bash "$REPO_DIR/tools/anti-amnesie-guard.sh" --quiet; then
