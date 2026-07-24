@@ -8,6 +8,37 @@
 
 ---
 
+## 📅 Aktueller Stand (24.07.2026, Session 4 — Mac-Vorbereitung für Windows-Teamwork)
+
+### Gegenwart (Mac-Seite)
+- **Phase:** Multi-Instanz-Teamwork aufbauen (Mac ↔ Windows als echtes Team)
+- **Status:** 
+  - ✅ Mac-Backup zu Untitled synchronisiert
+  - ✅ Backup-Ritual dokumentiert (NEXT-ACTION.md)
+  - ✅ Arbeitsumgebung Health-Check bestanden (Untitled + MRT + GitHub verfügbar)
+  - ✅ HANDOFF-Dokument für Windows-Claude erstellt
+  - ⏳ Windows-Session folgt jetzt (VBA-Analyse + Git-Setup)
+
+### Infrastruktur-Teamwork
+```
+Mac Claude               Windows Claude
+    ↓                          ↓
+    └─→ GitHub (zentrale Wahrheit) ←──┘
+    └─→ Untitled (Backup-Sync) ←──┘
+```
+- **GitHub:** Code-Repository, Commits, History
+- **Untitled:** Zentrale Rückversicherung, autonome Backup-Ebene
+- **Handoff-Docs:** Gegenseitige Information über Status/Aufgaben
+
+### Nächste Schritte
+1. ✅ Mac: Vorbereitung abgeschlossen
+2. → **Windows: Remote-Desktop Session starten**
+3. → Git-Setup + VBA-Finanzplanung-Analyse
+4. → Backup zu Untitled synchen
+5. → Mac + Windows im Sync
+
+---
+
 ## 📅 Aktueller Stand (23.07.2026, Session 3 — Final)
 
 ### Gegenwart

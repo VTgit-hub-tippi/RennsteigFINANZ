@@ -22,6 +22,14 @@
 
 ## 🤝 Grundregeln
 
+### Multi-Instanz-Teamwork (Mac ↔ Windows Claude)
+- Nicht isolierte Instanzen, sondern **Team über Systeme hinweg**
+- **GitHub** = zentrale Wahrheitsquelle (beide Instanzen lesen/schreiben)
+- **Handoff-Dokumente** vor Systemwechsel (Status, Aufgaben, Prioritäten)
+- **Parallele Arbeit möglich:** Mac Python → Windows VB gleichzeitig (Hybrid-Strategie)
+- **Gegenseitige Information:** `git log` + `git pull` = Teamstatus sofort klar
+- **Synchronisationspunkte:** Mac-Backup → Untitled → Windows-Backup (täglicher Rhythmus)
+
 ### Infrastruktur vor Inhalt
 Bevor Code geschrieben wird: Struktur, Konventionen, Schnittstellen stehen fest.
 
