@@ -1,51 +1,51 @@
 # Kontext-Snapshot (automatisch erzeugt)
 
-Stand: 2026-07-22 00:00:00 UTC
+Stand: 2026-07-24 11:30 CET
 
 ## 1. Projektueberblick
-- Ziel: Reproduzierbarer, tooluebergreifender Wiedereinstieg (VS Code, Claude.ai, ChatGPT, GitHub).
-- Prinzip: Dateien + Git sind die Wahrheit, nicht Chat-Erinnerungen.
+- Ziel: Stabiler Dreisystem-Betrieb (Mac + Windows + Untitled) mit GitHub als priorisierte Wahrheitsinstanz.
+- Prinzip: Dateibasierter Wiedereinstieg ueber Pflichtquellen, keine Chat-Abhaengigkeit.
 
 ## 2. Aktueller Stand
-- Pflichtartefakte fuer den Einstieg sind vorhanden.
-- Cross-Entry-Runbook und Startprompts sind versioniert.
-- Der aktuelle Reentry-Stand ist in `STATUS.md`, `NEXT-ACTION.md` und `logs/Protokoll_2026-07-22_Mac-Reentry-und-Windows-Sync.md` festgehalten.
-- Der Backup-Pfad unter Untitled ist als Ziel dokumentiert; die externen Sicherungsartefakte selbst bleiben ausserhalb des Repos.
+- Finanzplanung 5.0 wurde auf Mac analysiert; VBA-Volltext und Strukturanalyse sind dokumentiert.
+- Sync-Automation fuer Finanzplanung ist vorhanden (`tools/sync-finanzplanung.sh`) und in den Session-Start integriert.
+- Handoff fuer Windows liegt vor (`docs/HANDOFF-MAC-TO-WINDOWS-2026-07-24.md`).
+- P0 fuer den Betrieb ist weiterhin der Windows-Aufbau mit anschliessender VBA-Analyse am Arbeitsplatz.
 
 ## 3. Naechste Schritte (priorisiert)
-- P0: Aktuelle AKTUELLE-AKTION aus NEXT-ACTION.md ausfuehren.
-- P1: STATUS.md nach jeder Session fortschreiben.
-- P1: Vor Toolwechsel Snapshot neu erzeugen.
+- P0: Windows-Topologie am Arbeitsplatz fertig aufsetzen und `docs/WINDOWS-TOPOLOGIE-SETUP-CHECKLIST.md` abarbeiten.
+- P1: UC-001 (Haushaltsuebersicht) in VBA strukturiert analysieren und Ergebnisse dokumentieren.
+- P1: Nach jeder Session `STATUS.md` fortschreiben und Untitled-Backup ausfuehren.
 
 ## 4. Technischer Kontext
-- Kernquellen: CLAUDE.md, STATUS.md, NEXT-ACTION.md, docs/CROSS-ENTRY-RUNBOOK.txt.
-- Verifikation: tools/handoff-proof.sh.
+- Pflichtquellen: `CLAUDE.md`, `STATUS.md`, `NEXT-ACTION.md`, `docs/context-snapshot.md`, `git status -sb`.
+- Runbook: `docs/CROSS-ENTRY-RUNBOOK.txt`.
+- Verifikation: `bash tools/handoff-proof.sh`.
 
 ## 5. Zentrale Dateien
 - CLAUDE.md
 - STATUS.md
 - NEXT-ACTION.md
 - docs/CROSS-ENTRY-RUNBOOK.txt
-- docs/STARTPROMPT-CLAUDE-AI.txt
-- docs/STARTPROMPT-CHATGPT.txt
-- docs/STARTPROMPT-UNIVERSAL-3ZEILEN.txt
+- docs/HANDOFF-MAC-TO-WINDOWS-2026-07-24.md
+- docs/WINDOWS-TOPOLOGIE-SETUP-CHECKLIST.md
 
 ## 6. Offene Probleme / Risiken
-- Externe Modelle koennen nie mathematisch garantiert identisch reagieren.
-- Risiko wird durch harte Dateiquellen + automatisierte Checks minimiert.
+- Windows-Arbeitsschritte sind noch nicht ausgefuehrt; reale Produktivdatenpfade muessen vor Ort verifiziert werden.
+- Mac-Speicher bleibt eng; grosse Datenbewegungen nur kontrolliert mit Backup und Rollback.
 
 ## 7. Wichtige Entscheidungen
-- Immer dateibasierter Einstieg.
-- Bei Luecken: OFFEN markieren, nicht raten.
+- Dreisystem-Modell ist verbindlich (Mac und Windows produktiv, Untitled als portable Rueckversicherung).
+- Einstieg und Rekonstruktion immer ueber Pflichtdateien; fehlende Informationen als OFFEN markieren.
 
 ## 8. Git-Zustand
 - Branch: main
-- Aktueller Stand: Reentry-Sync vom 2026-07-22 mit offenen Änderungen an Status-, Next-Action-, Lehren- und Protokolldateien
-- Uncommittete Aenderungen: siehe `git status` im aktuellen Arbeitsbaum
+- Arbeitsbaum: vor Uebergabe mit `git status -sb` pruefen.
+- Regel: Lokal aendern -> testen -> commit/push -> Gegensystem pull -> Untitled spiegeln.
 
 ## 9. Kritische Kurz-Zusammenfassung (5 Punkte)
-- Einstieg laeuft ueber feste Dateien.
-- Runbook definiert Ausstieg/Einstieg einheitlich.
-- Startprompts fuer Claude.ai, ChatGPT und universal sind vorhanden.
-- Git-Zustand ist Teil des Pflichtpakets.
-- Vor jedem Toolwechsel Snapshot erneuern.
+- Betriebswahrheit liegt in Dateien und Git, nicht im Chat-Verlauf.
+- Windows-Reaktivierung ist der aktuelle P0-Schritt.
+- Handoff und Checkliste fuer Windows sind vorhanden und einsatzbereit.
+- Finanzplanung ist zentrale Arbeitskomponente und nicht verhandelbar.
+- Session-Abschluss immer mit Statusupdate, Backup und sauberem Git-Zustand.

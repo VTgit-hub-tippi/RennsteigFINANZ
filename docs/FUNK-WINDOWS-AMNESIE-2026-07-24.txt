@@ -1,0 +1,34 @@
+FUNKSPRUCH AN WINDOWS-INSTANZ (AMNESIE-RESET)
+Stand: 2026-07-24 11:35 CET
+
+Lage:
+Sie haben Kontextverlust. Bitte NICHT raten, sondern dateibasiert rekonstruieren.
+
+Sofortprotokoll (verbindlich):
+1) oeffnen und lesen: CLAUDE.md
+2) oeffnen und lesen: STATUS.md
+3) oeffnen und lesen: NEXT-ACTION.md
+4) oeffnen und lesen: docs/context-snapshot.md
+5) ausfuehren: git status -sb
+
+Dann liefern Sie exakt diese Ausgabe:
+A) Rekonstruktion in 8 Punkten
+B) genau 1 P0-Aktion fuer jetzt
+C) Liste OFFEN (alles, was nicht sicher belegt ist)
+
+Aktuelle P0-Aktion (fachlich priorisiert):
+Windows-Topologie am Arbeitsplatz aufsetzen und docs/WINDOWS-TOPOLOGIE-SETUP-CHECKLIST.md vollstaendig abarbeiten.
+
+Arbeitsauftraege danach (P1):
+- UC-001 Haushaltsuebersicht in Finanzplanung (VBA) strukturieren
+- Analyse dokumentieren in docs/VBA-FINANZPLANUNG-ANALYSE-2026-07-24.md
+- Sessionabschluss mit STATUS-Update + Git-Commit + Push + Untitled-Backup
+
+Kritische Leitplanken:
+- Keine Websuche als Ersatz fuer lokale Quellen.
+- Fehlendes immer als OFFEN markieren.
+- Sprache: klares Deutsch, Sie-Form.
+
+Kontrollfrage vor Start:
+Ist der Stand konsistent mit CLAUDE.md, STATUS.md, NEXT-ACTION.md und docs/context-snapshot.md?
+Wenn nein: Stop, Differenzen benennen, dann erst weiter.
