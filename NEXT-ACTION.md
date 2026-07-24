@@ -90,7 +90,13 @@ Mac: Python/RennsteigFINANZ-App V.XXX (Moderne App, versioniert, testbar)
 ### Session-Ritual (immer)
 1. Vor Arbeit: `git status`, CLAUDE.md + STATUS.md lesen
 2. Während: Änderungen dokumentieren, Commits granular
-3. Nach: `git push`, STATUS.md aktualisieren
+3. Nach: 
+   - `git push` (GitHub)
+   - STATUS.md aktualisieren
+   - **Untitled-Sync (zentrale Rückversicherung):**
+     - **Mac:** `rsync -av ~/dev/projects/RennsteigFINANZ /Volumes/Untitled/RennsteigFINANZ.bak/`
+     - **Windows:** `rsync -av C:\dev\projects\RennsteigFINANZ \\MRT\Untitled\RennsteigFINANZ.bak\` (via PowerShell oder WSL)
+   - Untitled = autonome Backup-Ebene, Ausfallsicherheit
 
 ---
 
