@@ -1,0 +1,70 @@
+WINDOWS-EXCEL-RETTERPLAN
+Stand: 2026-07-24
+
+Ausgangspunkt:
+Die Windows-Instanz steckt seit Stunden in einem Excel/VBA-Problem fest. Statt weiter im gleichen Pfad zu iterieren, jetzt gezielt den Fehlerraum verkleinern.
+
+Erst lesen:
+1. CLAUDE.md
+2. STATUS.md
+3. NEXT-ACTION.md
+4. docs/context-snapshot.md
+5. docs/WINDOWS-TOPOLOGIE-SETUP-CHECKLIST.md
+6. docs/ABLAUF-UND-FEHLERPRUEFUNG-SNAPSHOT-VORLAGE.txt
+7. docs/UI-VBA-FEHLER-URSACHEN-MATRIX-VORLAGE.csv
+
+Leitidee:
+Nicht weiter raten. Erst feststellen, ob der Fehler von Excel, der Datei, einem Event, einem Add-in, einem Pfad oder der Logik kommt.
+
+Sofortmassnahmen in dieser Reihenfolge:
+
+1. Host pruefen
+- Excel im abgesicherten Modus starten.
+- Add-ins, COM-Add-ins und externe Erweiterungen deaktivieren.
+- Wenn der Fehler dann weg ist: Ursache im Host, nicht im Makro.
+
+2. Datei isolieren
+- Eine Kopie der Arbeitsmappe anlegen.
+- Alles Nebengeraffel entfernen, bis nur der minimale Fehlerfall uebrig bleibt.
+- Wenn moeglich: eine frische leere Arbeitsmappe als Ziel verwenden und nur Code/Logik importieren.
+
+3. Event-Kette abschalten
+- Testweise Workbook_Open, Worksheet_Change, UserForm-Start, OnTime, Timer und AutoOpen einzeln deaktivieren.
+- Immer nur einen Ausloeser auf einmal aktiv lassen.
+
+4. Sichtbares Logging einbauen
+- Vor jeden kritischen Schritt Debug-Ausgabe oder Statusblatt schreiben.
+- Ziel: Die letzte erfolgreiche Stelle und die erste blockierte Stelle sichtbar machen.
+- Ohne Sichtbarkeit keine belastbare Diagnose.
+
+5. Minimalfall bauen
+- Nur eine Funktion, ein Blatt, ein Formular, ein Datensatz.
+- Erst wenn der Minimalfall laeuft, die naechste Schicht wieder zuschalten.
+
+6. Externer Kontrollpfad
+- Falls die Excel-Logik selbst unsichtbar bleibt: dieselbe Berechnung in einem kleinen externen Test nachbauen.
+- Ziel ist nicht Ersatz, sondern eine Referenz fuer Sollwerte.
+
+Wenn der Blocker bleibt:
+- Office-Reparatur und Updates pruefen.
+- Neue, saubere Mappe als Traeger verwenden.
+- Datei- oder Pfadproblem als OFFEN markieren, statt weiter zu improvisieren.
+
+Mindestnachweis nach jedem Test:
+- Was wurde genau geaendert?
+- Was ist jetzt anders als vorher?
+- Welcher Punkt ist damit bewiesen oder widerlegt?
+
+Passende Betriebsdokumente:
+- docs/FINANZPLANUNG-ANALYSE-BERICHT.md
+- logs/Protokoll_2026-07-15_UI-VBA-Pruefmodus-und-Testautomation.md
+- logs/Protokoll_2026-07-24_Finanzplanung-VBA-Analyse.md
+
+Empfohlene P0-Aktion jetzt:
+Excel im Safe Mode starten und Add-ins deaktivieren. Das ist der schnellste Host-Test mit dem hoechsten Erkenntniswert.
+
+Empfohlene P1-Aktion danach:
+Eine minimierte Kopie der Mappe bauen und dort nur den einen problematischen Ablauf testen.
+
+Wenn die Instanz festhaengt:
+Wechsel auf den naechsten Diagnosepfad, nicht weiter im gleichen Loop bleiben.
